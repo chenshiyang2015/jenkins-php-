@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Model Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.006165">
+    <testsuite name="ExampleTest" file="/var/lib/jenkins/jobs/jenkins-php-quickstart/workspace/tests/application/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.006165">
+      <testcase name="testSomething" class="ExampleTest" file="/var/lib/jenkins/jobs/jenkins-php-quickstart/workspace/tests/application/ExampleTest.php" line="7" assertions="1" time="0.006165"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
