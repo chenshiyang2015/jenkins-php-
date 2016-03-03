@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="jenkins-php" default="build" basedir=".">
- 				<target name="build" depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,phpcb"/>
- 				<property name="version-m"  value="1.1" />
-        <property name="version"    value="1.1.0" />
-        <property name="stability"  value="stable" />
-        <property name="releasenotes" value="" />
-        <property name="tarfile"     value="${phing.project.name}.${buildnumber}.${buildid}.tar.gz" />
-        <property name="pkgfile"     value="${phing.project.name}.${version}.tgz" />
-        <property name="distfile"    value="dist/${tarfile}" />
-        <property name="tests.dir" value="test" />
-        <fileset id="jenkins-php.tar.gz" dir=".">
-            <include name="test/**"/>
-            <include name="*.php"/>
-            <include name="*.xml"/>
-        </fileset>
+
+<project name="name-of-project" default="build" basedir=".">
+ <target name="build"
+   depends="prepare,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,phpcb"/>
 
  <target name="build-parallel"
    depends="prepare,lint,tools-parallel,phpunit,phpcb"/>
@@ -47,6 +36,22 @@
   <mkdir dir="${project.basedir}/build/pdepend"/>
   <mkdir dir="${project.basedir}/build/phpdox"/>
  </target>
+
+ <target name="composer" description="Installing dependencies">
+    <exec executable="wget" >
+      <arg value="-nc" />
+      <arg value="http://getcomposer.org/composer.phar" />
+    </exec>
+    <exec executable="php">
+      <arg value="composer.phar" />
+      <arg value="install" /><!-- Use the lockfile versions only, if it exists (fall back to .json) -->
+      <arg value="--dev" /><!-- includes mockery, for testing -->
+      <arg value="--prefer-dist" /><!-- download/cache a local .zip file for use -->
+      <arg value="--no-progress" />
+      <!--arg value="- -install-suggests" /-->
+      <!--arg value="- -optimize-autoloader" /   # We don't usually optimise till full deployment # -->
+    </exec>
+  </target>
 
  <target name="lint" description="Perform syntax check of sourcecode files">
   <apply executable="php" checkreturn="1">
@@ -129,6 +134,12 @@
 
  <target name="phpunit" description="Run unit tests with PHPUnit">
   <exec executable="${project.basedir}/vendor/bin/phpunit" logoutput="true" checkreturn="1"/>
+  <exec dir="."
+      command="phpunit --log-junit '${project.basedir}/phpunit.xml'
+                       --coverage-html 'build/coverage'
+                       --coverage-clover 'build/coverage/coverage.xml'
+                       test/"
+  />
  </target>
 
  <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
@@ -149,20 +160,4 @@
  	<chown file="./build" user="jenkins.jenkins" />
  	<chown file="./generatedJUnitFiles" user="jenkins.jenkins" />
  </target>
- <target name="check" description="Check variables" >
-  <fail unless="version" message="Version not defined!" />
-  <fail unless="buildnumber" message="buildnumber not defined!" />
-  <fail unless="buildid" message="buildid not defined!" />
-  <delete dir="dist" failonerror="false" />
-  <mkdir dir="dist" />
- </target>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
- <target name="tar" depends="check" description="Create tar file for release">
-  <echo msg="Creating distribution tar for ${phing.project.name} ${version}"/>
-  <delete file="${distfile}" failonerror="false"/>
-  <tar destfile="${distfile}" compression="gzip">
-      <fileset refid="jenkins-php.tar.gz"/>
-  </tar>
- </target>
- 
 </project>
