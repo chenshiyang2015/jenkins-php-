@@ -134,12 +134,7 @@
 
  <target name="phpunit" description="Run unit tests with PHPUnit">
   <exec executable="${project.basedir}/vendor/bin/phpunit" logoutput="true" checkreturn="1"/>
-  <exec dir="."
-      command="phpunit --log-junit '${project.basedir}/phpunit.xml'
-                       --coverage-html 'build/coverage'
-                       --coverage-clover 'build/coverage/coverage.xml'
-                       test/"
-  />
+ 
  </target>
 
  <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
@@ -160,4 +155,10 @@
  	<chown file="./build" user="jenkins.jenkins" />
  	<chown file="./generatedJUnitFiles" user="jenkins.jenkins" />
  </target>
+ 
+ <exec executable="phpunit" failonerror="true">
+	<arg line="--coverage-clover ${project.basedir}/build/logs/clover.xml
+                --coverage-html ${project.basedir}/build/logs/
+                ."/>
+ </exec>
 </project>
