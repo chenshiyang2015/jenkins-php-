@@ -5,6 +5,7 @@
 	      "phpmd/phpmd": "1.5.0",
         "pdepend/pdepend": "*",
         "squizlabs/php_codesniffer": "2.*",
+        "sebastian/phpcpd": "2.0.*",
         "phing/phing": "2.6.1"
     }
 }
