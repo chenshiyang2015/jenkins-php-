@@ -156,9 +156,13 @@
  	<chown file="./generatedJUnitFiles" user="jenkins.jenkins" />
  </target>
  
- <exec executable="phpunit" failonerror="true">
-	<arg line="--coverage-clover ${project.basedir}/build/logs/clover.xml
-                --coverage-html ${project.basedir}/build/logs/
-                ."/>
- </exec>
+ <phpunit codecoverage="true" haltonfailure="true" haltonerror="true">
+  <formatter type="clover" usefile="false"/>
+  <batchtest>
+    <fileset dir="tests">
+      <include name="**/*Test*.php"/>
+    </fileset>
+  </batchtest>
+ </phpunit>
+ 
 </project>
