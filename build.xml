@@ -156,13 +156,6 @@
  	<chown file="./generatedJUnitFiles" user="jenkins.jenkins" />
  </target>
  
- <phpunit codecoverage="true" haltonfailure="true" haltonerror="true">
-  <formatter type="clover" usefile="false"/>
-  <batchtest>
-    <fileset dir="tests">
-      <include name="**/*Test*.php"/>
-    </fileset>
-  </batchtest>
- </phpunit>
+ 
  
 </project>
