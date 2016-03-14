@@ -47,7 +47,7 @@
    <fileset dir="${project.basedir}/tests">
     <include name="**/*.php" />
    </fileset>
-  </apply>
+  
  </target>
 
  <target name="phploc" description="Measure project size using PHPLOC">
