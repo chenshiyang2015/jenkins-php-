@@ -38,7 +38,7 @@
  </target>
 
  <target name="lint" description="Perform syntax check of sourcecode files">
-  <apply executable="php" checkreturn="1">
+  <apply executable="php" checkreturn="0">
    <arg value="-l" />
 
    <fileset dir="${project.basedir}/src">
