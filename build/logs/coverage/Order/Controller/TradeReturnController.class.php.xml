@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="TradeReturnController.class.php">
+    <totals>
+      <lines total="479" comments="102" code="377" executable="279" executed="0" percent="0.00%"/>
+      <methods count="13" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="TradeReturnController" start="14" executable="279" executed="0" crap="2450">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="23" end="33" crap="2" executable="7" executed="0" coverage="0"/>
+      <method name="TradeReturn" signature="TradeReturn($params = [])" start="50" end="160" crap="210" executable="85" executed="0" coverage="0"/>
+      <method name="setOrderRelatedPayInfo" signature="setOrderRelatedPayInfo($params, $trade_list)" start="169" end="189" crap="6" executable="15" executed="0" coverage="0"/>
+      <method name="setOrderPayCallback" signature="setOrderPayCallback($params)" start="202" end="212" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="_getOrderAmount" signature="_getOrderAmount($params)" start="220" end="228" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="_mySort" signature="_mySort($arrays, $key, $order = SORT_ASC, $type = SORT_NUMERIC)" start="239" end="253" crap="20" executable="14" executed="0" coverage="0"/>
+      <method name="_getParamsApproach" signature="_getParamsApproach($array, $val, $k)" start="263" end="286" crap="20" executable="19" executed="0" coverage="0"/>
+      <method name="_createOrderPaymentInfo" signature="_createOrderPaymentInfo($orderNo,$cityId)" start="317" end="398" crap="42" executable="67" executed="0" coverage="0"/>
+      <method name="_getOnlineParams" signature="_getOnlineParams($orderNo,$status,$cityId,$buildParams,$payType)" start="404" end="421" crap="6" executable="14" executed="0" coverage="0"/>
+      <method name="createTardeForRefundSuccessLog" signature="createTardeForRefundSuccessLog($params = [])" start="427" end="436" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="createTardeForRefundLog" signature="createTardeForRefundLog($params = [])" start="441" end="450" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="doPaymentCallbackLog" signature="doPaymentCallbackLog($params = [])" start="456" end="464" crap="12" executable="7" executed="0" coverage="0"/>
+      <method name="createTardeForRefundAll" signature="createTardeForRefundAll($params = [])" start="469" end="478" crap="12" executable="9" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

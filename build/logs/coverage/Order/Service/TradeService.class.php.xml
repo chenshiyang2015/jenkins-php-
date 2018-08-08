@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="TradeService.class.php">
+    <totals>
+      <lines total="64" comments="15" code="49" executable="21" executed="0" percent="0.00%"/>
+      <methods count="6" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="TradeService" start="7" executable="21" executed="0" crap="42">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="clientOrderPayment" signature="clientOrderPayment($params)" start="18" end="22" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="clientOrderPayResult" signature="clientOrderPayResult($params = [])" start="27" end="32" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="clientSetRefund" signature="clientSetRefund($params = [])" start="37" end="42" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="clientGetRefundPrice" signature="clientGetRefundPrice($params = [])" start="47" end="52" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="clientGetRefundPriceNoAudit" signature="clientGetRefundPriceNoAudit($params = [])" start="57" end="62" crap="2" executable="4" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

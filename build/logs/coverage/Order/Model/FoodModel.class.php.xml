@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="FoodModel.class.php">
+    <totals>
+      <lines total="223" comments="86" code="137" executable="104" executed="0" percent="0.00%"/>
+      <methods count="7" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="FoodModel" start="5" executable="104" executed="0" crap="1560">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="__construct" signature="__construct($params)" start="10" end="12" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="inst" signature="inst($params)" start="36" end="53" crap="20" executable="15" executed="0" coverage="0"/>
+      <method name="getInst" signature="getInst($food_id)" start="55" end="57" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="isCanBuy" signature="isCanBuy($buy_food)" start="78" end="108" crap="72" executable="20" executed="0" coverage="0"/>
+      <method name="subFoodCheck" signature="subFoodCheck($buy_food)" start="117" end="184" crap="380" executable="47" executed="0" coverage="0"/>
+      <method name="getFoodCategoryTotal" signature="getFoodCategoryTotal($seller_id)" start="192" end="203" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="getFoodList" signature="getFoodList($seller_id)" start="211" end="220" crap="12" executable="9" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ScriptController.class.php">
+    <totals>
+      <lines total="143" comments="59" code="84" executable="78" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ScriptController" start="12" executable="78" executed="0" crap="6">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="16" end="20" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="test" signature="test()" start="22" end="141" crap="2" executable="75" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

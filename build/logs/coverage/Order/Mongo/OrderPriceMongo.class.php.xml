@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderPriceMongo.class.php">
+    <totals>
+      <lines total="57" comments="16" code="41" executable="15" executed="0" percent="0.00%"/>
+      <methods count="4" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderPriceMongo" start="6" executable="15" executed="0" crap="20">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="addOrderFinance" signature="addOrderFinance($params)" start="24" end="29" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="saveOrderFinance" signature="saveOrderFinance($params)" start="35" end="39" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getOrderFinance" signature="getOrderFinance($params = [])" start="44" end="48" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getOrderPriceNextId" signature="getOrderPriceNextId()" start="53" end="55" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

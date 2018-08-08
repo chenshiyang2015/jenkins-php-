@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderPayController.class.php">
+    <totals>
+      <lines total="680" comments="130" code="550" executable="395" executed="0" percent="0.00%"/>
+      <methods count="23" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderPayController" start="12" executable="395" executed="0" crap="9120">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="22" end="32" crap="2" executable="9" executed="0" coverage="0"/>
+      <method name="setRefund" signature="setRefund($params)" start="83" end="130" crap="72" executable="33" executed="0" coverage="0"/>
+      <method name="createRefundBack" signature="createRefundBack($params)" start="135" end="137" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getAutoRefundBack" signature="getAutoRefundBack($orderRefund)" start="142" end="175" crap="12" executable="22" executed="0" coverage="0"/>
+      <method name="getTradeRefundPay" signature="getTradeRefundPay($params)" start="180" end="208" crap="30" executable="19" executed="0" coverage="0"/>
+      <method name="createRefundPayCallback" signature="createRefundPayCallback($params)" start="213" end="228" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="createRefundBackByAudit" signature="createRefundBackByAudit($params)" start="237" end="262" crap="20" executable="21" executed="0" coverage="0"/>
+      <method name="setReduction" signature="setReduction($params)" start="269" end="304" crap="42" executable="27" executed="0" coverage="0"/>
+      <method name="setReductionLog" signature="setReductionLog($params)" start="310" end="331" crap="30" executable="18" executed="0" coverage="0"/>
+      <method name="getAuditReduction" signature="getAuditReduction($params)" start="337" end="389" crap="156" executable="42" executed="0" coverage="0"/>
+      <method name="_checkOrderInfo" signature="_checkOrderInfo($orderId)" start="397" end="404" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="_checkOrderInfoReceivable" signature="_checkOrderInfoReceivable($order)" start="411" end="417" crap="6" executable="5" executed="0" coverage="0"/>
+      <method name="_checkOrderMoney" signature="_checkOrderMoney($params, $orderInfo)" start="430" end="447" crap="20" executable="11" executed="0" coverage="0"/>
+      <method name="_checkOrderInfoRefund" signature="_checkOrderInfoRefund($order)" start="454" end="465" crap="12" executable="8" executed="0" coverage="0"/>
+      <method name="_checkOrderInfoBase" signature="_checkOrderInfoBase($order, $params)" start="470" end="485" crap="20" executable="11" executed="0" coverage="0"/>
+      <method name="_checkOrderMoneyRefund" signature="_checkOrderMoneyRefund($params, $orderInfo)" start="497" end="503" crap="6" executable="5" executed="0" coverage="0"/>
+      <method name="_checkTradeMoneyRefund" signature="_checkTradeMoneyRefund($params)" start="509" end="527" crap="12" executable="13" executed="0" coverage="0"/>
+      <method name="_checkAlreadyAmount" signature="_checkAlreadyAmount($params, $tradeAmount, $refundAmount)" start="532" end="543" crap="12" executable="8" executed="0" coverage="0"/>
+      <method name="DoGetRefundPrice" signature="DoGetRefundPrice($params = [])" start="548" end="566" crap="20" executable="15" executed="0" coverage="0"/>
+      <method name="DoGetRefundPriceNoAudit" signature="DoGetRefundPriceNoAudit($params = [])" start="571" end="586" crap="20" executable="12" executed="0" coverage="0"/>
+      <method name="_checkRefundList" signature="_checkRefundList($params)" start="592" end="609" crap="20" executable="14" executed="0" coverage="0"/>
+      <method name="_getRefundTradeParams" signature="_getRefundTradeParams($refundInfo)" start="617" end="630" crap="6" executable="12" executed="0" coverage="0"/>
+      <method name="_checkRefundBackParams" signature="_checkRefundBackParams($params)" start="636" end="678" crap="110" executable="35" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

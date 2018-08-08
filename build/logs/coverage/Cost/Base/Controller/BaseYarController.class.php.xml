@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BaseYarController.class.php">
+    <totals>
+      <lines total="13" comments="0" code="13" executable="4" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BaseYarController" start="4" executable="4" executed="0" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Manage\Base\Controller"/>
+      <method name="__construct" signature="__construct()" start="6" end="8" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

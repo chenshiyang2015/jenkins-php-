@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="function.php">
+    <totals>
+      <lines total="4" comments="0" code="4" executable="1" executed="0" percent="0.00%"/>
+      <methods count="0" tested="0" percent=""/>
+      <functions count="1" tested="0" percent="0.00%"/>
+      <classes count="0" tested="0" percent=""/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <function name="number_format_fix" signature="number_format_fix($number, $decimals = 0, $dec_point = '.', $thousands_sep = '')" start="3" crap="0" executable="1" executed="0" coverage="0"/>
+  </file>
+</phpunit>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderWriteBackModel.class.php">
+    <totals>
+      <lines total="263" comments="54" code="209" executable="177" executed="0" percent="0.00%"/>
+      <methods count="5" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderWriteBackModel" start="6" executable="177" executed="0" crap="7140">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="_initialize" signature="_initialize()" start="13" end="16" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="calcCommonData" signature="calcCommonData(&amp;$order_info)" start="22" end="45" crap="56" executable="18" executed="0" coverage="0"/>
+      <method name="calcPaymentInfo" signature="calcPaymentInfo(&amp;$order_info)" start="52" end="128" crap="462" executable="63" executed="0" coverage="0"/>
+      <method name="calcFinancePrice" signature="calcFinancePrice(&amp;$order_info, $calc_arrear = true)" start="135" end="248" crap="2756" executable="86" executed="0" coverage="0"/>
+      <method name="calcMasterOrderId" signature="calcMasterOrderId(&amp;$order_info)" start="254" end="262" crap="12" executable="7" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

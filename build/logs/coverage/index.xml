@@ -1,0 +1,1130 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="G:\Git\test1s_order_soa\Application">
+    <tests>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testGetStatus" size="unknown" result="0" status="PASSED"/>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testGetType" size="unknown" result="0" status="PASSED"/>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testGetList" size="unknown" result="0" status="PASSED"/>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testProcess" size="unknown" result="0" status="PASSED"/>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testInfo" size="unknown" result="0" status="PASSED"/>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testAdd" size="unknown" result="0" status="PASSED"/>
+      <test name="Order\Controller\UnpaymentRecordControllerTest::testGetOrderUnpayment" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="G:\Git\test1s_order_soa\Application">
+      <totals>
+        <lines total="20221" comments="5781" code="14440" executable="11858" executed="29" percent="0.24%"/>
+        <methods count="568" tested="10" percent="1.76%"/>
+        <functions count="2" tested="0" percent="0.00%"/>
+        <classes count="83" tested="3" percent="3.61%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <directory name="Base">
+        <totals>
+          <lines total="66" comments="12" code="54" executable="12" executed="6" percent="50.00%"/>
+          <methods count="6" tested="3" percent="50.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="4" tested="2" percent="50.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <directory name="Controller">
+          <totals>
+            <lines total="32" comments="0" code="32" executable="8" executed="4" percent="50.00%"/>
+            <methods count="4" tested="2" percent="50.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="2" tested="1" percent="50.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="BaseController.class.php" href="Base/Controller/BaseController.class.php.xml">
+            <totals>
+              <lines total="17" comments="0" code="17" executable="4" executed="4" percent="100.00%"/>
+              <methods count="2" tested="2" percent="100.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="1" percent="100.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="BaseYarController.class.php" href="Base/Controller/BaseYarController.class.php.xml">
+            <totals>
+              <lines total="15" comments="0" code="15" executable="4" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Model">
+          <totals>
+            <lines total="34" comments="12" code="22" executable="4" executed="2" percent="50.00%"/>
+            <methods count="2" tested="1" percent="50.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="2" tested="1" percent="50.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="BaseModel.class.php" href="Base/Model/BaseModel.class.php.xml">
+            <totals>
+              <lines total="19" comments="12" code="7" executable="2" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="BaseMongoModel.class.php" href="Base/Model/BaseMongoModel.class.php.xml">
+            <totals>
+              <lines total="15" comments="0" code="15" executable="2" executed="2" percent="100.00%"/>
+              <methods count="1" tested="1" percent="100.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="1" percent="100.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+      <directory name="Common">
+        <totals>
+          <lines total="1783" comments="936" code="847" executable="1322" executed="0" percent="0.00%"/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="1" tested="0" percent="0.00%"/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <directory name="Common">
+          <totals>
+            <lines total="4" comments="0" code="4" executable="1" executed="0" percent="0.00%"/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="1" tested="0" percent="0.00%"/>
+            <classes count="0" tested="0" percent=""/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="function.php" href="Common/Common/function.php.xml">
+            <totals>
+              <lines total="4" comments="0" code="4" executable="1" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="1" tested="0" percent="0.00%"/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Conf">
+          <totals>
+            <lines total="1779" comments="936" code="843" executable="1321" executed="0" percent="0.00%"/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="0" tested="0" percent=""/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="config.php" href="Common/Conf/config.php.xml">
+            <totals>
+              <lines total="81" comments="80" code="1" executable="65" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="config_black.php" href="Common/Conf/config_black.php.xml">
+            <totals>
+              <lines total="237" comments="27" code="210" executable="229" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="config_cost_rule.php" href="Common/Conf/config_cost_rule.php.xml">
+            <totals>
+              <lines total="41" comments="51" code="-10" executable="28" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="config_dev.php" href="Common/Conf/config_dev.php.xml">
+            <totals>
+              <lines total="365" comments="205" code="160" executable="251" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="config_online.php" href="Common/Conf/config_online.php.xml">
+            <totals>
+              <lines total="338" comments="184" code="154" executable="244" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="config_pre.php" href="Common/Conf/config_pre.php.xml">
+            <totals>
+              <lines total="341" comments="182" code="159" executable="244" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="config_test.php" href="Common/Conf/config_test.php.xml">
+            <totals>
+              <lines total="376" comments="207" code="169" executable="260" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+      <directory name="Cost">
+        <totals>
+          <lines total="1057" comments="341" code="716" executable="605" executed="0" percent="0.00%"/>
+          <methods count="33" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="8" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <directory name="Base">
+          <totals>
+            <lines total="46" comments="0" code="46" executable="12" executed="0" percent="0.00%"/>
+            <methods count="6" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="4" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <directory name="Controller">
+            <totals>
+              <lines total="26" comments="0" code="26" executable="8" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="2" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+            <file name="BaseController.class.php" href="Cost/Base/Controller/BaseController.class.php.xml">
+              <totals>
+                <lines total="13" comments="0" code="13" executable="4" executed="0" percent="0.00%"/>
+                <methods count="2" tested="0" percent="0.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+            <file name="BaseYarController.class.php" href="Cost/Base/Controller/BaseYarController.class.php.xml">
+              <totals>
+                <lines total="13" comments="0" code="13" executable="4" executed="0" percent="0.00%"/>
+                <methods count="2" tested="0" percent="0.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+          </directory>
+          <directory name="Model">
+            <totals>
+              <lines total="20" comments="0" code="20" executable="4" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="2" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+            <file name="BaseModel.class.php" href="Cost/Base/Model/BaseModel.class.php.xml">
+              <totals>
+                <lines total="10" comments="0" code="10" executable="2" executed="0" percent="0.00%"/>
+                <methods count="1" tested="0" percent="0.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+            <file name="BaseMongoModel.class.php" href="Cost/Base/Model/BaseMongoModel.class.php.xml">
+              <totals>
+                <lines total="10" comments="0" code="10" executable="2" executed="0" percent="0.00%"/>
+                <methods count="1" tested="0" percent="0.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+          </directory>
+        </directory>
+        <directory name="Conf">
+          <totals>
+            <lines total="5" comments="4" code="1" executable="2" executed="0" percent="0.00%"/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="0" tested="0" percent=""/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="config.php" href="Cost/Conf/config.php.xml">
+            <totals>
+              <lines total="5" comments="4" code="1" executable="2" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Controller">
+          <totals>
+            <lines total="104" comments="35" code="69" executable="48" executed="0" percent="0.00%"/>
+            <methods count="3" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="CostController.class.php" href="Cost/Controller/CostController.class.php.xml">
+            <totals>
+              <lines total="104" comments="35" code="69" executable="48" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Model">
+          <totals>
+            <lines total="663" comments="232" code="431" executable="391" executed="0" percent="0.00%"/>
+            <methods count="17" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="2" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="OrderCostModel.class.php" href="Cost/Model/OrderCostModel.class.php.xml">
+            <totals>
+              <lines total="647" comments="230" code="417" executable="389" executed="0" percent="0.00%"/>
+              <methods count="16" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="StatusCode.class.php" href="Cost/Model/StatusCode.class.php.xml">
+            <totals>
+              <lines total="16" comments="2" code="14" executable="2" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Service">
+          <totals>
+            <lines total="239" comments="70" code="169" executable="152" executed="0" percent="0.00%"/>
+            <methods count="7" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="FavorableService.class.php" href="Cost/Service/FavorableService.class.php.xml">
+            <totals>
+              <lines total="239" comments="70" code="169" executable="152" executed="0" percent="0.00%"/>
+              <methods count="7" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+      <directory name="Order">
+        <totals>
+          <lines total="17268" comments="4482" code="12786" executable="9913" executed="23" percent="0.23%"/>
+          <methods count="526" tested="7" percent="1.33%"/>
+          <functions count="1" tested="0" percent="0.00%"/>
+          <classes count="68" tested="1" percent="1.47%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <directory name="Base">
+          <totals>
+            <lines total="77" comments="8" code="69" executable="27" executed="6" percent="22.22%"/>
+            <methods count="7" tested="3" percent="42.86%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="4" tested="1" percent="25.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <directory name="Controller">
+            <totals>
+              <lines total="26" comments="0" code="26" executable="8" executed="4" percent="50.00%"/>
+              <methods count="4" tested="2" percent="50.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="2" tested="1" percent="50.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+            <file name="BaseController.class.php" href="Order/Base/Controller/BaseController.class.php.xml">
+              <totals>
+                <lines total="13" comments="0" code="13" executable="4" executed="4" percent="100.00%"/>
+                <methods count="2" tested="2" percent="100.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="1" percent="100.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+            <file name="BaseYarController.class.php" href="Order/Base/Controller/BaseYarController.class.php.xml">
+              <totals>
+                <lines total="13" comments="0" code="13" executable="4" executed="0" percent="0.00%"/>
+                <methods count="2" tested="0" percent="0.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+          </directory>
+          <directory name="Model">
+            <totals>
+              <lines total="51" comments="8" code="43" executable="19" executed="2" percent="10.53%"/>
+              <methods count="3" tested="1" percent="33.33%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="2" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+            <file name="BaseModel.class.php" href="Order/Base/Model/BaseModel.class.php.xml">
+              <totals>
+                <lines total="9" comments="0" code="9" executable="2" executed="0" percent="0.00%"/>
+                <methods count="1" tested="0" percent="0.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+            <file name="BaseMongoModel.class.php" href="Order/Base/Model/BaseMongoModel.class.php.xml">
+              <totals>
+                <lines total="42" comments="8" code="34" executable="17" executed="2" percent="11.76%"/>
+                <methods count="2" tested="1" percent="50.00%"/>
+                <functions count="0" tested="0" percent=""/>
+                <classes count="1" tested="0" percent="0.00%"/>
+                <traits count="0" tested="0" percent=""/>
+              </totals>
+            </file>
+          </directory>
+        </directory>
+        <directory name="Common">
+          <totals>
+            <lines total="13" comments="3" code="10" executable="3" executed="0" percent="0.00%"/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="1" tested="0" percent="0.00%"/>
+            <classes count="0" tested="0" percent=""/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="function.php" href="Order/Common/function.php.xml">
+            <totals>
+              <lines total="13" comments="3" code="10" executable="3" executed="0" percent="0.00%"/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="1" tested="0" percent="0.00%"/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Controller">
+          <totals>
+            <lines total="6427" comments="1840" code="4587" executable="3588" executed="6" percent="0.17%"/>
+            <methods count="171" tested="3" percent="1.75%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="16" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="LogViewController.class.php" href="Order/Controller/LogViewController.class.php.xml">
+            <totals>
+              <lines total="206" comments="34" code="172" executable="98" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderAuditController.class.php" href="Order/Controller/OrderAuditController.class.php.xml">
+            <totals>
+              <lines total="350" comments="83" code="267" executable="224" executed="0" percent="0.00%"/>
+              <methods count="8" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderChangeController.class.php" href="Order/Controller/OrderChangeController.class.php.xml">
+            <totals>
+              <lines total="84" comments="31" code="53" executable="27" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderController.class.php" href="Order/Controller/OrderController.class.php.xml">
+            <totals>
+              <lines total="1409" comments="503" code="906" executable="852" executed="0" percent="0.00%"/>
+              <methods count="29" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderCountController.class.php" href="Order/Controller/OrderCountController.class.php.xml">
+            <totals>
+              <lines total="59" comments="6" code="53" executable="32" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPayController.class.php" href="Order/Controller/OrderPayController.class.php.xml">
+            <totals>
+              <lines total="680" comments="130" code="550" executable="395" executed="0" percent="0.00%"/>
+              <methods count="23" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderStatisticsController.class.php" href="Order/Controller/OrderStatisticsController.class.php.xml">
+            <totals>
+              <lines total="42" comments="6" code="36" executable="17" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="PaymentWriteBackController.class.php" href="Order/Controller/PaymentWriteBackController.class.php.xml">
+            <totals>
+              <lines total="311" comments="76" code="235" executable="206" executed="0" percent="0.00%"/>
+              <methods count="11" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="RefundReturnController.class.php" href="Order/Controller/RefundReturnController.class.php.xml">
+            <totals>
+              <lines total="247" comments="76" code="171" executable="114" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="ScriptController.class.php" href="Order/Controller/ScriptController.class.php.xml">
+            <totals>
+              <lines total="143" comments="59" code="84" executable="78" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="ShippingCartController.class.php" href="Order/Controller/ShippingCartController.class.php.xml">
+            <totals>
+              <lines total="234" comments="71" code="163" executable="108" executed="0" percent="0.00%"/>
+              <methods count="8" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TradeController.class.php" href="Order/Controller/TradeController.class.php.xml">
+            <totals>
+              <lines total="1863" comments="589" code="1274" executable="1046" executed="0" percent="0.00%"/>
+              <methods count="49" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TradeReturnController.class.php" href="Order/Controller/TradeReturnController.class.php.xml">
+            <totals>
+              <lines total="479" comments="102" code="377" executable="279" executed="0" percent="0.00%"/>
+              <methods count="13" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TradeServiceController.class.php" href="Order/Controller/TradeServiceController.class.php.xml">
+            <totals>
+              <lines total="59" comments="7" code="52" executable="31" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="UnpaymentRecordController.class.php" href="Order/Controller/UnpaymentRecordController.class.php.xml">
+            <totals>
+              <lines total="192" comments="52" code="140" executable="56" executed="6" percent="10.71%"/>
+              <methods count="7" tested="3" percent="42.86%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="UserController.class.php" href="Order/Controller/UserController.class.php.xml">
+            <totals>
+              <lines total="69" comments="15" code="54" executable="25" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Model">
+          <totals>
+            <lines total="5621" comments="1313" code="4308" executable="3475" executed="0" percent="0.00%"/>
+            <methods count="140" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="22" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="AreaModel.class.php" href="Order/Model/AreaModel.class.php.xml">
+            <totals>
+              <lines total="45" comments="12" code="33" executable="17" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="BuyerAddressDataModel.class.php" href="Order/Model/BuyerAddressDataModel.class.php.xml">
+            <totals>
+              <lines total="84" comments="14" code="70" executable="46" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="BuyerInvoiceDataModel.class.php" href="Order/Model/BuyerInvoiceDataModel.class.php.xml">
+            <totals>
+              <lines total="141" comments="20" code="121" executable="93" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="CartModel.class.php" href="Order/Model/CartModel.class.php.xml">
+            <totals>
+              <lines total="107" comments="9" code="98" executable="83" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="CheckOrderFlowModel.class.php" href="Order/Model/CheckOrderFlowModel.class.php.xml">
+            <totals>
+              <lines total="291" comments="97" code="194" executable="124" executed="0" percent="0.00%"/>
+              <methods count="9" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="CityModel.class.php" href="Order/Model/CityModel.class.php.xml">
+            <totals>
+              <lines total="43" comments="10" code="33" executable="17" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="FoodModel.class.php" href="Order/Model/FoodModel.class.php.xml">
+            <totals>
+              <lines total="223" comments="86" code="137" executable="104" executed="0" percent="0.00%"/>
+              <methods count="7" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderAttributeDataModel.class.php" href="Order/Model/OrderAttributeDataModel.class.php.xml">
+            <totals>
+              <lines total="54" comments="7" code="47" executable="25" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderChangeModel.class.php" href="Order/Model/OrderChangeModel.class.php.xml">
+            <totals>
+              <lines total="127" comments="24" code="103" executable="75" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderChangeSoacrontabModel.class.php" href="Order/Model/OrderChangeSoacrontabModel.class.php.xml">
+            <totals>
+              <lines total="641" comments="212" code="429" executable="278" executed="0" percent="0.00%"/>
+              <methods count="10" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderDataModel.class.php" href="Order/Model/OrderDataModel.class.php.xml">
+            <totals>
+              <lines total="400" comments="82" code="318" executable="271" executed="0" percent="0.00%"/>
+              <methods count="10" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderItemDataModel.class.php" href="Order/Model/OrderItemDataModel.class.php.xml">
+            <totals>
+              <lines total="123" comments="37" code="86" executable="61" executed="0" percent="0.00%"/>
+              <methods count="6" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderItemServiceModel.class.php" href="Order/Model/OrderItemServiceModel.class.php.xml">
+            <totals>
+              <lines total="60" comments="6" code="54" executable="38" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPriceChangeDataModel.class.php" href="Order/Model/OrderPriceChangeDataModel.class.php.xml">
+            <totals>
+              <lines total="74" comments="16" code="58" executable="35" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPriceDataModel.class.php" href="Order/Model/OrderPriceDataModel.class.php.xml">
+            <totals>
+              <lines total="102" comments="15" code="87" executable="54" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderProdGroupDataModel.class.php" href="Order/Model/OrderProdGroupDataModel.class.php.xml">
+            <totals>
+              <lines total="94" comments="15" code="79" executable="49" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderProdNormalDataModel.class.php" href="Order/Model/OrderProdNormalDataModel.class.php.xml">
+            <totals>
+              <lines total="95" comments="13" code="82" executable="54" executed="0" percent="0.00%"/>
+              <methods count="6" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderServiceModel.class.php" href="Order/Model/OrderServiceModel.class.php.xml">
+            <totals>
+              <lines total="1994" comments="408" code="1586" executable="1500" executed="0" percent="0.00%"/>
+              <methods count="31" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderStatusServiceModel.class.php" href="Order/Model/OrderStatusServiceModel.class.php.xml">
+            <totals>
+              <lines total="504" comments="126" code="378" executable="351" executed="0" percent="0.00%"/>
+              <methods count="17" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderWriteBackModel.class.php" href="Order/Model/OrderWriteBackModel.class.php.xml">
+            <totals>
+              <lines total="263" comments="54" code="209" executable="177" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="SellerModel.class.php" href="Order/Model/SellerModel.class.php.xml">
+            <totals>
+              <lines total="51" comments="8" code="43" executable="22" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="StatusCode.class.php" href="Order/Model/StatusCode.class.php.xml">
+            <totals>
+              <lines total="105" comments="42" code="63" executable="1" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Mongo">
+          <totals>
+            <lines total="1815" comments="474" code="1341" executable="817" executed="11" percent="1.35%"/>
+            <methods count="83" tested="1" percent="1.20%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="13" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="LogMongo.class.php" href="Order/Mongo/LogMongo.class.php.xml">
+            <totals>
+              <lines total="18" comments="4" code="14" executable="0" executed="0" percent=""/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderCountAreaMongo.class.php" href="Order/Mongo/OrderCountAreaMongo.class.php.xml">
+            <totals>
+              <lines total="105" comments="33" code="72" executable="39" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderCountProdMongo.class.php" href="Order/Mongo/OrderCountProdMongo.class.php.xml">
+            <totals>
+              <lines total="94" comments="26" code="68" executable="37" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderCountSellerMongo.class.php" href="Order/Mongo/OrderCountSellerMongo.class.php.xml">
+            <totals>
+              <lines total="126" comments="53" code="73" executable="39" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderExtendMongo.class.php" href="Order/Mongo/OrderExtendMongo.class.php.xml">
+            <totals>
+              <lines total="11" comments="0" code="11" executable="0" executed="0" percent=""/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderItemMongo.class.php" href="Order/Mongo/OrderItemMongo.class.php.xml">
+            <totals>
+              <lines total="74" comments="12" code="62" executable="34" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderMongo.class.php" href="Order/Mongo/OrderMongo.class.php.xml">
+            <totals>
+              <lines total="45" comments="7" code="38" executable="15" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPaymentInfoMongo.class.php" href="Order/Mongo/OrderPaymentInfoMongo.class.php.xml">
+            <totals>
+              <lines total="21" comments="4" code="17" executable="0" executed="0" percent=""/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPreviousMongo.class.php" href="Order/Mongo/OrderPreviousMongo.class.php.xml">
+            <totals>
+              <lines total="10" comments="0" code="10" executable="0" executed="0" percent=""/>
+              <methods count="0" tested="0" percent=""/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="0" tested="0" percent=""/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPriceChangeMongo.class.php" href="Order/Mongo/OrderPriceChangeMongo.class.php.xml">
+            <totals>
+              <lines total="58" comments="16" code="42" executable="23" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderPriceMongo.class.php" href="Order/Mongo/OrderPriceMongo.class.php.xml">
+            <totals>
+              <lines total="57" comments="16" code="41" executable="15" executed="0" percent="0.00%"/>
+              <methods count="4" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderReductionMongo.class.php" href="Order/Mongo/OrderReductionMongo.class.php.xml">
+            <totals>
+              <lines total="250" comments="69" code="181" executable="120" executed="0" percent="0.00%"/>
+              <methods count="14" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="OrderRefundMongo.class.php" href="Order/Mongo/OrderRefundMongo.class.php.xml">
+            <totals>
+              <lines total="388" comments="100" code="288" executable="210" executed="0" percent="0.00%"/>
+              <methods count="18" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="ReductionLogMongo.class.php" href="Order/Mongo/ReductionLogMongo.class.php.xml">
+            <totals>
+              <lines total="21" comments="4" code="17" executable="1" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="ShippingCartMongo.class.php" href="Order/Mongo/ShippingCartMongo.class.php.xml">
+            <totals>
+              <lines total="121" comments="19" code="102" executable="74" executed="0" percent="0.00%"/>
+              <methods count="5" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TradeMongo.class.php" href="Order/Mongo/TradeMongo.class.php.xml">
+            <totals>
+              <lines total="300" comments="92" code="208" executable="150" executed="0" percent="0.00%"/>
+              <methods count="14" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="UnpaymentRecordMongo.class.php" href="Order/Mongo/UnpaymentRecordMongo.class.php.xml">
+            <totals>
+              <lines total="116" comments="19" code="97" executable="60" executed="11" percent="18.33%"/>
+              <methods count="4" tested="1" percent="25.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Mysql">
+          <totals>
+            <lines total="313" comments="82" code="231" executable="183" executed="0" percent="0.00%"/>
+            <methods count="6" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="2" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="TblOrderBSMysql.class.php" href="Order/Mysql/TblOrderBSMysql.class.php.xml">
+            <totals>
+              <lines total="202" comments="54" code="148" executable="142" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TblOrderItemBSMysql.class.php" href="Order/Mysql/TblOrderItemBSMysql.class.php.xml">
+            <totals>
+              <lines total="111" comments="28" code="83" executable="41" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="Service">
+          <totals>
+            <lines total="3002" comments="762" code="2240" executable="1820" executed="0" percent="0.00%"/>
+            <methods count="119" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="11" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="BasicService.class.php" href="Order/Service/BasicService.class.php.xml">
+            <totals>
+              <lines total="524" comments="131" code="393" executable="353" executed="0" percent="0.00%"/>
+              <methods count="14" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="CacheService.class.php" href="Order/Service/CacheService.class.php.xml">
+            <totals>
+              <lines total="470" comments="194" code="276" executable="228" executed="0" percent="0.00%"/>
+              <methods count="34" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="FavorableService.class.php" href="Order/Service/FavorableService.class.php.xml">
+            <totals>
+              <lines total="140" comments="24" code="116" executable="82" executed="0" percent="0.00%"/>
+              <methods count="8" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="McService.class.php" href="Order/Service/McService.class.php.xml">
+            <totals>
+              <lines total="500" comments="104" code="396" executable="365" executed="0" percent="0.00%"/>
+              <methods count="17" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="PMSService.class.php" href="Order/Service/PMSService.class.php.xml">
+            <totals>
+              <lines total="273" comments="55" code="218" executable="154" executed="0" percent="0.00%"/>
+              <methods count="9" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="RuleService.class.php" href="Order/Service/RuleService.class.php.xml">
+            <totals>
+              <lines total="360" comments="97" code="263" executable="214" executed="0" percent="0.00%"/>
+              <methods count="12" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="SMSService.class.php" href="Order/Service/SMSService.class.php.xml">
+            <totals>
+              <lines total="46" comments="5" code="41" executable="25" executed="0" percent="0.00%"/>
+              <methods count="2" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="ShippingService.class.php" href="Order/Service/ShippingService.class.php.xml">
+            <totals>
+              <lines total="407" comments="91" code="316" executable="257" executed="0" percent="0.00%"/>
+              <methods count="11" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TradeService.class.php" href="Order/Service/TradeService.class.php.xml">
+            <totals>
+              <lines total="64" comments="15" code="49" executable="21" executed="0" percent="0.00%"/>
+              <methods count="6" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="UcenterService.class.php" href="Order/Service/UcenterService.class.php.xml">
+            <totals>
+              <lines total="125" comments="19" code="106" executable="74" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="WSService.class.php" href="Order/Service/WSService.class.php.xml">
+            <totals>
+              <lines total="93" comments="27" code="66" executable="47" executed="0" percent="0.00%"/>
+              <methods count="3" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+      <directory name="Serv">
+        <totals>
+          <lines total="47" comments="10" code="37" executable="6" executed="0" percent="0.00%"/>
+          <methods count="3" tested="0" percent="0.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="3" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <directory name="Controller">
+          <totals>
+            <lines total="47" comments="10" code="37" executable="6" executed="0" percent="0.00%"/>
+            <methods count="3" tested="0" percent="0.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="3" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+          <file name="PackController.class.php" href="Serv/Controller/PackController.class.php.xml">
+            <totals>
+              <lines total="15" comments="3" code="12" executable="2" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="TcpservController.class.php" href="Serv/Controller/TcpservController.class.php.xml">
+            <totals>
+              <lines total="21" comments="7" code="14" executable="2" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+          <file name="YarservController.class.php" href="Serv/Controller/YarservController.class.php.xml">
+            <totals>
+              <lines total="11" comments="0" code="11" executable="2" executed="0" percent="0.00%"/>
+              <methods count="1" tested="0" percent="0.00%"/>
+              <functions count="0" tested="0" percent=""/>
+              <classes count="1" tested="0" percent="0.00%"/>
+              <traits count="0" tested="0" percent=""/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+    </directory>
+  </project>
+</phpunit>

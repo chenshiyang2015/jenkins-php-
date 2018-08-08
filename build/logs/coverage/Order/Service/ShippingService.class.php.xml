@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ShippingService.class.php">
+    <totals>
+      <lines total="407" comments="91" code="316" executable="257" executed="0" percent="0.00%"/>
+      <methods count="11" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ShippingService" start="7" executable="257" executed="0" crap="1406">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="bindOrderServicePoint" signature="bindOrderServicePoint($params = [])" start="33" end="66" crap="20" executable="27" executed="0" coverage="0"/>
+      <method name="getDelayInfo" signature="getDelayInfo($params = [])" start="95" end="135" crap="20" executable="36" executed="0" coverage="0"/>
+      <method name="getDeliverTimeFromShipping" signature="getDeliverTimeFromShipping($params = [])" start="140" end="160" crap="12" executable="18" executed="0" coverage="0"/>
+      <method name="getTaskInfo" signature="getTaskInfo(array $params)" start="168" end="210" crap="12" executable="37" executed="0" coverage="0"/>
+      <method name="getUserList" signature="getUserList(array $params)" start="218" end="248" crap="30" executable="24" executed="0" coverage="0"/>
+      <method name="getDeliverManInfo" signature="getDeliverManInfo($params = [])" start="256" end="285" crap="12" executable="24" executed="0" coverage="0"/>
+      <method name="getOrderDefaultCostFromShipping" signature="getOrderDefaultCostFromShipping($params = [])" start="291" end="322" crap="6" executable="29" executed="0" coverage="0"/>
+      <method name="getCostFromShipping" signature="getCostFromShipping($params = [])" start="327" end="347" crap="12" executable="18" executed="0" coverage="0"/>
+      <method name="saveOrderPrevious" signature="saveOrderPrevious($params = [])" start="355" end="378" crap="12" executable="21" executed="0" coverage="0"/>
+      <method name="getShippingConfig" signature="getShippingConfig($params = [])" start="383" end="406" crap="42" executable="21" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

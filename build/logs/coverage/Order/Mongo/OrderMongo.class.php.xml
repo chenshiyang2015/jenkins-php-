@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderMongo.class.php">
+    <totals>
+      <lines total="45" comments="7" code="38" executable="15" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderMongo" start="6" executable="15" executed="0" crap="30">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="_initialize" signature="_initialize()" start="21" end="23" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getOrderListInfo" signature="getOrderListInfo($params = [])" start="28" end="43" crap="20" executable="13" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

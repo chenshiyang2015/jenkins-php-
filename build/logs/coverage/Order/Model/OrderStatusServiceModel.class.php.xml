@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderStatusServiceModel.class.php">
+    <totals>
+      <lines total="504" comments="126" code="378" executable="351" executed="0" percent="0.00%"/>
+      <methods count="17" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderStatusServiceModel" start="6" executable="351" executed="0" crap="11990">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="_initialize" signature="_initialize()" start="10" end="12" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="UpdateOrderStatus" signature="UpdateOrderStatus($params)" start="21" end="61" crap="90" executable="36" executed="0" coverage="0"/>
+      <method name="getOrderStatus" signature="getOrderStatus($params = [])" start="67" end="78" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="orderStatusConfig" signature="orderStatusConfig($params)" start="84" end="210" crap="992" executable="121" executed="0" coverage="0"/>
+      <method name="getOrderStatusFromRule" signature="getOrderStatusFromRule($params = [])" start="216" end="229" crap="12" executable="11" executed="0" coverage="0"/>
+      <method name="getMainStatus" signature="getMainStatus($key = '')" start="234" end="243" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="getAuditStatus" signature="getAuditStatus($key = '')" start="248" end="256" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="getSellerStatus" signature="getSellerStatus($key = '')" start="261" end="270" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="getDeliverStatus" signature="getDeliverStatus($key = '')" start="275" end="285" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="getFinancialStatus" signature="getFinancialStatus($key = '')" start="290" end="296" crap="6" executable="5" executed="0" coverage="0"/>
+      <method name="getPaymentStatus" signature="getPaymentStatus($key)" start="301" end="310" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="getNormalOrderStatus" signature="getNormalOrderStatus($params = [])" start="315" end="333" crap="56" executable="17" executed="0" coverage="0"/>
+      <method name="freeOrderAuditRule" signature="freeOrderAuditRule($params = [])" start="338" end="357" crap="20" executable="17" executed="0" coverage="0"/>
+      <method name="checkSellerStatus" signature="checkSellerStatus($order_info, $type)" start="366" end="387" crap="56" executable="18" executed="0" coverage="0"/>
+      <method name="checkDeliverStatus" signature="checkDeliverStatus($order_info, $type)" start="396" end="412" crap="20" executable="14" executed="0" coverage="0"/>
+      <method name="checkFinancialStatus" signature="checkFinancialStatus($type)" start="420" end="429" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="getOrderStatusMsg" signature="getOrderStatusMsg(&amp;$o_info)" start="437" end="503" crap="702" executable="54" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

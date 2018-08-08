@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BaseMongoModel.class.php">
+    <totals>
+      <lines total="42" comments="8" code="34" executable="17" executed="2" percent="11.76%"/>
+      <methods count="2" tested="1" percent="50.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BaseMongoModel" start="4" executable="17" executed="2" crap="14.99">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Base\Model"/>
+      <method name="_initialize" signature="_initialize()" start="6" end="8" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="getMyMongoNextId" signature="getMyMongoNextId($pk = '', $table_name = '')" start="18" end="41" crap="12" executable="15" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="7">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="8">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

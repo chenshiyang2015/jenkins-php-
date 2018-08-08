@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BuyerInvoiceDataModel.class.php">
+    <totals>
+      <lines total="141" comments="20" code="121" executable="93" executed="0" percent="0.00%"/>
+      <methods count="4" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BuyerInvoiceDataModel" start="7" executable="93" executed="0" crap="930">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="batchInsertBuyerInvoice" signature="batchInsertBuyerInvoice($params = [])" start="24" end="44" crap="30" executable="19" executed="0" coverage="0"/>
+      <method name="addData" signature="addData($params = [])" start="46" end="69" crap="90" executable="22" executed="0" coverage="0"/>
+      <method name="saveBuyerInvoice" signature="saveBuyerInvoice($where, $params)" start="78" end="120" crap="156" executable="41" executed="0" coverage="0"/>
+      <method name="getInvoiceDetails" signature="getInvoiceDetails($invoice)" start="128" end="140" crap="20" executable="11" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

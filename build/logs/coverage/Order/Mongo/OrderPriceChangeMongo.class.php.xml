@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderPriceChangeMongo.class.php">
+    <totals>
+      <lines total="58" comments="16" code="42" executable="23" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderPriceChangeMongo" start="13" executable="23" executed="0" crap="20">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="createChange" signature="createChange($params)" start="30" end="49" crap="6" executable="19" executed="0" coverage="0"/>
+      <method name="getChangeList" signature="getChangeList($params  = [])" start="51" end="55" crap="6" executable="4" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

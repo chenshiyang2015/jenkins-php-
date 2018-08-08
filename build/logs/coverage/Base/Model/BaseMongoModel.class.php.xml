@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BaseMongoModel.class.php">
+    <totals>
+      <lines total="15" comments="0" code="15" executable="2" executed="2" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BaseMongoModel" start="4" executable="2" executed="2" crap="1">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Application\Base\Model"/>
+      <method name="_initialize" signature="_initialize()" start="12" end="14" crap="1" executable="2" executed="2" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="13">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="14">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

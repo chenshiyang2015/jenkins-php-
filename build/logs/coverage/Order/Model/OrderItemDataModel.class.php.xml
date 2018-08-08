@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderItemDataModel.class.php">
+    <totals>
+      <lines total="123" comments="37" code="86" executable="61" executed="0" percent="0.00%"/>
+      <methods count="6" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderItemDataModel" start="6" executable="61" executed="0" crap="650">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="_initialize" signature="_initialize()" start="22" end="25" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="batchInsertOrderItem" signature="batchInsertOrderItem($params = [])" start="30" end="42" crap="20" executable="12" executed="0" coverage="0"/>
+      <method name="addOrderItemData" signature="addOrderItemData($params = [])" start="50" end="83" crap="272" executable="31" executed="0" coverage="0"/>
+      <method name="deleteOrderItemData" signature="deleteOrderItemData($params = [])" start="88" end="96" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="buildOrderProdID" signature="buildOrderProdID($params = [])" start="102" end="114" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="getOrderItemNextId" signature="getOrderItemNextId()" start="119" end="121" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

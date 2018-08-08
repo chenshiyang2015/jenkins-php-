@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="UnpaymentRecordController.class.php">
+    <totals>
+      <lines total="192" comments="52" code="140" executable="56" executed="6" percent="10.71%"/>
+      <methods count="7" tested="3" percent="42.86%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="UnpaymentRecordController" start="13" executable="56" executed="6" crap="114.50">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="getStatus" signature="getStatus()" start="69" end="71" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getType" signature="getType()" start="77" end="79" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getList" signature="getList($params = [])" start="87" end="94" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="process" signature="process($params = [])" start="102" end="124" crap="12" executable="16" executed="0" coverage="0"/>
+      <method name="info" signature="info($params = [])" start="132" end="143" crap="12" executable="7" executed="0" coverage="0"/>
+      <method name="add" signature="add($params = [])" start="151" end="174" crap="2" executable="19" executed="0" coverage="0"/>
+      <method name="getOrderUnpayment" signature="getOrderUnpayment($params = [])" start="182" end="191" crap="6" executable="8" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="70">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetStatus"/>
+      </line>
+      <line nr="78">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetType"/>
+      </line>
+      <line nr="88">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="90">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="91">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="93">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

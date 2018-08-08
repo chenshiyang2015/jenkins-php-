@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="TradeMongo.class.php">
+    <totals>
+      <lines total="300" comments="92" code="208" executable="150" executed="0" percent="0.00%"/>
+      <methods count="14" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="TradeMongo" start="6" executable="150" executed="0" crap="1560">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="createTrade" signature="createTrade($params)" start="32" end="65" crap="56" executable="33" executed="0" coverage="0"/>
+      <method name="getTradeCount" signature="getTradeCount($param, $buildWhere)" start="72" end="74" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getTradeList" signature="getTradeList($param, $buildWhere)" start="81" end="87" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="getTradelistByField" signature="getTradelistByField($param, $buildWhere, $Fied)" start="94" end="100" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="getTradeListByR" signature="getTradeListByR($params)" start="107" end="112" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="_createSortParam" signature="_createSortParam($params)" start="120" end="132" crap="20" executable="11" executed="0" coverage="0"/>
+      <method name="_createLimitParam" signature="_createLimitParam($params)" start="137" end="141" crap="12" executable="3" executed="0" coverage="0"/>
+      <method name="_createTradeSign" signature="_createTradeSign($createTime, $userId, $serviceId, $paymentMethodId)" start="150" end="155" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="editTradeStatus" signature="editTradeStatus($params, $status)" start="163" end="195" crap="42" executable="29" executed="0" coverage="0"/>
+      <method name="editRefundTradeStatus" signature="editRefundTradeStatus($params, $status)" start="203" end="235" crap="42" executable="29" executed="0" coverage="0"/>
+      <method name="cancelTrade" signature="cancelTrade($params)" start="243" end="255" crap="6" executable="12" executed="0" coverage="0"/>
+      <method name="changeTradeStatus" signature="changeTradeStatus($params)" start="262" end="271" crap="12" executable="7" executed="0" coverage="0"/>
+      <method name="changeTransactionId" signature="changeTransactionId($transactionId, $tradeSign, $trade_id = [])" start="276" end="285" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="changeTransactionIdForRefund" signature="changeTransactionIdForRefund($transactionId, $tradeSign)" start="290" end="296" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

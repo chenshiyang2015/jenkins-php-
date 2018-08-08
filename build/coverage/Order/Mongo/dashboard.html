@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for G:\Git\test1s_order_soa\Application/Order/Mongo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../js/html5shiv.min.js"></script>
+  <script src="../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">G:\Git\test1s_order_soa\Application</a></li>
+        <li><a href="../index.html">Order</a></li>
+        <li><a href="index.html">Mongo</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="OrderRefundMongo.class.php.html#7">OrderRefundMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#7">OrderReductionMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReductionLogMongo.class.php.html#6">ReductionLogMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#6">ShippingCartMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#6">TradeMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#6">OrderCountAreaMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceMongo.class.php.html#6">OrderPriceMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#6">OrderCountProdMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#6">OrderCountSellerMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#7">OrderItemMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceChangeMongo.class.php.html#13">OrderPriceChangeMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderMongo.class.php.html#6">OrderMongo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#7">UnpaymentRecordMongo</a></td><td class="text-right">18%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="OrderRefundMongo.class.php.html#7">OrderRefundMongo</a></td><td class="text-right">2450</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#6">TradeMongo</a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#7">OrderReductionMongo</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#7">OrderItemMongo</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#6">OrderCountProdMongo</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#6">OrderCountSellerMongo</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#6">OrderCountAreaMongo</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#6">ShippingCartMongo</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#7">UnpaymentRecordMongo</a></td><td class="text-right">105</td></tr>
+       <tr><td><a href="OrderMongo.class.php.html#6">OrderMongo</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderPriceChangeMongo.class.php.html#13">OrderPriceChangeMongo</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="OrderRefundMongo.class.php.html#318"><abbr title="OrderRefundMongo::setOrderRefundCallback">setOrderRefundCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#308"><abbr title="OrderRefundMongo::getTradeRefund">getTradeRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#300"><abbr title="OrderRefundMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#283"><abbr title="OrderRefundMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#326"><abbr title="OrderRefundMongo::getTradeSuccess">getTradeSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#334"><abbr title="OrderRefundMongo::auditingRefundAuto">auditingRefundAuto</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#15"><abbr title="ShippingCartMongo::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReductionLogMongo.class.php.html#17"><abbr title="ReductionLogMongo::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#379"><abbr title="OrderRefundMongo::auditingRefundAudit">auditingRefundAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#231"><abbr title="OrderRefundMongo::editRefundCallbackForPay">editRefundCallbackForPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#209"><abbr title="OrderRefundMongo::editRefundAudit">editRefundAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#85"><abbr title="OrderRefundMongo::getRefundCount">getRefundCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#76"><abbr title="OrderRefundMongo::getRefundInfo">getRefundInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#40"><abbr title="OrderRefundMongo::createRefund">createRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#94"><abbr title="OrderRefundMongo::getRefundList">getRefundList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#109"><abbr title="OrderRefundMongo::editRefundCallback">editRefundCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#184"><abbr title="OrderRefundMongo::editRefundAuto">editRefundAuto</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#163"><abbr title="OrderRefundMongo::editRefundForPay">editRefundForPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#140"><abbr title="OrderRefundMongo::editRefundByPay">editRefundByPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#23"><abbr title="ShippingCartMongo::addData">addData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#70"><abbr title="ShippingCartMongo::delData">delData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#243"><abbr title="TradeMongo::cancelTrade">cancelTrade</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#203"><abbr title="TradeMongo::editRefundTradeStatus">editRefundTradeStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#163"><abbr title="TradeMongo::editTradeStatus">editTradeStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#262"><abbr title="TradeMongo::changeTradeStatus">changeTradeStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#276"><abbr title="TradeMongo::changeTransactionId">changeTransactionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#53"><abbr title="UnpaymentRecordMongo::saveData">saveData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#24"><abbr title="UnpaymentRecordMongo::addData">addData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#290"><abbr title="TradeMongo::changeTransactionIdForRefund">changeTransactionIdForRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#150"><abbr title="TradeMongo::_createTradeSign">_createTradeSign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#137"><abbr title="TradeMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#32"><abbr title="TradeMongo::createTrade">createTrade</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#109"><abbr title="ShippingCartMongo::getData">getData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#90"><abbr title="ShippingCartMongo::saveData">saveData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#72"><abbr title="TradeMongo::getTradeCount">getTradeCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#81"><abbr title="TradeMongo::getTradeList">getTradeList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#120"><abbr title="TradeMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#107"><abbr title="TradeMongo::getTradeListByR">getTradeListByR</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#94"><abbr title="TradeMongo::getTradelistByField">getTradelistByField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#26"><abbr title="OrderRefundMongo::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#242"><abbr title="OrderReductionMongo::auditingRefundAudit">auditingRefundAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#123"><abbr title="OrderCountSellerMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#105"><abbr title="OrderCountSellerMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#91"><abbr title="OrderCountSellerMongo::getSellerList">getSellerList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#81"><abbr title="OrderCountSellerMongo::getSellerCount">getSellerCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#21"><abbr title="OrderItemMongo::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#30"><abbr title="OrderItemMongo::getOrderItemInfo">getOrderItemInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderMongo.class.php.html#21"><abbr title="OrderMongo::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#71"><abbr title="OrderItemMongo::deleteData">deleteData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#44"><abbr title="OrderItemMongo::addOrderItemData">addOrderItemData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#18"><abbr title="OrderCountSellerMongo::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#91"><abbr title="OrderCountProdMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#83"><abbr title="OrderCountAreaMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#69"><abbr title="OrderCountAreaMongo::getAreaList">getAreaList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#59"><abbr title="OrderCountAreaMongo::getAreaCount">getAreaCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#102"><abbr title="OrderCountAreaMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#18"><abbr title="OrderCountProdMongo::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#75"><abbr title="OrderCountProdMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#60"><abbr title="OrderCountProdMongo::getProdList">getProdList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#50"><abbr title="OrderCountProdMongo::getProdCount">getProdCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#18"><abbr title="OrderCountAreaMongo::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderMongo.class.php.html#28"><abbr title="OrderMongo::getOrderListInfo">getOrderListInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#145"><abbr title="OrderReductionMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#116"><abbr title="OrderReductionMongo::editReductionAudit">editReductionAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#94"><abbr title="OrderReductionMongo::editReductionStatust">editReductionStatust</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#162"><abbr title="OrderReductionMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#170"><abbr title="OrderReductionMongo::getTradeRefund">getTradeRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#196"><abbr title="OrderReductionMongo::auditingRefundAuto">auditingRefundAuto</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#188"><abbr title="OrderReductionMongo::getTradeSuccess">getTradeSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#180"><abbr title="OrderReductionMongo::setOrderRefundCallback">setOrderRefundCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#82"><abbr title="OrderReductionMongo::getReductionList">getReductionList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#73"><abbr title="OrderReductionMongo::getReductionCount">getReductionCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceMongo.class.php.html#35"><abbr title="OrderPriceMongo::saveOrderFinance">saveOrderFinance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceMongo.class.php.html#24"><abbr title="OrderPriceMongo::addOrderFinance">addOrderFinance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceChangeMongo.class.php.html#51"><abbr title="OrderPriceChangeMongo::getChangeList">getChangeList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceMongo.class.php.html#44"><abbr title="OrderPriceMongo::getOrderFinance">getOrderFinance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceMongo.class.php.html#53"><abbr title="OrderPriceMongo::getOrderPriceNextId">getOrderPriceNextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#64"><abbr title="OrderReductionMongo::getReductionInfo">getReductionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPriceChangeMongo.class.php.html#30"><abbr title="OrderPriceChangeMongo::createChange">createChange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#36"><abbr title="OrderReductionMongo::createReduction">createReduction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#22"><abbr title="OrderReductionMongo::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#82"><abbr title="UnpaymentRecordMongo::getData">getData</abbr></a></td><td class="text-right">40%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="OrderItemMongo.class.php.html#44"><abbr title="OrderItemMongo::addOrderItemData">addOrderItemData</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#334"><abbr title="OrderRefundMongo::auditingRefundAuto">auditingRefundAuto</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#196"><abbr title="OrderReductionMongo::auditingRefundAuto">auditingRefundAuto</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#32"><abbr title="TradeMongo::createTrade">createTrade</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#18"><abbr title="OrderCountAreaMongo::getCount">getCount</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#203"><abbr title="TradeMongo::editRefundTradeStatus">editRefundTradeStatus</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#231"><abbr title="OrderRefundMongo::editRefundCallbackForPay">editRefundCallbackForPay</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#18"><abbr title="OrderCountSellerMongo::getCount">getCount</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#163"><abbr title="TradeMongo::editTradeStatus">editTradeStatus</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#18"><abbr title="OrderCountProdMongo::getCount">getCount</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#109"><abbr title="OrderRefundMongo::editRefundCallback">editRefundCallback</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#82"><abbr title="UnpaymentRecordMongo::getData">getData</abbr></a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#283"><abbr title="OrderRefundMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderMongo.class.php.html#28"><abbr title="OrderMongo::getOrderListInfo">getOrderListInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#70"><abbr title="ShippingCartMongo::delData">delData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#120"><abbr title="TradeMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#83"><abbr title="OrderCountAreaMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#40"><abbr title="OrderRefundMongo::createRefund">createRefund</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#75"><abbr title="OrderCountProdMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#105"><abbr title="OrderCountSellerMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#145"><abbr title="OrderReductionMongo::_createSortParam">_createSortParam</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#23"><abbr title="ShippingCartMongo::addData">addData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderCountProdMongo.class.php.html#91"><abbr title="OrderCountProdMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#94"><abbr title="OrderReductionMongo::editReductionStatust">editReductionStatust</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#137"><abbr title="TradeMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#262"><abbr title="TradeMongo::changeTradeStatus">changeTradeStatus</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderCountAreaMongo.class.php.html#102"><abbr title="OrderCountAreaMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#300"><abbr title="OrderRefundMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#116"><abbr title="OrderReductionMongo::editReductionAudit">editReductionAudit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#162"><abbr title="OrderReductionMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#140"><abbr title="OrderRefundMongo::editRefundByPay">editRefundByPay</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderCountSellerMongo.class.php.html#123"><abbr title="OrderCountSellerMongo::_createLimitParam">_createLimitParam</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#184"><abbr title="OrderRefundMongo::editRefundAuto">editRefundAuto</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#163"><abbr title="OrderRefundMongo::editRefundForPay">editRefundForPay</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderRefundMongo.class.php.html#209"><abbr title="OrderRefundMongo::editRefundAudit">editRefundAudit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#276"><abbr title="TradeMongo::changeTransactionId">changeTransactionId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderPriceChangeMongo.class.php.html#30"><abbr title="OrderPriceChangeMongo::createChange">createChange</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UnpaymentRecordMongo.class.php.html#53"><abbr title="UnpaymentRecordMongo::saveData">saveData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TradeMongo.class.php.html#243"><abbr title="TradeMongo::cancelTrade">cancelTrade</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ShippingCartMongo.class.php.html#109"><abbr title="ShippingCartMongo::getData">getData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderItemMongo.class.php.html#30"><abbr title="OrderItemMongo::getOrderItemInfo">getOrderItemInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderPriceChangeMongo.class.php.html#51"><abbr title="OrderPriceChangeMongo::getChangeList">getChangeList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderReductionMongo.class.php.html#36"><abbr title="OrderReductionMongo::createReduction">createReduction</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.8</a> using <a href="https://secure.php.net/" target="_top">PHP 5.6.17</a> with <a href="https://xdebug.org/">Xdebug 2.5.5</a> and <a href="https://phpunit.de/">PHPUnit 5.7.27</a> at Tue Aug 7 10:34:27 CST 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,1,0,0,0,0,0,0,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([81,0,0,0,0,1,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"LogMongo.class.php.html#6\">LogMongo<\/a>"],[0,15,"<a href=\"OrderCountAreaMongo.class.php.html#6\">OrderCountAreaMongo<\/a>"],[0,15,"<a href=\"OrderCountProdMongo.class.php.html#6\">OrderCountProdMongo<\/a>"],[0,15,"<a href=\"OrderCountSellerMongo.class.php.html#6\">OrderCountSellerMongo<\/a>"],[100,0,"<a href=\"OrderExtendMongo.class.php.html#5\">OrderExtendMongo<\/a>"],[0,19,"<a href=\"OrderItemMongo.class.php.html#7\">OrderItemMongo<\/a>"],[0,5,"<a href=\"OrderMongo.class.php.html#6\">OrderMongo<\/a>"],[100,0,"<a href=\"OrderPaymentInfoMongo.class.php.html#8\">OrderPaymentInfoMongo<\/a>"],[100,0,"<a href=\"OrderPreviousMongo.class.php.html#5\">OrderPreviousMongo<\/a>"],[0,4,"<a href=\"OrderPriceChangeMongo.class.php.html#13\">OrderPriceChangeMongo<\/a>"],[0,4,"<a href=\"OrderPriceMongo.class.php.html#6\">OrderPriceMongo<\/a>"],[0,30,"<a href=\"OrderReductionMongo.class.php.html#7\">OrderReductionMongo<\/a>"],[0,49,"<a href=\"OrderRefundMongo.class.php.html#7\">OrderRefundMongo<\/a>"],[0,1,"<a href=\"ReductionLogMongo.class.php.html#6\">ReductionLogMongo<\/a>"],[0,11,"<a href=\"ShippingCartMongo.class.php.html#6\">ShippingCartMongo<\/a>"],[0,39,"<a href=\"TradeMongo.class.php.html#6\">TradeMongo<\/a>"],[18.333333333333,13,"<a href=\"UnpaymentRecordMongo.class.php.html#7\">UnpaymentRecordMongo<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,6,"<a href=\"OrderCountAreaMongo.class.php.html#18\">OrderCountAreaMongo::getCount<\/a>"],[0,1,"<a href=\"OrderCountAreaMongo.class.php.html#59\">OrderCountAreaMongo::getAreaCount<\/a>"],[0,1,"<a href=\"OrderCountAreaMongo.class.php.html#69\">OrderCountAreaMongo::getAreaList<\/a>"],[0,4,"<a href=\"OrderCountAreaMongo.class.php.html#83\">OrderCountAreaMongo::_createSortParam<\/a>"],[0,3,"<a href=\"OrderCountAreaMongo.class.php.html#102\">OrderCountAreaMongo::_createLimitParam<\/a>"],[0,6,"<a href=\"OrderCountProdMongo.class.php.html#18\">OrderCountProdMongo::getCount<\/a>"],[0,1,"<a href=\"OrderCountProdMongo.class.php.html#50\">OrderCountProdMongo::getProdCount<\/a>"],[0,1,"<a href=\"OrderCountProdMongo.class.php.html#60\">OrderCountProdMongo::getProdList<\/a>"],[0,4,"<a href=\"OrderCountProdMongo.class.php.html#75\">OrderCountProdMongo::_createSortParam<\/a>"],[0,3,"<a href=\"OrderCountProdMongo.class.php.html#91\">OrderCountProdMongo::_createLimitParam<\/a>"],[0,6,"<a href=\"OrderCountSellerMongo.class.php.html#18\">OrderCountSellerMongo::getCount<\/a>"],[0,1,"<a href=\"OrderCountSellerMongo.class.php.html#81\">OrderCountSellerMongo::getSellerCount<\/a>"],[0,1,"<a href=\"OrderCountSellerMongo.class.php.html#91\">OrderCountSellerMongo::getSellerList<\/a>"],[0,4,"<a href=\"OrderCountSellerMongo.class.php.html#105\">OrderCountSellerMongo::_createSortParam<\/a>"],[0,3,"<a href=\"OrderCountSellerMongo.class.php.html#123\">OrderCountSellerMongo::_createLimitParam<\/a>"],[0,1,"<a href=\"OrderItemMongo.class.php.html#21\">OrderItemMongo::_initialize<\/a>"],[0,2,"<a href=\"OrderItemMongo.class.php.html#30\">OrderItemMongo::getOrderItemInfo<\/a>"],[0,15,"<a href=\"OrderItemMongo.class.php.html#44\">OrderItemMongo::addOrderItemData<\/a>"],[0,1,"<a href=\"OrderItemMongo.class.php.html#71\">OrderItemMongo::deleteData<\/a>"],[0,1,"<a href=\"OrderMongo.class.php.html#21\">OrderMongo::_initialize<\/a>"],[0,4,"<a href=\"OrderMongo.class.php.html#28\">OrderMongo::getOrderListInfo<\/a>"],[0,2,"<a href=\"OrderPriceChangeMongo.class.php.html#30\">OrderPriceChangeMongo::createChange<\/a>"],[0,2,"<a href=\"OrderPriceChangeMongo.class.php.html#51\">OrderPriceChangeMongo::getChangeList<\/a>"],[0,1,"<a href=\"OrderPriceMongo.class.php.html#24\">OrderPriceMongo::addOrderFinance<\/a>"],[0,1,"<a href=\"OrderPriceMongo.class.php.html#35\">OrderPriceMongo::saveOrderFinance<\/a>"],[0,1,"<a href=\"OrderPriceMongo.class.php.html#44\">OrderPriceMongo::getOrderFinance<\/a>"],[0,1,"<a href=\"OrderPriceMongo.class.php.html#53\">OrderPriceMongo::getOrderPriceNextId<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#22\">OrderReductionMongo::_initialize<\/a>"],[0,2,"<a href=\"OrderReductionMongo.class.php.html#36\">OrderReductionMongo::createReduction<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#64\">OrderReductionMongo::getReductionInfo<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#73\">OrderReductionMongo::getReductionCount<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#82\">OrderReductionMongo::getReductionList<\/a>"],[0,3,"<a href=\"OrderReductionMongo.class.php.html#94\">OrderReductionMongo::editReductionStatust<\/a>"],[0,3,"<a href=\"OrderReductionMongo.class.php.html#116\">OrderReductionMongo::editReductionAudit<\/a>"],[0,4,"<a href=\"OrderReductionMongo.class.php.html#145\">OrderReductionMongo::_createSortParam<\/a>"],[0,3,"<a href=\"OrderReductionMongo.class.php.html#162\">OrderReductionMongo::_createLimitParam<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#170\">OrderReductionMongo::getTradeRefund<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#180\">OrderReductionMongo::setOrderRefundCallback<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#188\">OrderReductionMongo::getTradeSuccess<\/a>"],[0,7,"<a href=\"OrderReductionMongo.class.php.html#196\">OrderReductionMongo::auditingRefundAuto<\/a>"],[0,1,"<a href=\"OrderReductionMongo.class.php.html#242\">OrderReductionMongo::auditingRefundAudit<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#26\">OrderRefundMongo::_initialize<\/a>"],[0,4,"<a href=\"OrderRefundMongo.class.php.html#40\">OrderRefundMongo::createRefund<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#76\">OrderRefundMongo::getRefundInfo<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#85\">OrderRefundMongo::getRefundCount<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#94\">OrderRefundMongo::getRefundList<\/a>"],[0,5,"<a href=\"OrderRefundMongo.class.php.html#109\">OrderRefundMongo::editRefundCallback<\/a>"],[0,3,"<a href=\"OrderRefundMongo.class.php.html#140\">OrderRefundMongo::editRefundByPay<\/a>"],[0,3,"<a href=\"OrderRefundMongo.class.php.html#163\">OrderRefundMongo::editRefundForPay<\/a>"],[0,3,"<a href=\"OrderRefundMongo.class.php.html#184\">OrderRefundMongo::editRefundAuto<\/a>"],[0,3,"<a href=\"OrderRefundMongo.class.php.html#209\">OrderRefundMongo::editRefundAudit<\/a>"],[0,6,"<a href=\"OrderRefundMongo.class.php.html#231\">OrderRefundMongo::editRefundCallbackForPay<\/a>"],[0,4,"<a href=\"OrderRefundMongo.class.php.html#283\">OrderRefundMongo::_createSortParam<\/a>"],[0,3,"<a href=\"OrderRefundMongo.class.php.html#300\">OrderRefundMongo::_createLimitParam<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#308\">OrderRefundMongo::getTradeRefund<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#318\">OrderRefundMongo::setOrderRefundCallback<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#326\">OrderRefundMongo::getTradeSuccess<\/a>"],[0,7,"<a href=\"OrderRefundMongo.class.php.html#334\">OrderRefundMongo::auditingRefundAuto<\/a>"],[0,1,"<a href=\"OrderRefundMongo.class.php.html#379\">OrderRefundMongo::auditingRefundAudit<\/a>"],[0,1,"<a href=\"ReductionLogMongo.class.php.html#17\">ReductionLogMongo::_initialize<\/a>"],[0,1,"<a href=\"ShippingCartMongo.class.php.html#15\">ShippingCartMongo::_initialize<\/a>"],[0,3,"<a href=\"ShippingCartMongo.class.php.html#23\">ShippingCartMongo::addData<\/a>"],[0,4,"<a href=\"ShippingCartMongo.class.php.html#70\">ShippingCartMongo::delData<\/a>"],[0,1,"<a href=\"ShippingCartMongo.class.php.html#90\">ShippingCartMongo::saveData<\/a>"],[0,2,"<a href=\"ShippingCartMongo.class.php.html#109\">ShippingCartMongo::getData<\/a>"],[0,7,"<a href=\"TradeMongo.class.php.html#32\">TradeMongo::createTrade<\/a>"],[0,1,"<a href=\"TradeMongo.class.php.html#72\">TradeMongo::getTradeCount<\/a>"],[0,1,"<a href=\"TradeMongo.class.php.html#81\">TradeMongo::getTradeList<\/a>"],[0,1,"<a href=\"TradeMongo.class.php.html#94\">TradeMongo::getTradelistByField<\/a>"],[0,1,"<a href=\"TradeMongo.class.php.html#107\">TradeMongo::getTradeListByR<\/a>"],[0,4,"<a href=\"TradeMongo.class.php.html#120\">TradeMongo::_createSortParam<\/a>"],[0,3,"<a href=\"TradeMongo.class.php.html#137\">TradeMongo::_createLimitParam<\/a>"],[0,1,"<a href=\"TradeMongo.class.php.html#150\">TradeMongo::_createTradeSign<\/a>"],[0,6,"<a href=\"TradeMongo.class.php.html#163\">TradeMongo::editTradeStatus<\/a>"],[0,6,"<a href=\"TradeMongo.class.php.html#203\">TradeMongo::editRefundTradeStatus<\/a>"],[0,2,"<a href=\"TradeMongo.class.php.html#243\">TradeMongo::cancelTrade<\/a>"],[0,3,"<a href=\"TradeMongo.class.php.html#262\">TradeMongo::changeTradeStatus<\/a>"],[0,2,"<a href=\"TradeMongo.class.php.html#276\">TradeMongo::changeTransactionId<\/a>"],[0,1,"<a href=\"TradeMongo.class.php.html#290\">TradeMongo::changeTransactionIdForRefund<\/a>"],[100,1,"<a href=\"UnpaymentRecordMongo.class.php.html#16\">UnpaymentRecordMongo::_initialize<\/a>"],[0,1,"<a href=\"UnpaymentRecordMongo.class.php.html#24\">UnpaymentRecordMongo::addData<\/a>"],[0,2,"<a href=\"UnpaymentRecordMongo.class.php.html#53\">UnpaymentRecordMongo::saveData<\/a>"],[40.909090909091,9,"<a href=\"UnpaymentRecordMongo.class.php.html#82\">UnpaymentRecordMongo::getData<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

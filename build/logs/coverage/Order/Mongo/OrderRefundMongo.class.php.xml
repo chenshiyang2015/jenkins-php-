@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderRefundMongo.class.php">
+    <totals>
+      <lines total="388" comments="100" code="288" executable="210" executed="0" percent="0.00%"/>
+      <methods count="18" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderRefundMongo" start="7" executable="210" executed="0" crap="2450">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="_initialize" signature="_initialize()" start="26" end="28" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="createRefund" signature="createRefund($params)" start="40" end="71" crap="20" executable="30" executed="0" coverage="0"/>
+      <method name="getRefundInfo" signature="getRefundInfo($param, $buildWhere)" start="76" end="78" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getRefundCount" signature="getRefundCount($param, $buildWhere)" start="85" end="87" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getRefundList" signature="getRefundList($param, $buildWhere)" start="94" end="99" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="editRefundCallback" signature="editRefundCallback($params, $status)" start="109" end="133" crap="30" executable="20" executed="0" coverage="0"/>
+      <method name="editRefundByPay" signature="editRefundByPay($params)" start="140" end="157" crap="12" executable="14" executed="0" coverage="0"/>
+      <method name="editRefundForPay" signature="editRefundForPay($params)" start="163" end="178" crap="12" executable="14" executed="0" coverage="0"/>
+      <method name="editRefundAuto" signature="editRefundAuto($params)" start="184" end="202" crap="12" executable="15" executed="0" coverage="0"/>
+      <method name="editRefundAudit" signature="editRefundAudit($params)" start="209" end="226" crap="12" executable="16" executed="0" coverage="0"/>
+      <method name="editRefundCallbackForPay" signature="editRefundCallbackForPay($params)" start="231" end="275" crap="42" executable="36" executed="0" coverage="0"/>
+      <method name="_createSortParam" signature="_createSortParam($params)" start="283" end="295" crap="20" executable="11" executed="0" coverage="0"/>
+      <method name="_createLimitParam" signature="_createLimitParam($params)" start="300" end="303" crap="12" executable="3" executed="0" coverage="0"/>
+      <method name="getTradeRefund" signature="getTradeRefund($params)" start="308" end="311" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="setOrderRefundCallback" signature="setOrderRefundCallback($params)" start="318" end="321" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="getTradeSuccess" signature="getTradeSuccess($params)" start="326" end="329" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="auditingRefundAuto" signature="auditingRefundAuto($params)" start="334" end="374" crap="56" executable="29" executed="0" coverage="0"/>
+      <method name="auditingRefundAudit" signature="auditingRefundAudit($orderRefundId)" start="379" end="386" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

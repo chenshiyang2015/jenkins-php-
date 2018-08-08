@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderDataModel.class.php">
+    <totals>
+      <lines total="400" comments="82" code="318" executable="271" executed="0" percent="0.00%"/>
+      <methods count="10" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderDataModel" start="7" executable="271" executed="0" crap="20592">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="_initialize" signature="_initialize()" start="18" end="20" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="insertOrder" signature="insertOrder($data)" start="29" end="143" crap="5852" executable="110" executed="0" coverage="0"/>
+      <method name="updateOrder" signature="updateOrder($params = [])" start="151" end="274" crap="2256" executable="108" executed="0" coverage="0"/>
+      <method name="modifyOrder" signature="modifyOrder($params = [])" start="281" end="293" crap="20" executable="10" executed="0" coverage="0"/>
+      <method name="batchUpdateOrderId" signature="batchUpdateOrderId($params = [])" start="298" end="305" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="getCountByParams" signature="getCountByParams($params, $where_bulid)" start="313" end="315" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getSelectByParams" signature="getSelectByParams($params, $where_bulid)" start="337" end="342" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getOrder" signature="getOrder($params)" start="351" end="368" crap="30" executable="16" executed="0" coverage="0"/>
+      <method name="getLimit" signature="getLimit($params)" start="377" end="381" crap="12" executable="3" executed="0" coverage="0"/>
+      <method name="getOrderOneDetail" signature="getOrderOneDetail($params = [])" start="387" end="398" crap="12" executable="10" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

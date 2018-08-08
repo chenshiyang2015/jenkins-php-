@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Model Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.006165">
-    <testsuite name="ExampleTest" file="/var/lib/jenkins/jobs/jenkins-php-quickstart/workspace/tests/application/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.006165">
-      <testcase name="testSomething" class="ExampleTest" file="/var/lib/jenkins/jobs/jenkins-php-quickstart/workspace/tests/application/ExampleTest.php" line="7" assertions="1" time="0.006165"/>
+  <testsuite name="order" tests="7" assertions="4" failures="0" errors="0" time="0.392022">
+    <testsuite name="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" tests="7" assertions="4" failures="0" errors="0" time="0.392022">
+      <testcase name="testGetStatus" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="16" assertions="2" time="0.012000"/>
+      <testcase name="testGetType" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="26" assertions="2" time="0.005001"/>
+      <testcase name="testGetList" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="35" assertions="0" time="0.362021">
+        <system-out>G:\Git\framework_new\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php:1034:
+string(71) "Cannot natively represent the long 3214771361368719360 on this platform"
+Array
+(
+    [status] =&gt; 200
+    [info] =&gt; Array
+        (
+            [info] =&gt; 
+            [status] =&gt; 200
+        )
+
+    [sign] =&gt; 7312e00ca2d2d9e1ad401b6347d369d7
+    [cache] =&gt; 
+    [ip] =&gt; 127.0.0.1
+)
+</system-out>
+      </testcase>
+      <testcase name="testProcess" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="42" assertions="0" time="0.003000"/>
+      <testcase name="testInfo" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="47" assertions="0" time="0.002000"/>
+      <testcase name="testAdd" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="52" assertions="0" time="0.003000"/>
+      <testcase name="testGetOrderUnpayment" class="Order\Controller\UnpaymentRecordControllerTest" file="G:\Git\test1s_order_soa\tests\UnpaymentRecordControllerTest.php" line="57" assertions="0" time="0.005000"/>
     </testsuite>
   </testsuite>
 </testsuites>

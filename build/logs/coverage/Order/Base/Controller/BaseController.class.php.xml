@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BaseController.class.php">
+    <totals>
+      <lines total="13" comments="0" code="13" executable="4" executed="4" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BaseController" start="4" executable="4" executed="4" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Base\Controller"/>
+      <method name="__construct" signature="__construct()" start="6" end="8" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="_initialize" signature="_initialize()" start="10" end="12" crap="1" executable="2" executed="2" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="7">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetStatus"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetType"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="8">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetStatus"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetType"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="11">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetStatus"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetType"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+      <line nr="12">
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetStatus"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetType"/>
+        <covered by="Order\Controller\UnpaymentRecordControllerTest::testGetList"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

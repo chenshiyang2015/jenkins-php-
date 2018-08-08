@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderItemServiceModel.class.php">
+    <totals>
+      <lines total="60" comments="6" code="54" executable="38" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderItemServiceModel" start="6" executable="38" executed="0" crap="90">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="_initialize" signature="_initialize()" start="10" end="12" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="updateOrderItemDiff" signature="updateOrderItemDiff($params = [])" start="20" end="57" crap="72" executable="36" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

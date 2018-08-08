@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="WSService.class.php">
+    <totals>
+      <lines total="93" comments="27" code="66" executable="47" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="WSService" start="10" executable="47" executed="0" crap="72">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="callInterface" signature="callInterface($m, $c, $a, $params)" start="12" end="43" crap="6" executable="26" executed="0" coverage="0"/>
+      <method name="doRefunding" signature="doRefunding(array $params = [])" start="59" end="63" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="checkOrderBlackRule" signature="checkOrderBlackRule(array $params = [])" start="71" end="90" crap="30" executable="17" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

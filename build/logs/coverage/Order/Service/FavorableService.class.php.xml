@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="FavorableService.class.php">
+    <totals>
+      <lines total="140" comments="24" code="116" executable="82" executed="0" percent="0.00%"/>
+      <methods count="8" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="FavorableService" start="6" executable="82" executed="0" crap="1122">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getCouponFavorableReturnInfo" signature="getCouponFavorableReturnInfo($params = [])" start="19" end="61" crap="90" executable="34" executed="0" coverage="0"/>
+      <method name="Budget" signature="Budget($charge, $code_info)" start="63" end="90" crap="182" executable="25" executed="0" coverage="0"/>
+      <method name="getOrderFavorableCondition" signature="getOrderFavorableCondition($params = [])" start="95" end="108" crap="30" executable="12" executed="0" coverage="0"/>
+      <method name="applyReceivableCondition" signature="applyReceivableCondition($params = [])" start="113" end="115" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="applyFavorableCardCondition" signature="applyFavorableCardCondition($params = [])" start="120" end="122" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="applyFavorableCodeCondition" signature="applyFavorableCodeCondition($params = [])" start="128" end="130" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="favorableConfig" signature="favorableConfig($key = '')" start="135" end="139" crap="6" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderChangeModel.class.php">
+    <totals>
+      <lines total="127" comments="24" code="103" executable="75" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderChangeModel" start="6" executable="75" executed="0" crap="182">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="updateOrderBefore" signature="updateOrderBefore(&amp;$order_params, $last_order_info)" start="15" end="15" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="updateOrderAfter" signature="updateOrderAfter($order_params, $last_order_info)" start="24" end="24" crap="1" executable="0" executed="0" coverage="100"/>
+      <method name="updateOrder" signature="updateOrder($order_params)" start="67" end="102" crap="42" executable="23" executed="0" coverage="0"/>
+      <method name="formatOrderValue" signature="formatOrderValue(&amp;$order_params)" start="108" end="118" crap="20" executable="8" executed="0" coverage="0"/>
+      <method name="DataToBack" signature="DataToBack($info, $status)" start="123" end="125" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ShippingCartController.class.php">
+    <totals>
+      <lines total="234" comments="71" code="163" executable="108" executed="0" percent="0.00%"/>
+      <methods count="8" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ShippingCartController" start="15" executable="108" executed="0" crap="756">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="41" end="45" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="manage" signature="manage($params = [])" start="53" end="70" crap="20" executable="14" executed="0" coverage="0"/>
+      <method name="add" signature="add($params = [])" start="78" end="156" crap="272" executable="60" executed="0" coverage="0"/>
+      <method name="del" signature="del($params = [])" start="164" end="172" crap="2" executable="7" executed="0" coverage="0"/>
+      <method name="delAll" signature="delAll($params = [])" start="180" end="186" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="update" signature="update($params = [])" start="194" end="212" crap="6" executable="15" executed="0" coverage="0"/>
+      <method name="get" signature="get($params = [])" start="220" end="223" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="refresh" signature="refresh($params = [])" start="231" end="233" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

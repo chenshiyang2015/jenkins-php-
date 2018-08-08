@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="FinanceCostModel.class.php">
+    <totals>
+      <lines total="243" comments="109" code="134" executable="110" executed="0" percent="0.00%"/>
+      <methods count="7" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="FinanceCostModel" start="12" executable="110" executed="0" crap="702">
+      <package full="Cost" name="Cost" sub="" category=""/>
+      <namespace name="Cost\Model"/>
+      <method name="_initialize" signature="_initialize()" start="24" end="26" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="actualRestaurant" signature="actualRestaurant($params = [])" start="54" end="76" crap="42" executable="20" executed="0" coverage="0"/>
+      <method name="financePayment" signature="financePayment($params = [])" start="103" end="125" crap="42" executable="21" executed="0" coverage="0"/>
+      <method name="commissionCost" signature="commissionCost($params = [])" start="153" end="174" crap="42" executable="20" executed="0" coverage="0"/>
+      <method name="merchantSubsidy" signature="merchantSubsidy()" start="179" end="187" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="payRestaurant" signature="payRestaurant()" start="192" end="203" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="calcFinancePrice" signature="calcFinancePrice($params = [])" start="208" end="241" crap="6" executable="30" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

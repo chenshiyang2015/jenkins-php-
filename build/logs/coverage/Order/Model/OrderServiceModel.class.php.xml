@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderServiceModel.class.php">
+    <totals>
+      <lines total="1994" comments="408" code="1586" executable="1500" executed="0" percent="0.00%"/>
+      <methods count="31" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderServiceModel" start="6" executable="1500" executed="0" crap="85556">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="manageOrderMainWork" signature="manageOrderMainWork($params = [])" start="19" end="177" crap="506" executable="126" executed="0" coverage="0"/>
+      <method name="splitOrderReturnOrder" signature="splitOrderReturnOrder($params = [], $act = 'create')" start="186" end="431" crap="1722" executable="225" executed="0" coverage="0"/>
+      <method name="splitOrderItemReturnItem" signature="splitOrderItemReturnItem($params = [])" start="439" end="541" crap="56" executable="62" executed="0" coverage="0"/>
+      <method name="applyCoupon" signature="applyCoupon($params = [])" start="549" end="573" crap="30" executable="23" executed="0" coverage="0"/>
+      <method name="buildOrderSn" signature="buildOrderSn($params)" start="581" end="604" crap="20" executable="21" executed="0" coverage="0"/>
+      <method name="getCostParams" signature="getCostParams(&amp;$params)" start="613" end="682" crap="110" executable="52" executed="0" coverage="0"/>
+      <method name="addDataAndQueue" signature="addDataAndQueue($params = [])" start="687" end="730" crap="156" executable="42" executed="0" coverage="0"/>
+      <method name="addOrderPriceChange" signature="addOrderPriceChange($params = [])" start="735" end="788" crap="272" executable="52" executed="0" coverage="0"/>
+      <method name="orderTypeAddQueue" signature="orderTypeAddQueue($params = [])" start="796" end="804" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="orderUrgent" signature="orderUrgent($params = [])" start="809" end="840" crap="12" executable="28" executed="0" coverage="0"/>
+      <method name="getOrderList" signature="getOrderList($params = [])" start="848" end="998" crap="1190" executable="122" executed="0" coverage="0"/>
+      <method name="getSearchOrderField" signature="getSearchOrderField($params = null)" start="1004" end="1045" crap="6" executable="40" executed="0" coverage="0"/>
+      <method name="getOrderInfoMore" signature="getOrderInfoMore($params = [])" start="1050" end="1127" crap="552" executable="75" executed="0" coverage="0"/>
+      <method name="getOrderInfoFormatMysql" signature="getOrderInfoFormatMysql($order_no)" start="1135" end="1273" crap="132" executable="101" executed="0" coverage="0"/>
+      <method name="backOrderDetail" signature="backOrderDetail($params = [])" start="1278" end="1301" crap="56" executable="22" executed="0" coverage="0"/>
+      <method name="_returnItemStockParams" signature="_returnItemStockParams($params = [])" start="1306" end="1320" crap="12" executable="12" executed="0" coverage="0"/>
+      <method name="orderAudit" signature="orderAudit($params)" start="1325" end="1363" crap="42" executable="35" executed="0" coverage="0"/>
+      <method name="splitOrderPaid" signature="splitOrderPaid($params = [])" start="1369" end="1414" crap="90" executable="40" executed="0" coverage="0"/>
+      <method name="PaymentBackUpdateOrder" signature="PaymentBackUpdateOrder($params = [])" start="1419" end="1458" crap="20" executable="34" executed="0" coverage="0"/>
+      <method name="getOrderPaymentMode" signature="getOrderPaymentMode($params)" start="1463" end="1482" crap="30" executable="18" executed="0" coverage="0"/>
+      <method name="cancelOrder" signature="cancelOrder($params = [])" start="1487" end="1598" crap="182" executable="94" executed="0" coverage="0"/>
+      <method name="switchCancelCause" signature="switchCancelCause($new_cause)" start="1606" end="1610" crap="6" executable="4" executed="0" coverage="0"/>
+      <method name="splitPaymentPrice" signature="splitPaymentPrice($params = [])" start="1615" end="1635" crap="20" executable="19" executed="0" coverage="0"/>
+      <method name="paymentModeToOrderMode" signature="paymentModeToOrderMode($mode = '')" start="1643" end="1647" crap="6" executable="3" executed="0" coverage="0"/>
+      <method name="platformTypeConfig" signature="platformTypeConfig($source)" start="1655" end="1681" crap="56" executable="25" executed="0" coverage="0"/>
+      <method name="orderSnapshot" signature="orderSnapshot($params, $order_info)" start="1695" end="1719" crap="6" executable="22" executed="0" coverage="0"/>
+      <method name="saveOrderDataAndQueue" signature="saveOrderDataAndQueue($params = [])" start="1727" end="1761" crap="12" executable="31" executed="0" coverage="0"/>
+      <method name="saveOrderData" signature="saveOrderData($params = [])" start="1766" end="1827" crap="182" executable="50" executed="0" coverage="0"/>
+      <method name="getOrderSnapshot" signature="getOrderSnapshot($params)" start="1836" end="1855" crap="30" executable="15" executed="0" coverage="0"/>
+      <method name="orderSnapshotFormat" signature="orderSnapshotFormat($previous_list)" start="1863" end="1917" crap="30" executable="47" executed="0" coverage="0"/>
+      <method name="orderSnapshotFormatShipping" signature="orderSnapshotFormatShipping($previous_list)" start="1925" end="1992" crap="110" executable="54" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CacheService.class.php">
+    <totals>
+      <lines total="470" comments="194" code="276" executable="228" executed="0" percent="0.00%"/>
+      <methods count="34" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CacheService" start="7" executable="228" executed="0" crap="3192">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="13" end="17" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="getOrderRequestCache" signature="getOrderRequestCache()" start="22" end="30" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="setOrderRequestCache" signature="setOrderRequestCache()" start="35" end="39" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="setReduceOrderRequestCache" signature="setReduceOrderRequestCache()" start="44" end="48" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="setInsertOrderErrorOrderDetailCache" signature="setInsertOrderErrorOrderDetailCache($params = [])" start="54" end="58" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertOrderItemErrorItemDetailCache" signature="setInsertOrderItemErrorItemDetailCache($params = [])" start="64" end="68" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertOrderNormalErrorItemDetailCache" signature="setInsertOrderNormalErrorItemDetailCache($params = [])" start="74" end="78" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertOrderGroupErrorItemDetailCache" signature="setInsertOrderGroupErrorItemDetailCache($params = [])" start="84" end="88" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertOrderPriceErrorPriceDetailCache" signature="setInsertOrderPriceErrorPriceDetailCache($params = [])" start="94" end="98" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertBuyerAddressErrorPriceDetailCache" signature="setInsertBuyerAddressErrorPriceDetailCache($params = [])" start="104" end="108" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertBuyerInvoiceErrorAddressDetailCache" signature="setInsertBuyerInvoiceErrorAddressDetailCache($params = [])" start="114" end="118" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setInsertOrderAttributeErrorAttributeDetailCache" signature="setInsertOrderAttributeErrorAttributeDetailCache($params = [])" start="124" end="128" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setBalanceRefundErrorCache" signature="setBalanceRefundErrorCache($params = [])" start="134" end="138" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getOrderRequestUpdateCache" signature="getOrderRequestUpdateCache($params = [])" start="144" end="153" crap="6" executable="9" executed="0" coverage="0"/>
+      <method name="setOrderRequestUpdateCache" signature="setOrderRequestUpdateCache($params = [])" start="159" end="164" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="delOrderRequestUpdateCache" signature="delOrderRequestUpdateCache($params = [])" start="169" end="173" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getConfigCache" signature="getConfigCache()" start="179" end="184" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="setConfigCache" signature="setConfigCache($params = [])" start="190" end="195" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="getServiceManInfoCache" signature="getServiceManInfoCache($params = [])" start="200" end="210" crap="6" executable="10" executed="0" coverage="0"/>
+      <method name="setServiceManInfoCache" signature="setServiceManInfoCache($params = [])" start="216" end="223" crap="2" executable="7" executed="0" coverage="0"/>
+      <method name="getDeliverManInfoCache" signature="getDeliverManInfoCache($params = [])" start="228" end="234" crap="2" executable="6" executed="0" coverage="0"/>
+      <method name="setDeliverManInfoCache" signature="setDeliverManInfoCache($params = [])" start="240" end="247" crap="2" executable="7" executed="0" coverage="0"/>
+      <method name="getRestaurantInfoCache" signature="getRestaurantInfoCache($params = [])" start="253" end="262" crap="6" executable="9" executed="0" coverage="0"/>
+      <method name="setRestaurantInfoCache" signature="setRestaurantInfoCache($params = [])" start="268" end="274" crap="2" executable="6" executed="0" coverage="0"/>
+      <method name="getRefundBalanceInfoCache" signature="getRefundBalanceInfoCache($params = [])" start="280" end="290" crap="6" executable="10" executed="0" coverage="0"/>
+      <method name="setRefundBalanceInfoCache" signature="setRefundBalanceInfoCache($params = [])" start="296" end="302" crap="2" executable="6" executed="0" coverage="0"/>
+      <method name="setOrderNoCache" signature="setOrderNoCache($params = [])" start="307" end="313" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="setOrderSellerNo" signature="setOrderSellerNo($seller_id)" start="321" end="328" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="setCheckBlackCache" signature="setCheckBlackCache($params=[])" start="334" end="343" crap="42" executable="9" executed="0" coverage="0"/>
+      <method name="getCheckBlackCache" signature="getCheckBlackCache($params=[])" start="350" end="358" crap="30" executable="8" executed="0" coverage="0"/>
+      <method name="addUserPayPrice" signature="addUserPayPrice(array $params = [])" start="366" end="373" crap="2" executable="7" executed="0" coverage="0"/>
+      <method name="getUserPayPriceList" signature="getUserPayPriceList(array $params = [])" start="391" end="413" crap="42" executable="19" executed="0" coverage="0"/>
+      <method name="delUserPayPriceKeys" signature="delUserPayPriceKeys()" start="418" end="440" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="orderCacheKeyConfig" signature="orderCacheKeyConfig($key = null)" start="445" end="470" crap="6" executable="24" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

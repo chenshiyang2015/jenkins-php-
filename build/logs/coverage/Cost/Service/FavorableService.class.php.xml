@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="FavorableService.class.php">
+    <totals>
+      <lines total="239" comments="70" code="169" executable="152" executed="0" percent="0.00%"/>
+      <methods count="7" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="FavorableService" start="13" executable="152" executed="0" crap="1260">
+      <package full="Cost" name="Cost" sub="" category=""/>
+      <namespace name="Cost\Service"/>
+      <method name="_initialize" signature="_initialize()" start="18" end="20" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="validateVipFavorableReturnInfo" signature="validateVipFavorableReturnInfo($params = [])" start="29" end="67" crap="56" executable="35" executed="0" coverage="0"/>
+      <method name="validateCardFavorableReturnInfo" signature="validateCardFavorableReturnInfo($params = [])" start="76" end="104" crap="20" executable="23" executed="0" coverage="0"/>
+      <method name="validateCouponFavorableReturnInfo" signature="validateCouponFavorableReturnInfo($params = [])" start="111" end="160" crap="90" executable="43" executed="0" coverage="0"/>
+      <method name="validateCouponActivityFavorableReturnInfo" signature="validateCouponActivityFavorableReturnInfo($params = [])" start="165" end="190" crap="42" executable="24" executed="0" coverage="0"/>
+      <method name="validateOrderFullFreeDeliveryCostActivity" signature="validateOrderFullFreeDeliveryCostActivity($params = [])" start="198" end="228" crap="42" executable="22" executed="0" coverage="0"/>
+      <method name="favorableConfig" signature="favorableConfig($key = '')" start="233" end="237" crap="6" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

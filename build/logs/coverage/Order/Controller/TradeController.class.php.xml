@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="TradeController.class.php">
+    <totals>
+      <lines total="1863" comments="589" code="1274" executable="1046" executed="0" percent="0.00%"/>
+      <methods count="49" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="TradeController" start="13" executable="1046" executed="0" crap="59780">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="21" end="25" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="createTardeService" signature="createTardeService($param)" start="62" end="115" crap="210" executable="37" executed="0" coverage="0"/>
+      <method name="setTardeServiceOneToOne" signature="setTardeServiceOneToOne($paymentlist, $orderlist, $tradeType, &amp;$value)" start="126" end="175" crap="30" executable="28" executed="0" coverage="0"/>
+      <method name="setTardeServiceOneToMore" signature="setTardeServiceOneToMore($paymentlist, $orderlist, $tradeType, &amp;$value)" start="186" end="281" crap="110" executable="50" executed="0" coverage="0"/>
+      <method name="setTardeServiceMoreToOne" signature="setTardeServiceMoreToOne($paymentlist, $orderlist, $tradeType, &amp;$value)" start="292" end="345" crap="42" executable="31" executed="0" coverage="0"/>
+      <method name="setTardeServiceMoreToMore" signature="setTardeServiceMoreToMore($paymentlist, $orderlist, $tradeType, &amp;$value)" start="356" end="424" crap="72" executable="38" executed="0" coverage="0"/>
+      <method name="getTradeList" signature="getTradeList($param)" start="433" end="443" crap="72" executable="8" executed="0" coverage="0"/>
+      <method name="getTradeListByField" signature="getTradeListByField($params)" start="451" end="459" crap="2" executable="6" executed="0" coverage="0"/>
+      <method name="getPayResult" signature="getPayResult($params)" start="469" end="496" crap="12" executable="21" executed="0" coverage="0"/>
+      <method name="getPayResultByOrder" signature="getPayResultByOrder($params)" start="501" end="514" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="getAmountCountNoPay" signature="getAmountCountNoPay($shouldPay, $alreadyPay)" start="523" end="527" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="getPayTransaction" signature="getPayTransaction($params, $Tid = '')" start="547" end="600" crap="56" executable="44" executed="0" coverage="0"/>
+      <method name="getPayTransactionOne" signature="getPayTransactionOne($params, $Tid = '')" start="620" end="690" crap="56" executable="55" executed="0" coverage="0"/>
+      <method name="createTradeForRefund" signature="createTradeForRefund($params)" start="703" end="774" crap="90" executable="50" executed="0" coverage="0"/>
+      <method name="getPayPaymentResult" signature="getPayPaymentResult($params)" start="782" end="855" crap="90" executable="55" executed="0" coverage="0"/>
+      <method name="getTradeResultList" signature="getTradeResultList($params)" start="863" end="950" crap="380" executable="73" executed="0" coverage="0"/>
+      <method name="getTradeResult" signature="getTradeResult($params)" start="958" end="1016" crap="210" executable="48" executed="0" coverage="0"/>
+      <method name="_checkPaymentInfo" signature="_checkPaymentInfo($params)" start="1025" end="1044" crap="56" executable="15" executed="0" coverage="0"/>
+      <method name="_checkOrderInfo" signature="_checkOrderInfo($params)" start="1052" end="1105" crap="420" executable="42" executed="0" coverage="0"/>
+      <method name="_checkPayAmount" signature="_checkPayAmount($paramsOrder, $paramsPay)" start="1114" end="1144" crap="56" executable="23" executed="0" coverage="0"/>
+      <method name="_changeParamsPay" signature="_changeParamsPay($payParams, $orderParams, $tradeSign, $Tid = '')" start="1162" end="1178" crap="2" executable="14" executed="0" coverage="0"/>
+      <method name="_changeParamsPayOne" signature="_changeParamsPayOne($payParams, $orderParams, $tradeSign, $Tid = '')" start="1197" end="1213" crap="2" executable="14" executed="0" coverage="0"/>
+      <method name="_changeParamsTrade" signature="_changeParamsTrade($payParams, $orderParams, $tradeSign, $info, $tradeType, $amount, $payType)" start="1236" end="1255" crap="2" executable="18" executed="0" coverage="0"/>
+      <method name="_partitionParams" signature="_partitionParams(&amp;$orderParams, $surplusAmount)" start="1264" end="1303" crap="42" executable="28" executed="0" coverage="0"/>
+      <method name="_getApproach" signature="_getApproach($array, $val, $k)" start="1311" end="1335" crap="20" executable="19" executed="0" coverage="0"/>
+      <method name="_getApproachByValue" signature="_getApproachByValue($array, $val, $k)" start="1343" end="1367" crap="20" executable="19" executed="0" coverage="0"/>
+      <method name="_createTempOrderInfo" signature="_createTempOrderInfo($params, $amount)" start="1372" end="1389" crap="2" executable="17" executed="0" coverage="0"/>
+      <method name="_getPayOnlineOffline" signature="_getPayOnlineOffline($serviceId)" start="1397" end="1408" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="_getPayServiceConfig" signature="_getPayServiceConfig($config = '')" start="1413" end="1416" crap="6" executable="3" executed="0" coverage="0"/>
+      <method name="_getPayRefund" signature="_getPayRefund($params)" start="1435" end="1473" crap="12" executable="31" executed="0" coverage="0"/>
+      <method name="_createRefundIdReturnPayment" signature="_createRefundIdReturnPayment($params = [])" start="1479" end="1482" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="_getTradeListEqtAmount" signature="_getTradeListEqtAmount($params)" start="1493" end="1506" crap="2" executable="10" executed="0" coverage="0"/>
+      <method name="_partitionParamsByRefund" signature="_partitionParamsByRefund($tradeParams, $surplusAmount)" start="1515" end="1552" crap="42" executable="27" executed="0" coverage="0"/>
+      <method name="_createTempTradeInfo" signature="_createTempTradeInfo($params, $amount)" start="1562" end="1578" crap="2" executable="16" executed="0" coverage="0"/>
+      <method name="_changeTradeForRefund" signature="_changeTradeForRefund($params, $tradeSign, $info, $reason, $orderRefundId)" start="1584" end="1591" crap="2" executable="7" executed="0" coverage="0"/>
+      <method name="_getParamsPayRefund" signature="_getParamsPayRefund($params, $refund)" start="1601" end="1612" crap="2" executable="10" executed="0" coverage="0"/>
+      <method name="_getPaymentResult" signature="_getPaymentResult($params)" start="1620" end="1644" crap="12" executable="18" executed="0" coverage="0"/>
+      <method name="_checkPayResult" signature="_checkPayResult($orderList)" start="1649" end="1667" crap="42" executable="15" executed="0" coverage="0"/>
+      <method name="_getTradeTransactionIdOn" signature="_getTradeTransactionIdOn($orderId, $paymentId, $amount)" start="1669" end="1692" crap="42" executable="17" executed="0" coverage="0"/>
+      <method name="_checkRepeatPay" signature="_checkRepeatPay($arr, $key = 'payment_mode')" start="1701" end="1716" crap="30" executable="11" executed="0" coverage="0"/>
+      <method name="_checkRepeatOrder" signature="_checkRepeatOrder($arr, $key = 'order_no')" start="1725" end="1739" crap="30" executable="11" executed="0" coverage="0"/>
+      <method name="array_unique_bykey" signature="array_unique_bykey($arr, $key)" start="1748" end="1761" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="_checkRefundAmount" signature="_checkRefundAmount($params, $tradeList)" start="1770" end="1782" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="createTardeServiceLog" signature="createTardeServiceLog($params = [])" start="1788" end="1796" crap="12" executable="8" executed="0" coverage="0"/>
+      <method name="createTardeForRefundLog" signature="createTardeForRefundLog($params = [])" start="1802" end="1808" crap="12" executable="6" executed="0" coverage="0"/>
+      <method name="getPayTransactionLog" signature="getPayTransactionLog($params = [])" start="1813" end="1821" crap="12" executable="8" executed="0" coverage="0"/>
+      <method name="getPayTransactionErrorLog" signature="getPayTransactionErrorLog($params = [])" start="1827" end="1835" crap="12" executable="8" executed="0" coverage="0"/>
+      <method name="getPaymentResultPayLog" signature="getPaymentResultPayLog($params = [])" start="1841" end="1849" crap="12" executable="8" executed="0" coverage="0"/>
+      <method name="getPaymentResultLog" signature="getPaymentResultLog($params = [])" start="1855" end="1862" crap="6" executable="7" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

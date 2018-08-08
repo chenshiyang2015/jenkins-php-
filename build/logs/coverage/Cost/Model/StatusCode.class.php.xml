@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="StatusCode.class.php">
+    <totals>
+      <lines total="16" comments="2" code="14" executable="2" executed="0" percent="0.00%"/>
+      <methods count="1" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="StatusCode" start="5" executable="2" executed="0" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Cost\Model"/>
+      <method name="returnFormat" signature="returnFormat($info = '', $status = self::SUCCESS_CODE)" start="12" end="14" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

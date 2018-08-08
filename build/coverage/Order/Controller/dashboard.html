@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for G:\Git\test1s_order_soa\Application/Order/Controller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../js/html5shiv.min.js"></script>
+  <script src="../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">G:\Git\test1s_order_soa\Application</a></li>
+        <li><a href="../index.html">Order</a></li>
+        <li><a href="index.html">Controller</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ShippingCartController.class.php.html#15">ShippingCartController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ScriptController.class.php.html#12">ScriptController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#13">TradeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#14">TradeReturnController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserController.class.php.html#11">UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeServiceController.class.php.html#8">TradeServiceController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#16">RefundReturnController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#12">PaymentWriteBackController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#12">OrderChangeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#13">OrderAuditController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#11">OrderController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#7">OrderCountController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderStatisticsController.class.php.html#7">OrderStatisticsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#12">OrderPayController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#12">LogViewController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#13">UnpaymentRecordController</a></td><td class="text-right">10%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="TradeController.class.php.html#13">TradeController</a></td><td class="text-right">59780</td></tr>
+       <tr><td><a href="OrderController.class.php.html#11">OrderController</a></td><td class="text-right">54990</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#12">OrderPayController</a></td><td class="text-right">9120</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#13">OrderAuditController</a></td><td class="text-right">4422</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#14">TradeReturnController</a></td><td class="text-right">2450</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#12">PaymentWriteBackController</a></td><td class="text-right">2450</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#15">ShippingCartController</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#16">RefundReturnController</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#12">LogViewController</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="TradeServiceController.class.php.html#8">TradeServiceController</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#13">UnpaymentRecordController</a></td><td class="text-right">114</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#7">OrderCountController</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#12">OrderChangeController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UserController.class.php.html#11">UserController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="OrderStatisticsController.class.php.html#7">OrderStatisticsController</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="TradeController.class.php.html#703"><abbr title="TradeController::createTradeForRefund">createTradeForRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#782"><abbr title="TradeController::getPayPaymentResult">getPayPaymentResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#863"><abbr title="TradeController::getTradeResultList">getTradeResultList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#958"><abbr title="TradeController::getTradeResult">getTradeResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#620"><abbr title="TradeController::getPayTransactionOne">getPayTransactionOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#547"><abbr title="TradeController::getPayTransaction">getPayTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#469"><abbr title="TradeController::getPayResult">getPayResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#501"><abbr title="TradeController::getPayResultByOrder">getPayResultByOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#523"><abbr title="TradeController::getAmountCountNoPay">getAmountCountNoPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1025"><abbr title="TradeController::_checkPaymentInfo">_checkPaymentInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1052"><abbr title="TradeController::_checkOrderInfo">_checkOrderInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1311"><abbr title="TradeController::_getApproach">_getApproach</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1343"><abbr title="TradeController::_getApproachByValue">_getApproachByValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1372"><abbr title="TradeController::_createTempOrderInfo">_createTempOrderInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1397"><abbr title="TradeController::_getPayOnlineOffline">_getPayOnlineOffline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1264"><abbr title="TradeController::_partitionParams">_partitionParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1236"><abbr title="TradeController::_changeParamsTrade">_changeParamsTrade</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1114"><abbr title="TradeController::_checkPayAmount">_checkPayAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1162"><abbr title="TradeController::_changeParamsPay">_changeParamsPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1197"><abbr title="TradeController::_changeParamsPayOne">_changeParamsPayOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#451"><abbr title="TradeController::getTradeListByField">getTradeListByField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#433"><abbr title="TradeController::getTradeList">getTradeList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#41"><abbr title="ShippingCartController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#53"><abbr title="ShippingCartController::manage">manage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#78"><abbr title="ShippingCartController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#164"><abbr title="ShippingCartController::del">del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ScriptController.class.php.html#22"><abbr title="ScriptController::test">test</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ScriptController.class.php.html#16"><abbr title="ScriptController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#160"><abbr title="RefundReturnController::setRefundCallback">setRefundCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#197"><abbr title="RefundReturnController::_createRefundInfo">_createRefundInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#215"><abbr title="RefundReturnController::checkReturnParams">checkReturnParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#180"><abbr title="ShippingCartController::delAll">delAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#194"><abbr title="ShippingCartController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#186"><abbr title="TradeController::setTardeServiceOneToMore">setTardeServiceOneToMore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#292"><abbr title="TradeController::setTardeServiceMoreToOne">setTardeServiceMoreToOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#356"><abbr title="TradeController::setTardeServiceMoreToMore">setTardeServiceMoreToMore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#126"><abbr title="TradeController::setTardeServiceOneToOne">setTardeServiceOneToOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#62"><abbr title="TradeController::createTardeService">createTardeService</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#220"><abbr title="ShippingCartController::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#231"><abbr title="ShippingCartController::refresh">refresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#21"><abbr title="TradeController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1413"><abbr title="TradeController::_getPayServiceConfig">_getPayServiceConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1435"><abbr title="TradeController::_getPayRefund">_getPayRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#317"><abbr title="TradeReturnController::_createOrderPaymentInfo">_createOrderPaymentInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#404"><abbr title="TradeReturnController::_getOnlineParams">_getOnlineParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#427"><abbr title="TradeReturnController::createTardeForRefundSuccessLog">createTardeForRefundSuccessLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#441"><abbr title="TradeReturnController::createTardeForRefundLog">createTardeForRefundLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#263"><abbr title="TradeReturnController::_getParamsApproach">_getParamsApproach</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#239"><abbr title="TradeReturnController::_mySort">_mySort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#169"><abbr title="TradeReturnController::setOrderRelatedPayInfo">setOrderRelatedPayInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#202"><abbr title="TradeReturnController::setOrderPayCallback">setOrderPayCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#220"><abbr title="TradeReturnController::_getOrderAmount">_getOrderAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#456"><abbr title="TradeReturnController::doPaymentCallbackLog">doPaymentCallbackLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#469"><abbr title="TradeReturnController::createTardeForRefundAll">createTardeForRefundAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#182"><abbr title="UnpaymentRecordController::getOrderUnpayment">getOrderUnpayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserController.class.php.html#25"><abbr title="UserController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserController.class.php.html#41"><abbr title="UserController::getUserPayPrice">getUserPayPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#151"><abbr title="UnpaymentRecordController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#132"><abbr title="UnpaymentRecordController::info">info</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeServiceController.class.php.html#11"><abbr title="TradeServiceController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeServiceController.class.php.html#24"><abbr title="TradeServiceController::getAllTradeList">getAllTradeList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#102"><abbr title="UnpaymentRecordController::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#50"><abbr title="TradeReturnController::TradeReturn">TradeReturn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#23"><abbr title="TradeReturnController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1601"><abbr title="TradeController::_getParamsPayRefund">_getParamsPayRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1620"><abbr title="TradeController::_getPaymentResult">_getPaymentResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1649"><abbr title="TradeController::_checkPayResult">_checkPayResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1669"><abbr title="TradeController::_getTradeTransactionIdOn">_getTradeTransactionIdOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1584"><abbr title="TradeController::_changeTradeForRefund">_changeTradeForRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1562"><abbr title="TradeController::_createTempTradeInfo">_createTempTradeInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1479"><abbr title="TradeController::_createRefundIdReturnPayment">_createRefundIdReturnPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1493"><abbr title="TradeController::_getTradeListEqtAmount">_getTradeListEqtAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1515"><abbr title="TradeController::_partitionParamsByRefund">_partitionParamsByRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1701"><abbr title="TradeController::_checkRepeatPay">_checkRepeatPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1725"><abbr title="TradeController::_checkRepeatOrder">_checkRepeatOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1827"><abbr title="TradeController::getPayTransactionErrorLog">getPayTransactionErrorLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1841"><abbr title="TradeController::getPaymentResultPayLog">getPaymentResultPayLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1855"><abbr title="TradeController::getPaymentResultLog">getPaymentResultLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1813"><abbr title="TradeController::getPayTransactionLog">getPayTransactionLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1802"><abbr title="TradeController::createTardeForRefundLog">createTardeForRefundLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1748"><abbr title="TradeController::array_unique_bykey">array_unique_bykey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1770"><abbr title="TradeController::_checkRefundAmount">_checkRefundAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1788"><abbr title="TradeController::createTardeServiceLog">createTardeServiceLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#41"><abbr title="RefundReturnController::RefundReturn">RefundReturn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#25"><abbr title="RefundReturnController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#902"><abbr title="OrderController::getHistoryOrderList">getHistoryOrderList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#919"><abbr title="OrderController::checkOrderAmountDo">checkOrderAmountDo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#954"><abbr title="OrderController::cancelOrderStatusCheck">cancelOrderStatusCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#967"><abbr title="OrderController::DoReturnPaymentPrice">DoReturnPaymentPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#826"><abbr title="OrderController::DoCancelOrder">DoCancelOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#744"><abbr title="OrderController::DoBalancePaymentCallback">DoBalancePaymentCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#476"><abbr title="OrderController::DoAudit">DoAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#507"><abbr title="OrderController::DoPayment">DoPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#613"><abbr title="OrderController::DoPaymentCallback">DoPaymentCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1016"><abbr title="OrderController::getOrderByNo">getOrderByNo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1034"><abbr title="OrderController::DoReturnOrderData">DoReturnOrderData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1240"><abbr title="OrderController::_checkOrderUpdateAudit">_checkOrderUpdateAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1258"><abbr title="OrderController::orderSnapshot">orderSnapshot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1282"><abbr title="OrderController::DoGetOrderSnapshot">DoGetOrderSnapshot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1214"><abbr title="OrderController::_checkPaymentBackParams">_checkPaymentBackParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1121"><abbr title="OrderController::interfaceParamsToOrderParams">interfaceParamsToOrderParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1061"><abbr title="OrderController::_after_work">_after_work</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1081"><abbr title="OrderController::_update_after_work">_update_after_work</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1110"><abbr title="OrderController::delUpdateOrderStock">delUpdateOrderStock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#436"><abbr title="OrderController::DoGetOrderInfo">DoGetOrderInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#420"><abbr title="OrderController::DoGetOrderList">DoGetOrderList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#60"><abbr title="OrderAuditController::AutoOrderAudit">AutoOrderAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#108"><abbr title="OrderAuditController::orderAuditRule">orderAuditRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#134"><abbr title="OrderAuditController::checkOrderAuditRule">checkOrderAuditRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#259"><abbr title="OrderAuditController::isPreOrder">isPreOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#39"><abbr title="OrderAuditController::getOrderAuditList">getOrderAuditList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#30"><abbr title="OrderAuditController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#89"><abbr title="LogViewController::chooseOrder">chooseOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#121"><abbr title="LogViewController::logByOrder">logByOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#179"><abbr title="LogViewController::warningLog">warningLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#279"><abbr title="OrderAuditController::auditConfigKey">auditConfigKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#298"><abbr title="OrderAuditController::getAuditConditionConfig">getAuditConditionConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#126"><abbr title="OrderController::DoUpdateOrder">DoUpdateOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#378"><abbr title="OrderController::DoUrgent">DoUrgent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#400"><abbr title="OrderController::_checkOrderUrgent">_checkOrderUrgent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#43"><abbr title="OrderController::DoCreateOrder">DoCreateOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#22"><abbr title="OrderController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#22"><abbr title="OrderChangeController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#37"><abbr title="OrderChangeController::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#65"><abbr title="OrderChangeController::soaMessageProcess">soaMessageProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1296"><abbr title="OrderController::DoGetPaymentModeToOrderModeList">DoGetPaymentModeToOrderModeList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1308"><abbr title="OrderController::DoUpdateOrderStatus">DoUpdateOrderStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#636"><abbr title="OrderPayController::_checkRefundBackParams">_checkRefundBackParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderStatisticsController.class.php.html#10"><abbr title="OrderStatisticsController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderStatisticsController.class.php.html#19"><abbr title="OrderStatisticsController::financeStatistics">financeStatistics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#18"><abbr title="PaymentWriteBackController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#617"><abbr title="OrderPayController::_getRefundTradeParams">_getRefundTradeParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#592"><abbr title="OrderPayController::_checkRefundList">_checkRefundList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#532"><abbr title="OrderPayController::_checkAlreadyAmount">_checkAlreadyAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#548"><abbr title="OrderPayController::DoGetRefundPrice">DoGetRefundPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#571"><abbr title="OrderPayController::DoGetRefundPriceNoAudit">DoGetRefundPriceNoAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#28"><abbr title="PaymentWriteBackController::OrderTradeToAppPayment">OrderTradeToAppPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#63"><abbr title="PaymentWriteBackController::PaymentWrite">PaymentWrite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#256"><abbr title="PaymentWriteBackController::OrderPaymentToCCOrderPayment">OrderPaymentToCCOrderPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#277"><abbr title="PaymentWriteBackController::OrderTradeStatusToPaymentStatus">OrderTradeStatusToPaymentStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#290"><abbr title="PaymentWriteBackController::_checkParams">_checkParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#232"><abbr title="PaymentWriteBackController::OrderReceivableTotal">OrderReceivableTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#206"><abbr title="PaymentWriteBackController::PaymentOrderDetail">PaymentOrderDetail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#151"><abbr title="PaymentWriteBackController::PaymentBackWrite">PaymentBackWrite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#180"><abbr title="PaymentWriteBackController::OrderCancelWrite">OrderCancelWrite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#193"><abbr title="PaymentWriteBackController::_checkPaymentWrite">_checkPaymentWrite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#509"><abbr title="OrderPayController::_checkTradeMoneyRefund">_checkTradeMoneyRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#497"><abbr title="OrderPayController::_checkOrderMoneyRefund">_checkOrderMoneyRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#83"><abbr title="OrderPayController::setRefund">setRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#135"><abbr title="OrderPayController::createRefundBack">createRefundBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#142"><abbr title="OrderPayController::getAutoRefundBack">getAutoRefundBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#180"><abbr title="OrderPayController::getTradeRefundPay">getTradeRefundPay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#22"><abbr title="OrderPayController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#48"><abbr title="OrderCountController::_checkParamInfo">_checkParamInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1404"><abbr title="OrderController::getMysqlOrderInfo">getMysqlOrderInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#11"><abbr title="OrderCountController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#20"><abbr title="OrderCountController::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#213"><abbr title="OrderPayController::createRefundPayCallback">createRefundPayCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#237"><abbr title="OrderPayController::createRefundBackByAudit">createRefundBackByAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#430"><abbr title="OrderPayController::_checkOrderMoney">_checkOrderMoney</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#454"><abbr title="OrderPayController::_checkOrderInfoRefund">_checkOrderInfoRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#470"><abbr title="OrderPayController::_checkOrderInfoBase">_checkOrderInfoBase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#411"><abbr title="OrderPayController::_checkOrderInfoReceivable">_checkOrderInfoReceivable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#397"><abbr title="OrderPayController::_checkOrderInfo">_checkOrderInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#269"><abbr title="OrderPayController::setReduction">setReduction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#310"><abbr title="OrderPayController::setReductionLog">setReductionLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#337"><abbr title="OrderPayController::getAuditReduction">getAuditReduction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#68"><abbr title="LogViewController::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="OrderController.class.php.html#126"><abbr title="OrderController::DoUpdateOrder">DoUpdateOrder</abbr></a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1121"><abbr title="OrderController::interfaceParamsToOrderParams">interfaceParamsToOrderParams</abbr></a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="OrderController.class.php.html#613"><abbr title="OrderController::DoPaymentCallback">DoPaymentCallback</abbr></a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#134"><abbr title="OrderAuditController::checkOrderAuditRule">checkOrderAuditRule</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1052"><abbr title="TradeController::_checkOrderInfo">_checkOrderInfo</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="TradeController.class.php.html#863"><abbr title="TradeController::getTradeResultList">getTradeResultList</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1308"><abbr title="OrderController::DoUpdateOrderStatus">DoUpdateOrderStatus</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#78"><abbr title="ShippingCartController::add">add</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="TradeController.class.php.html#62"><abbr title="TradeController::createTardeService">createTardeService</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#50"><abbr title="TradeReturnController::TradeReturn">TradeReturn</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="TradeController.class.php.html#958"><abbr title="TradeController::getTradeResult">getTradeResult</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#63"><abbr title="PaymentWriteBackController::PaymentWrite">PaymentWrite</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#279"><abbr title="OrderAuditController::auditConfigKey">auditConfigKey</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#337"><abbr title="OrderPayController::getAuditReduction">getAuditReduction</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="OrderController.class.php.html#826"><abbr title="OrderController::DoCancelOrder">DoCancelOrder</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="OrderController.class.php.html#744"><abbr title="OrderController::DoBalancePaymentCallback">DoBalancePaymentCallback</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#298"><abbr title="OrderAuditController::getAuditConditionConfig">getAuditConditionConfig</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#41"><abbr title="RefundReturnController::RefundReturn">RefundReturn</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="TradeServiceController.class.php.html#24"><abbr title="TradeServiceController::getAllTradeList">getAllTradeList</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="OrderController.class.php.html#436"><abbr title="OrderController::DoGetOrderInfo">DoGetOrderInfo</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="TradeController.class.php.html#186"><abbr title="TradeController::setTardeServiceOneToMore">setTardeServiceOneToMore</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="OrderController.class.php.html#43"><abbr title="OrderController::DoCreateOrder">DoCreateOrder</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#636"><abbr title="OrderPayController::_checkRefundBackParams">_checkRefundBackParams</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#121"><abbr title="LogViewController::logByOrder">logByOrder</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="OrderController.class.php.html#507"><abbr title="OrderController::DoPayment">DoPayment</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="TradeController.class.php.html#703"><abbr title="TradeController::createTradeForRefund">createTradeForRefund</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="TradeController.class.php.html#782"><abbr title="TradeController::getPayPaymentResult">getPayPaymentResult</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="TradeController.class.php.html#433"><abbr title="TradeController::getTradeList">getTradeList</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#151"><abbr title="PaymentWriteBackController::PaymentBackWrite">PaymentBackWrite</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#83"><abbr title="OrderPayController::setRefund">setRefund</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="RefundReturnController.class.php.html#215"><abbr title="RefundReturnController::checkReturnParams">checkReturnParams</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="TradeController.class.php.html#356"><abbr title="TradeController::setTardeServiceMoreToMore">setTardeServiceMoreToMore</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1025"><abbr title="TradeController::_checkPaymentInfo">_checkPaymentInfo</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TradeController.class.php.html#547"><abbr title="TradeController::getPayTransaction">getPayTransaction</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TradeController.class.php.html#620"><abbr title="TradeController::getPayTransactionOne">getPayTransactionOne</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1114"><abbr title="TradeController::_checkPayAmount">_checkPayAmount</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1214"><abbr title="OrderController::_checkPaymentBackParams">_checkPaymentBackParams</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1649"><abbr title="TradeController::_checkPayResult">_checkPayResult</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1282"><abbr title="OrderController::DoGetOrderSnapshot">DoGetOrderSnapshot</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1669"><abbr title="TradeController::_getTradeTransactionIdOn">_getTradeTransactionIdOn</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#179"><abbr title="LogViewController::warningLog">warningLog</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#317"><abbr title="TradeReturnController::_createOrderPaymentInfo">_createOrderPaymentInfo</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1515"><abbr title="TradeController::_partitionParamsByRefund">_partitionParamsByRefund</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="UserController.class.php.html#41"><abbr title="UserController::getUserPayPrice">getUserPayPrice</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeController.class.php.html#292"><abbr title="TradeController::setTardeServiceMoreToOne">setTardeServiceMoreToOne</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1034"><abbr title="OrderController::DoReturnOrderData">DoReturnOrderData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#269"><abbr title="OrderPayController::setReduction">setReduction</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1264"><abbr title="TradeController::_partitionParams">_partitionParams</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#28"><abbr title="PaymentWriteBackController::OrderTradeToAppPayment">OrderTradeToAppPayment</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#60"><abbr title="OrderAuditController::AutoOrderAudit">AutoOrderAudit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#39"><abbr title="OrderAuditController::getOrderAuditList">getOrderAuditList</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LogViewController.class.php.html#89"><abbr title="LogViewController::chooseOrder">chooseOrder</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#232"><abbr title="PaymentWriteBackController::OrderReceivableTotal">OrderReceivableTotal</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#180"><abbr title="OrderPayController::getTradeRefundPay">getTradeRefundPay</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1725"><abbr title="TradeController::_checkRepeatOrder">_checkRepeatOrder</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1701"><abbr title="TradeController::_checkRepeatPay">_checkRepeatPay</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderController.class.php.html#919"><abbr title="OrderController::checkOrderAmountDo">checkOrderAmountDo</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#310"><abbr title="OrderPayController::setReductionLog">setReductionLog</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TradeController.class.php.html#126"><abbr title="TradeController::setTardeServiceOneToOne">setTardeServiceOneToOne</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#239"><abbr title="TradeReturnController::_mySort">_mySort</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1343"><abbr title="TradeController::_getApproachByValue">_getApproachByValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1311"><abbr title="TradeController::_getApproach">_getApproach</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#263"><abbr title="TradeReturnController::_getParamsApproach">_getParamsApproach</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#53"><abbr title="ShippingCartController::manage">manage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#592"><abbr title="OrderPayController::_checkRefundList">_checkRefundList</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#48"><abbr title="OrderCountController::_checkParamInfo">_checkParamInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#237"><abbr title="OrderPayController::createRefundBackByAudit">createRefundBackByAudit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#430"><abbr title="OrderPayController::_checkOrderMoney">_checkOrderMoney</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#206"><abbr title="PaymentWriteBackController::PaymentOrderDetail">PaymentOrderDetail</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1240"><abbr title="OrderController::_checkOrderUpdateAudit">_checkOrderUpdateAudit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#259"><abbr title="OrderAuditController::isPreOrder">isPreOrder</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#37"><abbr title="OrderChangeController::process">process</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderController.class.php.html#954"><abbr title="OrderController::cancelOrderStatusCheck">cancelOrderStatusCheck</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#470"><abbr title="OrderPayController::_checkOrderInfoBase">_checkOrderInfoBase</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderCountController.class.php.html#20"><abbr title="OrderCountController::getCount">getCount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#571"><abbr title="OrderPayController::DoGetRefundPriceNoAudit">DoGetRefundPriceNoAudit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#548"><abbr title="OrderPayController::DoGetRefundPrice">DoGetRefundPrice</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrderController.class.php.html#400"><abbr title="OrderController::_checkOrderUrgent">_checkOrderUrgent</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderController.class.php.html#378"><abbr title="OrderController::DoUrgent">DoUrgent</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1397"><abbr title="TradeController::_getPayOnlineOffline">_getPayOnlineOffline</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1620"><abbr title="TradeController::_getPaymentResult">_getPaymentResult</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#132"><abbr title="UnpaymentRecordController::info">info</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1435"><abbr title="TradeController::_getPayRefund">_getPayRefund</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#180"><abbr title="PaymentWriteBackController::OrderCancelWrite">OrderCancelWrite</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#290"><abbr title="PaymentWriteBackController::_checkParams">_checkParams</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1748"><abbr title="TradeController::array_unique_bykey">array_unique_bykey</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1827"><abbr title="TradeController::getPayTransactionErrorLog">getPayTransactionErrorLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1841"><abbr title="TradeController::getPaymentResultPayLog">getPaymentResultPayLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1813"><abbr title="TradeController::getPayTransactionLog">getPayTransactionLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1802"><abbr title="TradeController::createTardeForRefundLog">createTardeForRefundLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1770"><abbr title="TradeController::_checkRefundAmount">_checkRefundAmount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1788"><abbr title="TradeController::createTardeServiceLog">createTardeServiceLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#509"><abbr title="OrderPayController::_checkTradeMoneyRefund">_checkTradeMoneyRefund</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderController.class.php.html#967"><abbr title="OrderController::DoReturnPaymentPrice">DoReturnPaymentPrice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#501"><abbr title="TradeController::getPayResultByOrder">getPayResultByOrder</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#456"><abbr title="TradeReturnController::doPaymentCallbackLog">doPaymentCallbackLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#469"><abbr title="TradeReturnController::createTardeForRefundAll">createTardeForRefundAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeController.class.php.html#469"><abbr title="TradeController::getPayResult">getPayResult</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#454"><abbr title="OrderPayController::_checkOrderInfoRefund">_checkOrderInfoRefund</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#441"><abbr title="TradeReturnController::createTardeForRefundLog">createTardeForRefundLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#532"><abbr title="OrderPayController::_checkAlreadyAmount">_checkAlreadyAmount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1016"><abbr title="OrderController::getOrderByNo">getOrderByNo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#213"><abbr title="OrderPayController::createRefundPayCallback">createRefundPayCallback</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderStatisticsController.class.php.html#19"><abbr title="OrderStatisticsController::financeStatistics">financeStatistics</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#102"><abbr title="UnpaymentRecordController::process">process</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#427"><abbr title="TradeReturnController::createTardeForRefundSuccessLog">createTardeForRefundSuccessLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1258"><abbr title="OrderController::orderSnapshot">orderSnapshot</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#142"><abbr title="OrderPayController::getAutoRefundBack">getAutoRefundBack</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#404"><abbr title="TradeReturnController::_getOnlineParams">_getOnlineParams</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#220"><abbr title="TradeReturnController::_getOrderAmount">_getOrderAmount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UnpaymentRecordController.class.php.html#182"><abbr title="UnpaymentRecordController::getOrderUnpayment">getOrderUnpayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#202"><abbr title="TradeReturnController::setOrderPayCallback">setOrderPayCallback</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#193"><abbr title="PaymentWriteBackController::_checkPaymentWrite">_checkPaymentWrite</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1081"><abbr title="OrderController::_update_after_work">_update_after_work</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#397"><abbr title="OrderPayController::_checkOrderInfo">_checkOrderInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderController.class.php.html#1061"><abbr title="OrderController::_after_work">_after_work</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderController.class.php.html#420"><abbr title="OrderController::DoGetOrderList">DoGetOrderList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderAuditController.class.php.html#108"><abbr title="OrderAuditController::orderAuditRule">orderAuditRule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderChangeController.class.php.html#65"><abbr title="OrderChangeController::soaMessageProcess">soaMessageProcess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#411"><abbr title="OrderPayController::_checkOrderInfoReceivable">_checkOrderInfoReceivable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#497"><abbr title="OrderPayController::_checkOrderMoneyRefund">_checkOrderMoneyRefund</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1413"><abbr title="TradeController::_getPayServiceConfig">_getPayServiceConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TradeController.class.php.html#1855"><abbr title="TradeController::getPaymentResultLog">getPaymentResultLog</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ShippingCartController.class.php.html#194"><abbr title="ShippingCartController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#277"><abbr title="PaymentWriteBackController::OrderTradeStatusToPaymentStatus">OrderTradeStatusToPaymentStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderPayController.class.php.html#617"><abbr title="OrderPayController::_getRefundTradeParams">_getRefundTradeParams</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentWriteBackController.class.php.html#256"><abbr title="PaymentWriteBackController::OrderPaymentToCCOrderPayment">OrderPaymentToCCOrderPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TradeReturnController.class.php.html#169"><abbr title="TradeReturnController::setOrderRelatedPayInfo">setOrderRelatedPayInfo</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.8</a> using <a href="https://secure.php.net/" target="_top">PHP 5.6.17</a> with <a href="https://xdebug.org/">Xdebug 2.5.5</a> and <a href="https://phpunit.de/">PHPUnit 5.7.27</a> at Tue Aug 7 10:34:27 CST 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,1,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([168,0,0,0,0,0,0,0,0,0,0,3], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,22,"<a href=\"LogViewController.class.php.html#12\">LogViewController<\/a>"],[0,66,"<a href=\"OrderAuditController.class.php.html#13\">OrderAuditController<\/a>"],[0,7,"<a href=\"OrderChangeController.class.php.html#12\">OrderChangeController<\/a>"],[0,234,"<a href=\"OrderController.class.php.html#11\">OrderController<\/a>"],[0,9,"<a href=\"OrderCountController.class.php.html#7\">OrderCountController<\/a>"],[0,95,"<a href=\"OrderPayController.class.php.html#12\">OrderPayController<\/a>"],[0,4,"<a href=\"OrderStatisticsController.class.php.html#7\">OrderStatisticsController<\/a>"],[0,49,"<a href=\"PaymentWriteBackController.class.php.html#12\">PaymentWriteBackController<\/a>"],[0,22,"<a href=\"RefundReturnController.class.php.html#16\">RefundReturnController<\/a>"],[0,2,"<a href=\"ScriptController.class.php.html#12\">ScriptController<\/a>"],[0,27,"<a href=\"ShippingCartController.class.php.html#15\">ShippingCartController<\/a>"],[0,244,"<a href=\"TradeController.class.php.html#13\">TradeController<\/a>"],[0,49,"<a href=\"TradeReturnController.class.php.html#14\">TradeReturnController<\/a>"],[0,11,"<a href=\"TradeServiceController.class.php.html#8\">TradeServiceController<\/a>"],[10.714285714286,12,"<a href=\"UnpaymentRecordController.class.php.html#13\">UnpaymentRecordController<\/a>"],[0,7,"<a href=\"UserController.class.php.html#11\">UserController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"LogViewController.class.php.html#68\">LogViewController::_initialize<\/a>"],[0,5,"<a href=\"LogViewController.class.php.html#89\">LogViewController::chooseOrder<\/a>"],[0,10,"<a href=\"LogViewController.class.php.html#121\">LogViewController::logByOrder<\/a>"],[0,6,"<a href=\"LogViewController.class.php.html#179\">LogViewController::warningLog<\/a>"],[0,1,"<a href=\"OrderAuditController.class.php.html#30\">OrderAuditController::_initialize<\/a>"],[0,5,"<a href=\"OrderAuditController.class.php.html#39\">OrderAuditController::getOrderAuditList<\/a>"],[0,5,"<a href=\"OrderAuditController.class.php.html#60\">OrderAuditController::AutoOrderAudit<\/a>"],[0,2,"<a href=\"OrderAuditController.class.php.html#108\">OrderAuditController::orderAuditRule<\/a>"],[0,26,"<a href=\"OrderAuditController.class.php.html#134\">OrderAuditController::checkOrderAuditRule<\/a>"],[0,4,"<a href=\"OrderAuditController.class.php.html#259\">OrderAuditController::isPreOrder<\/a>"],[0,12,"<a href=\"OrderAuditController.class.php.html#279\">OrderAuditController::auditConfigKey<\/a>"],[0,11,"<a href=\"OrderAuditController.class.php.html#298\">OrderAuditController::getAuditConditionConfig<\/a>"],[0,1,"<a href=\"OrderChangeController.class.php.html#22\">OrderChangeController::_initialize<\/a>"],[0,4,"<a href=\"OrderChangeController.class.php.html#37\">OrderChangeController::process<\/a>"],[0,2,"<a href=\"OrderChangeController.class.php.html#65\">OrderChangeController::soaMessageProcess<\/a>"],[0,1,"<a href=\"OrderController.class.php.html#22\">OrderController::_initialize<\/a>"],[0,10,"<a href=\"OrderController.class.php.html#43\">OrderController::DoCreateOrder<\/a>"],[0,38,"<a href=\"OrderController.class.php.html#126\">OrderController::DoUpdateOrder<\/a>"],[0,3,"<a href=\"OrderController.class.php.html#378\">OrderController::DoUrgent<\/a>"],[0,3,"<a href=\"OrderController.class.php.html#400\">OrderController::_checkOrderUrgent<\/a>"],[0,2,"<a href=\"OrderController.class.php.html#420\">OrderController::DoGetOrderList<\/a>"],[0,10,"<a href=\"OrderController.class.php.html#436\">OrderController::DoGetOrderInfo<\/a>"],[0,1,"<a href=\"OrderController.class.php.html#476\">OrderController::DoAudit<\/a>"],[0,9,"<a href=\"OrderController.class.php.html#507\">OrderController::DoPayment<\/a>"],[0,33,"<a href=\"OrderController.class.php.html#613\">OrderController::DoPaymentCallback<\/a>"],[0,11,"<a href=\"OrderController.class.php.html#744\">OrderController::DoBalancePaymentCallback<\/a>"],[0,11,"<a href=\"OrderController.class.php.html#826\">OrderController::DoCancelOrder<\/a>"],[0,1,"<a href=\"OrderController.class.php.html#902\">OrderController::getHistoryOrderList<\/a>"],[0,5,"<a href=\"OrderController.class.php.html#919\">OrderController::checkOrderAmountDo<\/a>"],[0,4,"<a href=\"OrderController.class.php.html#954\">OrderController::cancelOrderStatusCheck<\/a>"],[0,3,"<a href=\"OrderController.class.php.html#967\">OrderController::DoReturnPaymentPrice<\/a>"],[0,3,"<a href=\"OrderController.class.php.html#1016\">OrderController::getOrderByNo<\/a>"],[0,6,"<a href=\"OrderController.class.php.html#1034\">OrderController::DoReturnOrderData<\/a>"],[0,2,"<a href=\"OrderController.class.php.html#1061\">OrderController::_after_work<\/a>"],[0,2,"<a href=\"OrderController.class.php.html#1081\">OrderController::_update_after_work<\/a>"],[0,1,"<a href=\"OrderController.class.php.html#1110\">OrderController::delUpdateOrderStock<\/a>"],[0,36,"<a href=\"OrderController.class.php.html#1121\">OrderController::interfaceParamsToOrderParams<\/a>"],[0,7,"<a href=\"OrderController.class.php.html#1214\">OrderController::_checkPaymentBackParams<\/a>"],[0,4,"<a href=\"OrderController.class.php.html#1240\">OrderController::_checkOrderUpdateAudit<\/a>"],[0,3,"<a href=\"OrderController.class.php.html#1258\">OrderController::orderSnapshot<\/a>"],[0,6,"<a href=\"OrderController.class.php.html#1282\">OrderController::DoGetOrderSnapshot<\/a>"],[0,1,"<a href=\"OrderController.class.php.html#1296\">OrderController::DoGetPaymentModeToOrderModeList<\/a>"],[0,17,"<a href=\"OrderController.class.php.html#1308\">OrderController::DoUpdateOrderStatus<\/a>"],[0,1,"<a href=\"OrderController.class.php.html#1404\">OrderController::getMysqlOrderInfo<\/a>"],[0,1,"<a href=\"OrderCountController.class.php.html#11\">OrderCountController::_initialize<\/a>"],[0,4,"<a href=\"OrderCountController.class.php.html#20\">OrderCountController::getCount<\/a>"],[0,4,"<a href=\"OrderCountController.class.php.html#48\">OrderCountController::_checkParamInfo<\/a>"],[0,1,"<a href=\"OrderPayController.class.php.html#22\">OrderPayController::_initialize<\/a>"],[0,8,"<a href=\"OrderPayController.class.php.html#83\">OrderPayController::setRefund<\/a>"],[0,1,"<a href=\"OrderPayController.class.php.html#135\">OrderPayController::createRefundBack<\/a>"],[0,3,"<a href=\"OrderPayController.class.php.html#142\">OrderPayController::getAutoRefundBack<\/a>"],[0,5,"<a href=\"OrderPayController.class.php.html#180\">OrderPayController::getTradeRefundPay<\/a>"],[0,3,"<a href=\"OrderPayController.class.php.html#213\">OrderPayController::createRefundPayCallback<\/a>"],[0,4,"<a href=\"OrderPayController.class.php.html#237\">OrderPayController::createRefundBackByAudit<\/a>"],[0,6,"<a href=\"OrderPayController.class.php.html#269\">OrderPayController::setReduction<\/a>"],[0,5,"<a href=\"OrderPayController.class.php.html#310\">OrderPayController::setReductionLog<\/a>"],[0,12,"<a href=\"OrderPayController.class.php.html#337\">OrderPayController::getAuditReduction<\/a>"],[0,2,"<a href=\"OrderPayController.class.php.html#397\">OrderPayController::_checkOrderInfo<\/a>"],[0,2,"<a href=\"OrderPayController.class.php.html#411\">OrderPayController::_checkOrderInfoReceivable<\/a>"],[0,4,"<a href=\"OrderPayController.class.php.html#430\">OrderPayController::_checkOrderMoney<\/a>"],[0,3,"<a href=\"OrderPayController.class.php.html#454\">OrderPayController::_checkOrderInfoRefund<\/a>"],[0,4,"<a href=\"OrderPayController.class.php.html#470\">OrderPayController::_checkOrderInfoBase<\/a>"],[0,2,"<a href=\"OrderPayController.class.php.html#497\">OrderPayController::_checkOrderMoneyRefund<\/a>"],[0,3,"<a href=\"OrderPayController.class.php.html#509\">OrderPayController::_checkTradeMoneyRefund<\/a>"],[0,3,"<a href=\"OrderPayController.class.php.html#532\">OrderPayController::_checkAlreadyAmount<\/a>"],[0,4,"<a href=\"OrderPayController.class.php.html#548\">OrderPayController::DoGetRefundPrice<\/a>"],[0,4,"<a href=\"OrderPayController.class.php.html#571\">OrderPayController::DoGetRefundPriceNoAudit<\/a>"],[0,4,"<a href=\"OrderPayController.class.php.html#592\">OrderPayController::_checkRefundList<\/a>"],[0,2,"<a href=\"OrderPayController.class.php.html#617\">OrderPayController::_getRefundTradeParams<\/a>"],[0,10,"<a href=\"OrderPayController.class.php.html#636\">OrderPayController::_checkRefundBackParams<\/a>"],[0,1,"<a href=\"OrderStatisticsController.class.php.html#10\">OrderStatisticsController::_initialize<\/a>"],[0,3,"<a href=\"OrderStatisticsController.class.php.html#19\">OrderStatisticsController::financeStatistics<\/a>"],[0,1,"<a href=\"PaymentWriteBackController.class.php.html#18\">PaymentWriteBackController::_initialize<\/a>"],[0,5,"<a href=\"PaymentWriteBackController.class.php.html#28\">PaymentWriteBackController::OrderTradeToAppPayment<\/a>"],[0,14,"<a href=\"PaymentWriteBackController.class.php.html#63\">PaymentWriteBackController::PaymentWrite<\/a>"],[0,8,"<a href=\"PaymentWriteBackController.class.php.html#151\">PaymentWriteBackController::PaymentBackWrite<\/a>"],[0,3,"<a href=\"PaymentWriteBackController.class.php.html#180\">PaymentWriteBackController::OrderCancelWrite<\/a>"],[0,2,"<a href=\"PaymentWriteBackController.class.php.html#193\">PaymentWriteBackController::_checkPaymentWrite<\/a>"],[0,4,"<a href=\"PaymentWriteBackController.class.php.html#206\">PaymentWriteBackController::PaymentOrderDetail<\/a>"],[0,5,"<a href=\"PaymentWriteBackController.class.php.html#232\">PaymentWriteBackController::OrderReceivableTotal<\/a>"],[0,2,"<a href=\"PaymentWriteBackController.class.php.html#256\">PaymentWriteBackController::OrderPaymentToCCOrderPayment<\/a>"],[0,2,"<a href=\"PaymentWriteBackController.class.php.html#277\">PaymentWriteBackController::OrderTradeStatusToPaymentStatus<\/a>"],[0,3,"<a href=\"PaymentWriteBackController.class.php.html#290\">PaymentWriteBackController::_checkParams<\/a>"],[0,1,"<a href=\"RefundReturnController.class.php.html#25\">RefundReturnController::_initialize<\/a>"],[0,11,"<a href=\"RefundReturnController.class.php.html#41\">RefundReturnController::RefundReturn<\/a>"],[0,1,"<a href=\"RefundReturnController.class.php.html#160\">RefundReturnController::setRefundCallback<\/a>"],[0,1,"<a href=\"RefundReturnController.class.php.html#197\">RefundReturnController::_createRefundInfo<\/a>"],[0,8,"<a href=\"RefundReturnController.class.php.html#215\">RefundReturnController::checkReturnParams<\/a>"],[0,1,"<a href=\"ScriptController.class.php.html#16\">ScriptController::_initialize<\/a>"],[0,1,"<a href=\"ScriptController.class.php.html#22\">ScriptController::test<\/a>"],[0,1,"<a href=\"ShippingCartController.class.php.html#41\">ShippingCartController::_initialize<\/a>"],[0,4,"<a href=\"ShippingCartController.class.php.html#53\">ShippingCartController::manage<\/a>"],[0,16,"<a href=\"ShippingCartController.class.php.html#78\">ShippingCartController::add<\/a>"],[0,1,"<a href=\"ShippingCartController.class.php.html#164\">ShippingCartController::del<\/a>"],[0,1,"<a href=\"ShippingCartController.class.php.html#180\">ShippingCartController::delAll<\/a>"],[0,2,"<a href=\"ShippingCartController.class.php.html#194\">ShippingCartController::update<\/a>"],[0,1,"<a href=\"ShippingCartController.class.php.html#220\">ShippingCartController::get<\/a>"],[0,1,"<a href=\"ShippingCartController.class.php.html#231\">ShippingCartController::refresh<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#21\">TradeController::_initialize<\/a>"],[0,14,"<a href=\"TradeController.class.php.html#62\">TradeController::createTardeService<\/a>"],[0,5,"<a href=\"TradeController.class.php.html#126\">TradeController::setTardeServiceOneToOne<\/a>"],[0,10,"<a href=\"TradeController.class.php.html#186\">TradeController::setTardeServiceOneToMore<\/a>"],[0,6,"<a href=\"TradeController.class.php.html#292\">TradeController::setTardeServiceMoreToOne<\/a>"],[0,8,"<a href=\"TradeController.class.php.html#356\">TradeController::setTardeServiceMoreToMore<\/a>"],[0,8,"<a href=\"TradeController.class.php.html#433\">TradeController::getTradeList<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#451\">TradeController::getTradeListByField<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#469\">TradeController::getPayResult<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#501\">TradeController::getPayResultByOrder<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#523\">TradeController::getAmountCountNoPay<\/a>"],[0,7,"<a href=\"TradeController.class.php.html#547\">TradeController::getPayTransaction<\/a>"],[0,7,"<a href=\"TradeController.class.php.html#620\">TradeController::getPayTransactionOne<\/a>"],[0,9,"<a href=\"TradeController.class.php.html#703\">TradeController::createTradeForRefund<\/a>"],[0,9,"<a href=\"TradeController.class.php.html#782\">TradeController::getPayPaymentResult<\/a>"],[0,19,"<a href=\"TradeController.class.php.html#863\">TradeController::getTradeResultList<\/a>"],[0,14,"<a href=\"TradeController.class.php.html#958\">TradeController::getTradeResult<\/a>"],[0,7,"<a href=\"TradeController.class.php.html#1025\">TradeController::_checkPaymentInfo<\/a>"],[0,20,"<a href=\"TradeController.class.php.html#1052\">TradeController::_checkOrderInfo<\/a>"],[0,7,"<a href=\"TradeController.class.php.html#1114\">TradeController::_checkPayAmount<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1162\">TradeController::_changeParamsPay<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1197\">TradeController::_changeParamsPayOne<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1236\">TradeController::_changeParamsTrade<\/a>"],[0,6,"<a href=\"TradeController.class.php.html#1264\">TradeController::_partitionParams<\/a>"],[0,4,"<a href=\"TradeController.class.php.html#1311\">TradeController::_getApproach<\/a>"],[0,4,"<a href=\"TradeController.class.php.html#1343\">TradeController::_getApproachByValue<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1372\">TradeController::_createTempOrderInfo<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1397\">TradeController::_getPayOnlineOffline<\/a>"],[0,2,"<a href=\"TradeController.class.php.html#1413\">TradeController::_getPayServiceConfig<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1435\">TradeController::_getPayRefund<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1479\">TradeController::_createRefundIdReturnPayment<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1493\">TradeController::_getTradeListEqtAmount<\/a>"],[0,6,"<a href=\"TradeController.class.php.html#1515\">TradeController::_partitionParamsByRefund<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1562\">TradeController::_createTempTradeInfo<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1584\">TradeController::_changeTradeForRefund<\/a>"],[0,1,"<a href=\"TradeController.class.php.html#1601\">TradeController::_getParamsPayRefund<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1620\">TradeController::_getPaymentResult<\/a>"],[0,6,"<a href=\"TradeController.class.php.html#1649\">TradeController::_checkPayResult<\/a>"],[0,6,"<a href=\"TradeController.class.php.html#1669\">TradeController::_getTradeTransactionIdOn<\/a>"],[0,5,"<a href=\"TradeController.class.php.html#1701\">TradeController::_checkRepeatPay<\/a>"],[0,5,"<a href=\"TradeController.class.php.html#1725\">TradeController::_checkRepeatOrder<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1748\">TradeController::array_unique_bykey<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1770\">TradeController::_checkRefundAmount<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1788\">TradeController::createTardeServiceLog<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1802\">TradeController::createTardeForRefundLog<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1813\">TradeController::getPayTransactionLog<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1827\">TradeController::getPayTransactionErrorLog<\/a>"],[0,3,"<a href=\"TradeController.class.php.html#1841\">TradeController::getPaymentResultPayLog<\/a>"],[0,2,"<a href=\"TradeController.class.php.html#1855\">TradeController::getPaymentResultLog<\/a>"],[0,1,"<a href=\"TradeReturnController.class.php.html#23\">TradeReturnController::_initialize<\/a>"],[0,14,"<a href=\"TradeReturnController.class.php.html#50\">TradeReturnController::TradeReturn<\/a>"],[0,2,"<a href=\"TradeReturnController.class.php.html#169\">TradeReturnController::setOrderRelatedPayInfo<\/a>"],[0,2,"<a href=\"TradeReturnController.class.php.html#202\">TradeReturnController::setOrderPayCallback<\/a>"],[0,2,"<a href=\"TradeReturnController.class.php.html#220\">TradeReturnController::_getOrderAmount<\/a>"],[0,4,"<a href=\"TradeReturnController.class.php.html#239\">TradeReturnController::_mySort<\/a>"],[0,4,"<a href=\"TradeReturnController.class.php.html#263\">TradeReturnController::_getParamsApproach<\/a>"],[0,6,"<a href=\"TradeReturnController.class.php.html#317\">TradeReturnController::_createOrderPaymentInfo<\/a>"],[0,2,"<a href=\"TradeReturnController.class.php.html#404\">TradeReturnController::_getOnlineParams<\/a>"],[0,3,"<a href=\"TradeReturnController.class.php.html#427\">TradeReturnController::createTardeForRefundSuccessLog<\/a>"],[0,3,"<a href=\"TradeReturnController.class.php.html#441\">TradeReturnController::createTardeForRefundLog<\/a>"],[0,3,"<a href=\"TradeReturnController.class.php.html#456\">TradeReturnController::doPaymentCallbackLog<\/a>"],[0,3,"<a href=\"TradeReturnController.class.php.html#469\">TradeReturnController::createTardeForRefundAll<\/a>"],[0,1,"<a href=\"TradeServiceController.class.php.html#11\">TradeServiceController::_initialize<\/a>"],[0,10,"<a href=\"TradeServiceController.class.php.html#24\">TradeServiceController::getAllTradeList<\/a>"],[100,1,"<a href=\"UnpaymentRecordController.class.php.html#69\">UnpaymentRecordController::getStatus<\/a>"],[100,1,"<a href=\"UnpaymentRecordController.class.php.html#77\">UnpaymentRecordController::getType<\/a>"],[100,1,"<a href=\"UnpaymentRecordController.class.php.html#87\">UnpaymentRecordController::getList<\/a>"],[0,3,"<a href=\"UnpaymentRecordController.class.php.html#102\">UnpaymentRecordController::process<\/a>"],[0,3,"<a href=\"UnpaymentRecordController.class.php.html#132\">UnpaymentRecordController::info<\/a>"],[0,1,"<a href=\"UnpaymentRecordController.class.php.html#151\">UnpaymentRecordController::add<\/a>"],[0,2,"<a href=\"UnpaymentRecordController.class.php.html#182\">UnpaymentRecordController::getOrderUnpayment<\/a>"],[0,1,"<a href=\"UserController.class.php.html#25\">UserController::_initialize<\/a>"],[0,6,"<a href=\"UserController.class.php.html#41\">UserController::getUserPayPrice<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

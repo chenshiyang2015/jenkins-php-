@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderProdGroupDataModel.class.php">
+    <totals>
+      <lines total="94" comments="15" code="79" executable="49" executed="0" percent="0.00%"/>
+      <methods count="4" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderProdGroupDataModel" start="6" executable="49" executed="0" crap="210">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="batchInsertOrderGroup" signature="batchInsertOrderGroup($params = [])" start="28" end="37" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="addOrderProdGroupData" signature="addOrderProdGroupData($params)" start="43" end="73" crap="72" executable="30" executed="0" coverage="0"/>
+      <method name="deleteOrderGroupItemData" signature="deleteOrderGroupItemData($params = [])" start="78" end="86" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="getOrderGroupNextId" signature="getOrderGroupNextId()" start="91" end="93" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

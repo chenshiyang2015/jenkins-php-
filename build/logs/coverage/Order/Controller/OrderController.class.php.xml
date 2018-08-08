@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderController.class.php">
+    <totals>
+      <lines total="1409" comments="503" code="906" executable="852" executed="0" percent="0.00%"/>
+      <methods count="29" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderController" start="11" executable="852" executed="0" crap="54990">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="22" end="25" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="DoCreateOrder" signature="DoCreateOrder($params = [])" start="43" end="118" crap="110" executable="47" executed="0" coverage="0"/>
+      <method name="DoUpdateOrder" signature="DoUpdateOrder($params = [])" start="126" end="369" crap="1482" executable="202" executed="0" coverage="0"/>
+      <method name="DoUrgent" signature="DoUrgent($params = [])" start="378" end="392" crap="12" executable="12" executed="0" coverage="0"/>
+      <method name="_checkOrderUrgent" signature="_checkOrderUrgent($params = [])" start="400" end="411" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="DoGetOrderList" signature="DoGetOrderList($params = [])" start="420" end="427" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="DoGetOrderInfo" signature="DoGetOrderInfo($params = [])" start="436" end="461" crap="110" executable="21" executed="0" coverage="0"/>
+      <method name="DoAudit" signature="DoAudit($params = [])" start="476" end="480" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="DoPayment" signature="DoPayment($params = [])" start="507" end="580" crap="90" executable="60" executed="0" coverage="0"/>
+      <method name="DoPaymentCallback" signature="DoPaymentCallback($params = [])" start="613" end="736" crap="1122" executable="105" executed="0" coverage="0"/>
+      <method name="DoBalancePaymentCallback" signature="DoBalancePaymentCallback($params = [])" start="744" end="811" crap="132" executable="56" executed="0" coverage="0"/>
+      <method name="DoCancelOrder" signature="DoCancelOrder($params)" start="826" end="864" crap="132" executable="32" executed="0" coverage="0"/>
+      <method name="getHistoryOrderList" signature="getHistoryOrderList($params = [])" start="902" end="909" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="checkOrderAmountDo" signature="checkOrderAmountDo($order_list, $type)" start="919" end="943" crap="30" executable="16" executed="0" coverage="0"/>
+      <method name="cancelOrderStatusCheck" signature="cancelOrderStatusCheck($order_info = [])" start="954" end="960" crap="20" executable="5" executed="0" coverage="0"/>
+      <method name="DoReturnPaymentPrice" signature="DoReturnPaymentPrice($params)" start="967" end="1008" crap="12" executable="32" executed="0" coverage="0"/>
+      <method name="getOrderByNo" signature="getOrderByNo($params = [])" start="1016" end="1026" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="DoReturnOrderData" signature="DoReturnOrderData($params = [])" start="1034" end="1053" crap="42" executable="14" executed="0" coverage="0"/>
+      <method name="_after_work" signature="_after_work($params = [])" start="1061" end="1073" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="_update_after_work" signature="_update_after_work($params = [])" start="1081" end="1104" crap="6" executable="14" executed="0" coverage="0"/>
+      <method name="delUpdateOrderStock" signature="delUpdateOrderStock($order_id)" start="1110" end="1113" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="interfaceParamsToOrderParams" signature="interfaceParamsToOrderParams($params = [])" start="1121" end="1206" crap="1332" executable="76" executed="0" coverage="0"/>
+      <method name="_checkPaymentBackParams" signature="_checkPaymentBackParams($params)" start="1214" end="1231" crap="56" executable="16" executed="0" coverage="0"/>
+      <method name="_checkOrderUpdateAudit" signature="_checkOrderUpdateAudit($params)" start="1240" end="1246" crap="20" executable="6" executed="0" coverage="0"/>
+      <method name="orderSnapshot" signature="orderSnapshot($params)" start="1258" end="1270" crap="12" executable="11" executed="0" coverage="0"/>
+      <method name="DoGetOrderSnapshot" signature="DoGetOrderSnapshot($params = [])" start="1282" end="1290" crap="42" executable="6" executed="0" coverage="0"/>
+      <method name="DoGetPaymentModeToOrderModeList" signature="DoGetPaymentModeToOrderModeList()" start="1296" end="1299" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="DoUpdateOrderStatus" signature="DoUpdateOrderStatus($params = [])" start="1308" end="1396" crap="306" executable="60" executed="0" coverage="0"/>
+      <method name="getMysqlOrderInfo" signature="getMysqlOrderInfo($params)" start="1404" end="1407" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

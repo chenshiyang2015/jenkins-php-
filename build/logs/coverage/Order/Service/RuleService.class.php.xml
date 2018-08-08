@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="RuleService.class.php">
+    <totals>
+      <lines total="360" comments="97" code="263" executable="214" executed="0" percent="0.00%"/>
+      <methods count="12" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="RuleService" start="7" executable="214" executed="0" crap="4160">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="13" end="15" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="validateSellerServiceTime" signature="validateSellerServiceTime($params = [])" start="23" end="45" crap="42" executable="20" executed="0" coverage="0"/>
+      <method name="validateSellerSaleTime" signature="validateSellerSaleTime($params = [])" start="53" end="83" crap="90" executable="26" executed="0" coverage="0"/>
+      <method name="validateServiceTime" signature="validateServiceTime($params = [])" start="91" end="103" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="validateDeliveryTimeMore" signature="validateDeliveryTimeMore(&amp;$params = [])" start="111" end="138" crap="42" executable="24" executed="0" coverage="0"/>
+      <method name="getOrderIsPreOrder" signature="getOrderIsPreOrder(&amp;$params = [])" start="143" end="154" crap="30" executable="10" executed="0" coverage="0"/>
+      <method name="validateDeliveryTime" signature="validateDeliveryTime($params = [])" start="162" end="230" crap="132" executable="48" executed="0" coverage="0"/>
+      <method name="validateFoodServiceTime" signature="validateFoodServiceTime($params = [])" start="240" end="285" crap="240" executable="38" executed="0" coverage="0"/>
+      <method name="validateVipFood" signature="validateVipFood($params = [])" start="292" end="294" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getRestaurantPreOrderTime" signature="getRestaurantPreOrderTime($params = [])" start="301" end="317" crap="20" executable="15" executed="0" coverage="0"/>
+      <method name="getOrderMinDeliverTime" signature="getOrderMinDeliverTime($params = [])" start="326" end="341" crap="2" executable="13" executed="0" coverage="0"/>
+      <method name="getAfterDelayTime" signature="getAfterDelayTime($time, $delay)" start="351" end="359" crap="6" executable="7" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="McService.class.php">
+    <totals>
+      <lines total="500" comments="104" code="396" executable="365" executed="0" percent="0.00%"/>
+      <methods count="17" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="McService" start="8" executable="365" executed="0" crap="3660">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="12" end="14" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="addOrderQueueCreateOrder" signature="addOrderQueueCreateOrder($params = [])" start="19" end="123" crap="110" executable="100" executed="0" coverage="0"/>
+      <method name="addOrderQueueAuditOrder" signature="addOrderQueueAuditOrder($params = [])" start="128" end="133" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="addOrderQueueUrgentOrder" signature="addOrderQueueUrgentOrder($params = [])" start="138" end="140" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="addOrderQueueToAuditOrder" signature="addOrderQueueToAuditOrder($params = [])" start="145" end="150" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="addPaymentQueuePayment" signature="addPaymentQueuePayment($params = [])" start="156" end="167" crap="2" executable="10" executed="0" coverage="0"/>
+      <method name="addPaymentQueueCancelOrder" signature="addPaymentQueueCancelOrder($params = [])" start="173" end="182" crap="2" executable="9" executed="0" coverage="0"/>
+      <method name="batchAddOrderQueuePayment" signature="batchAddOrderQueuePayment($params = [])" start="187" end="207" crap="6" executable="19" executed="0" coverage="0"/>
+      <method name="addOrderQueuePayment" signature="addOrderQueuePayment($info = [])" start="212" end="223" crap="2" executable="11" executed="0" coverage="0"/>
+      <method name="addOrderQueuePaymentCallBack" signature="addOrderQueuePaymentCallBack($params = [])" start="228" end="249" crap="12" executable="21" executed="0" coverage="0"/>
+      <method name="addOrderQueueCancelOrder" signature="addOrderQueueCancelOrder($params = [])" start="254" end="256" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="addCancelOrderReturn" signature="addCancelOrderReturn($params = [])" start="262" end="267" crap="2" executable="5" executed="0" coverage="0"/>
+      <method name="addOrderQueueRefundUpdateOrder" signature="addOrderQueueRefundUpdateOrder($params = [])" start="272" end="276" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="addOrderQueueUpdateOrder" signature="addOrderQueueUpdateOrder($params = [])" start="281" end="399" crap="702" executable="111" executed="0" coverage="0"/>
+      <method name="addOrderQueueUpdateStatusOrder" signature="addOrderQueueUpdateStatusOrder($info = [])" start="404" end="424" crap="12" executable="20" executed="0" coverage="0"/>
+      <method name="addOrderChangeQueue" signature="addOrderChangeQueue($type, $order_no, $data = [])" start="434" end="457" crap="6" executable="20" executed="0" coverage="0"/>
+      <method name="addOrderQueue" signature="addOrderQueue($mc_params, $serviceName, $order_id = 0)" start="468" end="498" crap="20" executable="22" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

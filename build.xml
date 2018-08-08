@@ -1,141 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<project name="order" default="full-build">
+ <property name="basedir" value="."/>
+ <!-- Use this when the tools are managed by Composer in ${basedir}/vendor/bin -->
+ <property name="pdepend" value="/home/tomcat/csy/vendor/bin/pdepend"/>
+ <property name="phpcpd"  value="/home/tomcat/csy/vendor/bin/phpcpd"/>
+ <property name="phpcs"   value="/home/tomcat/csy/vendor/bin/phpcs"/>
+ <property name="phpdox"  value="/home/tomcat/csy/vendor/bin/phpdox"/>
+ <property name="phploc"  value="/home/tomcat/csy/vendor/bin/phploc"/>
+ <property name="phpmd"   value="/home/tomcat/csy/vendor/bin/phpmd"/>
+ <property name="phpunit" value="/home/tomcat/csy/vendor/bin/phpunit"/>
+ <property name="version-m"  value="1.1" />
+ <property name="version"    value="1.1.0" />
+ <property name="stability"  value="stable" />
+ <property name="releasenotes" value="" />
+ <property name="tarfile"     value="${phing.project.name}.${buildnumber}.${buildid}.tar.gz" />
+ <property name="pkgfile"     value="${phing.project.name}.${version}.tgz" />
+ <property name="distfile"    value="dist/${tarfile}" />
+ 
+ <fileset id="order.tar.gz" dir=".">
+            <include name="Application/**"/>
+            <include name="*.php"/>
+            <include name="*.md"/>
+            <include name="VERSION"/>
+ </fileset>
 
-<project name="name-of-project" default="build" basedir=".">
- <target name="build"
-   depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,phpcb"/>
+ <target name="full-build"
+         depends="prepare,static-analysis,phpdox,check,tar"
+         description="Performs static analysis, runs the tests, and generates project documentation"/>
 
- <target name="build-parallel"
-   depends="prepare,lint,tools-parallel,phpunit,phpcb"/>
+ <target name="full-build-parallel"
+         depends="prepare,static-analysis-parallel,phpunit-ci,phpdox,-check-failure"
+         description="Performs static analysis (executing the tools in parallel), runs the tests, and generates project documentation"/>
 
- <target name="tools-parallel" description="Run tools in parallel">
+ <target name="quick-build"
+         depends="prepare,lint,phpunit"
+         description="Performs a lint check and runs the tests (without generating code coverage reports)"/>
+
+ <target name="static-analysis"
+         depends="lint,phploc-ci,pdepend,phpmd-ci,phpcs-ci,phpcpd-ci"
+         description="Performs static analysis" />
+
+ <!-- Adjust the threadCount attribute's value to the number of CPUs -->
+ <target name="static-analysis-parallel"
+         description="Performs static analysis (executing the tools in parallel)">
   <parallel threadCount="2">
    <sequential>
     <antcall target="pdepend"/>
     <antcall target="phpmd-ci"/>
    </sequential>
-   <antcall target="phpcpd"/>
+   <antcall target="lint"/>
+   <antcall target="phpcpd-ci"/>
    <antcall target="phpcs-ci"/>
-   <antcall target="phploc"/>
-   <antcall target="phpdox"/>
+   <antcall target="phploc-ci"/>
   </parallel>
  </target>
 
- <target name="clean" description="Cleanup build artifacts">
-  <delete dir="${project.basedir}/build/api"/>
-  <delete dir="${project.basedir}/build/code-browser"/>
-  <delete dir="${project.basedir}/build/coverage"/>
-  <delete dir="${project.basedir}/build/logs"/>
-  <delete dir="${project.basedir}/build/pdepend"/>
+ <target name="clean"
+         unless="clean.done"
+         description="Cleanup build artifacts">
+  <delete dir="${basedir}/build/api"/>
+  <delete dir="${basedir}/build/coverage"/>
+  <delete dir="${basedir}/build/logs"/>
+  <delete dir="${basedir}/build/pdepend"/>
+  <delete dir="${basedir}/build/phpdox"/>
+  <property name="clean.done" value="true"/>
  </target>
 
- <target name="prepare" depends="clean" description="Prepare for build">
-  <mkdir dir="${project.basedir}/build/api"/>
-  <mkdir dir="${project.basedir}/build/code-browser"/>
-  <mkdir dir="${project.basedir}/build/coverage"/>
-  <mkdir dir="${project.basedir}/build/logs"/>
-  <mkdir dir="${project.basedir}/build/pdepend"/>
-  <mkdir dir="${project.basedir}/build/phpdox"/>
+ <target name="prepare"
+         unless="prepare.done"
+         depends="clean"
+         description="Prepare for build">
+  <mkdir dir="${basedir}/build/api"/>
+  <mkdir dir="${basedir}/build/coverage"/>
+  <mkdir dir="${basedir}/build/logs"/>
+  <mkdir dir="${basedir}/build/pdepend"/>
+  <mkdir dir="${basedir}/build/phpdox"/>
+  <property name="prepare.done" value="true"/>
  </target>
 
- <target name="lint" description="Perform syntax check of sourcecode files">
- 
+ <target name="lint"
+         unless="lint.done"
+         description="Perform syntax check of sourcecode files">
+  <apply executable="php" taskname="lint">
+   <arg value="-l" />
 
-   <fileset dir="${project.basedir}/src">
+   <fileset dir="${basedir}/Application">
     <include name="**/*.php" />
    </fileset>
 
-   <fileset dir="${project.basedir}/tests">
-    <include name="**/*.php" />
-   </fileset>
-  
+  </apply>
+
+  <property name="lint.done" value="true"/>
  </target>
 
- <target name="phploc" description="Measure project size using PHPLOC">
-  <exec executable="${project.basedir}/vendor/bin/phploc" logoutput="true">
+ <target name="phploc"
+         unless="phploc.done"
+         description="Measure project size using PHPLOC and print human readable output. Intended for usage on the command line.">
+  <exec executable="${phploc}" taskname="phploc">
+   <arg value="--count-tests" />
+   <arg path="${basedir}/Application" />
+  </exec>
+
+  <property name="phploc.done" value="true"/>
+ </target>
+
+ <target name="phploc-ci"
+         unless="phploc.done"
+         depends="prepare"
+         description="Measure project size using PHPLOC and log result in CSV and XML format. Intended for usage within a continuous integration environment.">
+  <exec executable="${phploc}" taskname="phploc">
+   <arg value="--count-tests" />
    <arg value="--log-csv" />
-   <arg value="${project.basedir}/build/logs/phploc.csv" />
-   <arg path="${project.basedir}/src" />
+   <arg path="${basedir}/build/logs/phploc.csv" />
+   <arg value="--log-xml" />
+   <arg path="${basedir}/build/logs/phploc.xml" />
+   <arg path="${basedir}/Application" />
   </exec>
+
+  <property name="phploc.done" value="true"/>
  </target>
 
- <target name="pdepend" description="Calculate software metrics using PHP_Depend">
-  <exec executable="${project.basedir}/vendor/bin/pdepend" logoutput="true">
-   <arg value="--jdepend-xml=${project.basedir}/build/logs/jdepend.xml" />
-   <arg value="--jdepend-chart=${project.basedir}/build/pdepend/dependencies.svg" />
-   <arg value="--overview-pyramid=${project.basedir}/build/pdepend/overview-pyramid.svg" />
-   <arg path="${project.basedir}/src" />
+ <target name="pdepend"
+         unless="pdepend.done"
+         depends="prepare"
+         description="Calculate software metrics using PHP_Depend and log result in XML format. Intended for usage within a continuous integration environment.">
+  <exec executable="${pdepend}" taskname="pdepend">
+   <arg value="--jdepend-xml=${basedir}/build/logs/jdepend.xml" />
+   <arg value="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg" />
+   <arg value="--overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg" />
+   <arg path="${basedir}/Application" />
   </exec>
+
+  <property name="pdepend.done" value="true"/>
  </target>
 
  <target name="phpmd"
+         unless="phpmd.done"
          description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
-  <exec executable="${project.basedir}/vendor/bin/phpmd" logoutput="true">
-   <arg path="${project.basedir}/src" />
+  <exec executable="${phpmd}" taskname="phpmd">
+   <arg path="${basedir}/Application" />
    <arg value="text" />
-   <arg value="${project.basedir}/phpmd.xml" />
+   <arg path="${basedir}/build/phpmd.xml" />
   </exec>
+
+  <property name="phpmd.done" value="true"/>
  </target>
 
- <target name="phpmd-ci" description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
-  <exec executable="${project.basedir}/vendor/bin/phpmd" logoutput="true">
-   <arg path="${project.basedir}/src" />
+ <target name="phpmd-ci"
+         unless="phpmd.done"
+         depends="prepare"
+         description="Perform project mess detection using PHPMD and log result in XML format. Intended for usage within a continuous integration environment.">
+  <exec executable="${phpmd}" taskname="phpmd">
+   <arg path="${basedir}/Application" />
    <arg value="xml" />
-   <arg value="${project.basedir}/phpmd.xml" />
+   <arg path="${basedir}/build/phpmd.xml" />
    <arg value="--reportfile" />
-   <arg value="${project.basedir}/build/logs/pmd.xml" />
+   <arg path="${basedir}/build/logs/pmd.xml" />
   </exec>
+
+  <property name="phpmd.done" value="true"/>
  </target>
 
  <target name="phpcs"
+         unless="phpcs.done"
          description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
-  <exec executable="${project.basedir}/vendor/bin/phpcs" logoutput="true">
-   <arg value="--standard=${project.basedir}/phpcs.xml" />
-   <arg path="${project.basedir}/src" />
+  <exec executable="${phpcs}" taskname="phpcs">
+   <arg value="--standard=PSR2" />
+   <arg value="--extensions=php" />
+   <arg value="--ignore=autoload.php" />
+   <arg path="${basedir}/Application" />
   </exec>
+
+  <property name="phpcs.done" value="true"/>
  </target>
 
- <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
-  <exec executable="${project.basedir}/vendor/bin/phpcs" output="/dev/null">
+ <target name="phpcs-ci"
+         unless="phpcs.done"
+         depends="prepare"
+         description="Find coding standard violations using PHP_CodeSniffer and log result in XML format. Intended for usage within a continuous integration environment.">
+  <exec executable="${phpcs}" output="/dev/null" taskname="phpcs">
    <arg value="--report=checkstyle" />
-   <arg value="--report-file=${project.basedir}/build/logs/checkstyle.xml" />
-   <arg value="--standard=${project.basedir}/phpcs.xml" />
-   <arg path="${project.basedir}/src" />
+   <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
+   <arg value="--standard=PSR2" />
+   <arg value="--extensions=php" />
+   <arg value="--ignore=autoload.php" />
+   <arg path="${basedir}/Application" />
   </exec>
+
+  <property name="phpcs.done" value="true"/>
  </target>
 
- <target name="phpcpd" description="Find duplicate code using PHPCPD">
-  <exec executable="${project.basedir}/vendor/bin/phpcpd">
+ <target name="phpcpd"
+         unless="phpcpd.done"
+         description="Find duplicate code using PHPCPD and print human readable output. Intended for usage on the command line before committing.">
+  <exec executable="${phpcpd}" taskname="phpcpd">
+   <arg path="${basedir}/Application" />
+  </exec>
+
+  <property name="phpcpd.done" value="true"/>
+ </target>
+
+ <target name="phpcpd-ci"
+         unless="phpcpd.done"
+         depends="prepare"
+         description="Find duplicate code using PHPCPD and log result in XML format. Intended for usage within a continuous integration environment.">
+  <exec executable="${phpcpd}" taskname="phpcpd">
    <arg value="--log-pmd" />
-   <arg value="${project.basedir}/build/logs/pmd-cpd.xml" />
-   <arg path="${project.basedir}/src" />
+   <arg path="${basedir}/build/logs/pmd-cpd.xml" />
+   <arg path="${basedir}/Application" />
   </exec>
+
+  <property name="phpcpd.done" value="true"/>
  </target>
 
- <target name="phpdox" description="Generate API documentation using phpDox">
-  <exec executable="${project.basedir}/vendor/bin/phpdox"/>
- </target>
-
- <target name="phpunit" description="Run unit tests with PHPUnit">
-  <exec executable="${project.basedir}/vendor/bin/phpunit" logoutput="true" checkreturn="1"/>
- </target>
-
- <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
-  <exec executable="${project.basedir}/vendor/bin/phpcb">
-   <arg value="--log" />
-   <arg path="${project.basedir}/build/logs" />
-   <arg value="--source" />
-   <arg path="${project.basedir}/src" />
-   <arg value="--output" />
-   <arg path="${project.basedir}/build/code-browser" />
+ <target name="phpunit-ci"
+         unless="phpunit.done"
+         depends="prepare"
+         description="Run unit tests with PHPUnit">
+  <exec executable="${phpunit}" returnProperty="result.phpunit" taskname="phpunit">
+   <arg value="--configuration"/>
+   <arg path="${basedir}/tests/phpunit.xml.dist"/>
   </exec>
+
+  <property name="phpunit.done" value="true"/>
  </target>
- 
- <target name="install" description="Prepare files and directories for Jenkins">
- 	<mkdir dir="./build" />
- 	<mkdir dir="./generatedJUnitFiles" />
- 	
- 	<chown file="./build" user="jenkins.jenkins" />
- 	<chown file="./generatedJUnitFiles" user="jenkins.jenkins" />
+
+ <target name="phpunit"
+         unless="phpunit.done"
+         depends="prepare"
+         description="Run unit tests with PHPUnit (without generating code coverage reports)">
+  <exec executable="${phpunit}" taskname="phpunit">
+   <arg value="--configuration"/>
+   <arg path="${basedir}/tests/phpunit.xml.dist"/>
+   <arg value="--no-coverage"/>
+  </exec>
+
+  <property name="phpunit.done" value="true"/>
  </target>
- 
+
+ <target name="phpdox"
+         unless="phpdox.done"
+         depends="phploc-ci,phpcs-ci,phpmd-ci"
+         description="Generate project documentation using phpDox">
+  <exec executable="${phpdox}" taskname="phpdox">
+   <arg value="--file"/>
+   <arg path="${basedir}/build/phpdox.xml"/>
+  </exec>
+
+  <property name="phpdox.done" value="true"/>
+ </target>
+
+ <target name="-check-failure">
+   <if>
+    <not>
+     <equals arg1="${result.phpunit}" arg2="0"/>
+    </not>
+    <then>
+     <fail message="PHPUnit did not finish successfully"/>
+    </then>
+   </if>
+ </target>
+ <target name="check" description="Check variables" >
+            <fail unless="version" message="Version not defined!" />
+            <fail unless="buildnumber" message="buildnumber not defined!" />
+            <fail unless="buildid" message="buildid not defined!" />
+            <delete dir="dist" failonerror="false" />
+            <mkdir dir="dist" />
+ </target>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+ <target name="tar" depends="check" description="Create tar file for release">
+            <echo msg="Creating distribution tar for ${phing.project.name} ${version}"/>
+            <delete file="${distfile}" failonerror="false"/>
+            <tar destfile="${distfile}" compression="gzip">
+                <fileset refid="order.tar.gz"/>
+            </tar>
+ </target>
 </project>
+

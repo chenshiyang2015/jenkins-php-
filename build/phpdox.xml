@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpdox xmlns="http://xml.phpdox.net/config">
+ <project name="order" source="${basedir}/../Application" workdir="build/phpdox">
+  <collector publiconly="false">
+   <include mask="*.php" />
+  </collector>
+
+  <generator output="${basedir}/api">
+   <enrich base="${basedir}/logs">
+    <source type="checkstyle" />
+    <source type="pmd" />
+    <source type="phploc" />
+   </enrich>
+   <build engine="html" enabled="true">
+    <file extension="html" />
+   </build>
+  </generator>
+ </project>
+</phpdox>

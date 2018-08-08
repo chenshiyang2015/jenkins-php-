@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for G:\Git\test1s_order_soa\Application/Order/Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../js/html5shiv.min.js"></script>
+  <script src="../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">G:\Git\test1s_order_soa\Application</a></li>
+        <li><a href="../index.html">Order</a></li>
+        <li><a href="index.html">Service</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ShippingService.class.php.html#7">ShippingService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#7">TradeService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#12">UcenterService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WSService.class.php.html#10">WSService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SMSService.class.php.html#7">SMSService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#7">RuleService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#7">CacheService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#6">FavorableService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#8">McService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#10">PMSService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#7">BasicService</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BasicService.class.php.html#7">BasicService</a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="RuleService.class.php.html#7">RuleService</a></td><td class="text-right">4160</td></tr>
+       <tr><td><a href="McService.class.php.html#8">McService</a></td><td class="text-right">3660</td></tr>
+       <tr><td><a href="CacheService.class.php.html#7">CacheService</a></td><td class="text-right">3192</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#7">ShippingService</a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="PMSService.class.php.html#10">PMSService</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#6">FavorableService</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#12">UcenterService</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="WSService.class.php.html#10">WSService</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SMSService.class.php.html#7">SMSService</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PMSService.class.php.html#226"><abbr title="PMSService::getPublicConf">getPublicConf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#253"><abbr title="PMSService::checkCardOrCoupon">checkCardOrCoupon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#206"><abbr title="PMSService::getInfoByMobile">getInfoByMobile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#178"><abbr title="PMSService::orderApplyFavorableCode">orderApplyFavorableCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#111"><abbr title="PMSService::getFavorableCodeInfo">getFavorableCodeInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#142"><abbr title="PMSService::returnOrderData">returnOrderData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#13"><abbr title="RuleService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#23"><abbr title="RuleService::validateSellerServiceTime">validateSellerServiceTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#143"><abbr title="RuleService::getOrderIsPreOrder">getOrderIsPreOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#162"><abbr title="RuleService::validateDeliveryTime">validateDeliveryTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#111"><abbr title="RuleService::validateDeliveryTimeMore">validateDeliveryTimeMore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#91"><abbr title="RuleService::validateServiceTime">validateServiceTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#53"><abbr title="RuleService::validateSellerSaleTime">validateSellerSaleTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#83"><abbr title="PMSService::getFavorableInfo">getFavorableInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#47"><abbr title="PMSService::callInterfaceYar">callInterfaceYar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#228"><abbr title="McService::addOrderQueuePaymentCallBack">addOrderQueuePaymentCallBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#254"><abbr title="McService::addOrderQueueCancelOrder">addOrderQueueCancelOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#212"><abbr title="McService::addOrderQueuePayment">addOrderQueuePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#187"><abbr title="McService::batchAddOrderQueuePayment">batchAddOrderQueuePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#156"><abbr title="McService::addPaymentQueuePayment">addPaymentQueuePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#173"><abbr title="McService::addPaymentQueueCancelOrder">addPaymentQueueCancelOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#262"><abbr title="McService::addCancelOrderReturn">addCancelOrderReturn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#272"><abbr title="McService::addOrderQueueRefundUpdateOrder">addOrderQueueRefundUpdateOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#468"><abbr title="McService::addOrderQueue">addOrderQueue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PMSService.class.php.html#12"><abbr title="PMSService::callInterface">callInterface</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#434"><abbr title="McService::addOrderChangeQueue">addOrderChangeQueue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#404"><abbr title="McService::addOrderQueueUpdateStatusOrder">addOrderQueueUpdateStatusOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#281"><abbr title="McService::addOrderQueueUpdateOrder">addOrderQueueUpdateOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#240"><abbr title="RuleService::validateFoodServiceTime">validateFoodServiceTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#292"><abbr title="RuleService::validateVipFood">validateVipFood</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#37"><abbr title="TradeService::clientSetRefund">clientSetRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#47"><abbr title="TradeService::clientGetRefundPrice">clientGetRefundPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#27"><abbr title="TradeService::clientOrderPayResult">clientOrderPayResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#18"><abbr title="TradeService::clientOrderPayment">clientOrderPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#383"><abbr title="ShippingService::getShippingConfig">getShippingConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#11"><abbr title="TradeService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TradeService.class.php.html#57"><abbr title="TradeService::clientGetRefundPriceNoAudit">clientGetRefundPriceNoAudit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#14"><abbr title="UcenterService::callInterface">callInterface</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WSService.class.php.html#59"><abbr title="WSService::doRefunding">doRefunding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WSService.class.php.html#71"><abbr title="WSService::checkOrderBlackRule">checkOrderBlackRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WSService.class.php.html#12"><abbr title="WSService::callInterface">callInterface</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#82"><abbr title="UcenterService::getUserPackInfo">getUserPackInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#68"><abbr title="UcenterService::getUserInfo">getUserInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#355"><abbr title="ShippingService::saveOrderPrevious">saveOrderPrevious</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#327"><abbr title="ShippingService::getCostFromShipping">getCostFromShipping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SMSService.class.php.html#18"><abbr title="SMSService::sendSms">sendSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#11"><abbr title="ShippingService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SMSService.class.php.html#11"><abbr title="SMSService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#351"><abbr title="RuleService::getAfterDelayTime">getAfterDelayTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#301"><abbr title="RuleService::getRestaurantPreOrderTime">getRestaurantPreOrderTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RuleService.class.php.html#326"><abbr title="RuleService::getOrderMinDeliverTime">getOrderMinDeliverTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#33"><abbr title="ShippingService::bindOrderServicePoint">bindOrderServicePoint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#95"><abbr title="ShippingService::getDelayInfo">getDelayInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#256"><abbr title="ShippingService::getDeliverManInfo">getDeliverManInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#291"><abbr title="ShippingService::getOrderDefaultCostFromShipping">getOrderDefaultCostFromShipping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#218"><abbr title="ShippingService::getUserList">getUserList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#168"><abbr title="ShippingService::getTaskInfo">getTaskInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#140"><abbr title="ShippingService::getDeliverTimeFromShipping">getDeliverTimeFromShipping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#145"><abbr title="McService::addOrderQueueToAuditOrder">addOrderQueueToAuditOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#138"><abbr title="McService::addOrderQueueUrgentOrder">addOrderQueueUrgentOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#74"><abbr title="CacheService::setInsertOrderNormalErrorItemDetailCache">setInsertOrderNormalErrorItemDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#84"><abbr title="CacheService::setInsertOrderGroupErrorItemDetailCache">setInsertOrderGroupErrorItemDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#64"><abbr title="CacheService::setInsertOrderItemErrorItemDetailCache">setInsertOrderItemErrorItemDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#54"><abbr title="CacheService::setInsertOrderErrorOrderDetailCache">setInsertOrderErrorOrderDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#35"><abbr title="CacheService::setOrderRequestCache">setOrderRequestCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#44"><abbr title="CacheService::setReduceOrderRequestCache">setReduceOrderRequestCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#94"><abbr title="CacheService::setInsertOrderPriceErrorPriceDetailCache">setInsertOrderPriceErrorPriceDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#104"><abbr title="CacheService::setInsertBuyerAddressErrorPriceDetailCache">setInsertBuyerAddressErrorPriceDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#144"><abbr title="CacheService::getOrderRequestUpdateCache">getOrderRequestUpdateCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#159"><abbr title="CacheService::setOrderRequestUpdateCache">setOrderRequestUpdateCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#134"><abbr title="CacheService::setBalanceRefundErrorCache">setBalanceRefundErrorCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#124"><abbr title="CacheService::setInsertOrderAttributeErrorAttributeDetailCache">setInsertOrderAttributeErrorAttributeDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#114"><abbr title="CacheService::setInsertBuyerInvoiceErrorAddressDetailCache">setInsertBuyerInvoiceErrorAddressDetailCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#22"><abbr title="CacheService::getOrderRequestCache">getOrderRequestCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#13"><abbr title="CacheService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#132"><abbr title="BasicService::getCityInfoFromBasic">getCityInfoFromBasic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#162"><abbr title="BasicService::getAreaInfoFromBasic">getAreaInfoFromBasic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#102"><abbr title="BasicService::validateDoShopIsExpress">validateDoShopIsExpress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#72"><abbr title="BasicService::validateShopIsExpress">validateShopIsExpress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#21"><abbr title="BasicService::validateRestaurantMinPrice">validateRestaurantMinPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#45"><abbr title="BasicService::validateFoodStockReturnInfo">validateFoodStockReturnInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#193"><abbr title="BasicService::getRestaurantInfoFromBasic">getRestaurantInfoFromBasic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#260"><abbr title="BasicService::getFoodInfoFromBasic">getFoodInfoFromBasic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#472"><abbr title="BasicService::getBasicConfig">getBasicConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#514"><abbr title="BasicService::orderPaymentTypeToAdminPaymentMode">orderPaymentTypeToAdminPaymentMode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#436"><abbr title="BasicService::getSelfSellerInfo">getSelfSellerInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#401"><abbr title="BasicService::freeFoodStockFromBasic">freeFoodStockFromBasic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#351"><abbr title="BasicService::redueFoodStockFromBasic">redueFoodStockFromBasic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#169"><abbr title="CacheService::delOrderRequestUpdateCache">delOrderRequestUpdateCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#179"><abbr title="CacheService::getConfigCache">getConfigCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#63"><abbr title="FavorableService::Budget">Budget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#95"><abbr title="FavorableService::getOrderFavorableCondition">getOrderFavorableCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#19"><abbr title="FavorableService::getCouponFavorableReturnInfo">getCouponFavorableReturnInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#11"><abbr title="FavorableService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#418"><abbr title="CacheService::delUserPayPriceKeys">delUserPayPriceKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#445"><abbr title="CacheService::orderCacheKeyConfig">orderCacheKeyConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#113"><abbr title="FavorableService::applyReceivableCondition">applyReceivableCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#120"><abbr title="FavorableService::applyFavorableCardCondition">applyFavorableCardCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#19"><abbr title="McService::addOrderQueueCreateOrder">addOrderQueueCreateOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#128"><abbr title="McService::addOrderQueueAuditOrder">addOrderQueueAuditOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="McService.class.php.html#12"><abbr title="McService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#135"><abbr title="FavorableService::favorableConfig">favorableConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#128"><abbr title="FavorableService::applyFavorableCodeCondition">applyFavorableCodeCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#391"><abbr title="CacheService::getUserPayPriceList">getUserPayPriceList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#366"><abbr title="CacheService::addUserPayPrice">addUserPayPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#240"><abbr title="CacheService::setDeliverManInfoCache">setDeliverManInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#253"><abbr title="CacheService::getRestaurantInfoCache">getRestaurantInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#228"><abbr title="CacheService::getDeliverManInfoCache">getDeliverManInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#216"><abbr title="CacheService::setServiceManInfoCache">setServiceManInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#190"><abbr title="CacheService::setConfigCache">setConfigCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#200"><abbr title="CacheService::getServiceManInfoCache">getServiceManInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#268"><abbr title="CacheService::setRestaurantInfoCache">setRestaurantInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#280"><abbr title="CacheService::getRefundBalanceInfoCache">getRefundBalanceInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#334"><abbr title="CacheService::setCheckBlackCache">setCheckBlackCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#350"><abbr title="CacheService::getCheckBlackCache">getCheckBlackCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#321"><abbr title="CacheService::setOrderSellerNo">setOrderSellerNo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#307"><abbr title="CacheService::setOrderNoCache">setOrderNoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheService.class.php.html#296"><abbr title="CacheService::setRefundBalanceInfoCache">setRefundBalanceInfoCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BasicService.class.php.html#11"><abbr title="BasicService::_initialize">_initialize</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="McService.class.php.html#281"><abbr title="McService::addOrderQueueUpdateOrder">addOrderQueueUpdateOrder</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="RuleService.class.php.html#240"><abbr title="RuleService::validateFoodServiceTime">validateFoodServiceTime</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#63"><abbr title="FavorableService::Budget">Budget</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="BasicService.class.php.html#260"><abbr title="BasicService::getFoodInfoFromBasic">getFoodInfoFromBasic</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="RuleService.class.php.html#162"><abbr title="RuleService::validateDeliveryTime">validateDeliveryTime</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="McService.class.php.html#19"><abbr title="McService::addOrderQueueCreateOrder">addOrderQueueCreateOrder</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="RuleService.class.php.html#53"><abbr title="RuleService::validateSellerSaleTime">validateSellerSaleTime</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#19"><abbr title="FavorableService::getCouponFavorableReturnInfo">getCouponFavorableReturnInfo</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="BasicService.class.php.html#472"><abbr title="BasicService::getBasicConfig">getBasicConfig</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#82"><abbr title="UcenterService::getUserPackInfo">getUserPackInfo</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="BasicService.class.php.html#351"><abbr title="BasicService::redueFoodStockFromBasic">redueFoodStockFromBasic</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="BasicService.class.php.html#193"><abbr title="BasicService::getRestaurantInfoFromBasic">getRestaurantInfoFromBasic</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PMSService.class.php.html#142"><abbr title="PMSService::returnOrderData">returnOrderData</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="BasicService.class.php.html#21"><abbr title="BasicService::validateRestaurantMinPrice">validateRestaurantMinPrice</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UcenterService.class.php.html#14"><abbr title="UcenterService::callInterface">callInterface</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="BasicService.class.php.html#45"><abbr title="BasicService::validateFoodStockReturnInfo">validateFoodStockReturnInfo</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CacheService.class.php.html#334"><abbr title="CacheService::setCheckBlackCache">setCheckBlackCache</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CacheService.class.php.html#391"><abbr title="CacheService::getUserPayPriceList">getUserPayPriceList</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="RuleService.class.php.html#23"><abbr title="RuleService::validateSellerServiceTime">validateSellerServiceTime</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="RuleService.class.php.html#111"><abbr title="RuleService::validateDeliveryTimeMore">validateDeliveryTimeMore</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#383"><abbr title="ShippingService::getShippingConfig">getShippingConfig</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="BasicService.class.php.html#102"><abbr title="BasicService::validateDoShopIsExpress">validateDoShopIsExpress</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PMSService.class.php.html#226"><abbr title="PMSService::getPublicConf">getPublicConf</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RuleService.class.php.html#143"><abbr title="RuleService::getOrderIsPreOrder">getOrderIsPreOrder</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#95"><abbr title="FavorableService::getOrderFavorableCondition">getOrderFavorableCondition</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PMSService.class.php.html#206"><abbr title="PMSService::getInfoByMobile">getInfoByMobile</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#218"><abbr title="ShippingService::getUserList">getUserList</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="WSService.class.php.html#71"><abbr title="WSService::checkOrderBlackRule">checkOrderBlackRule</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CacheService.class.php.html#350"><abbr title="CacheService::getCheckBlackCache">getCheckBlackCache</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="BasicService.class.php.html#436"><abbr title="BasicService::getSelfSellerInfo">getSelfSellerInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PMSService.class.php.html#253"><abbr title="PMSService::checkCardOrCoupon">checkCardOrCoupon</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SMSService.class.php.html#18"><abbr title="SMSService::sendSms">sendSms</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BasicService.class.php.html#401"><abbr title="BasicService::freeFoodStockFromBasic">freeFoodStockFromBasic</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BasicService.class.php.html#162"><abbr title="BasicService::getAreaInfoFromBasic">getAreaInfoFromBasic</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RuleService.class.php.html#301"><abbr title="RuleService::getRestaurantPreOrderTime">getRestaurantPreOrderTime</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BasicService.class.php.html#132"><abbr title="BasicService::getCityInfoFromBasic">getCityInfoFromBasic</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#33"><abbr title="ShippingService::bindOrderServicePoint">bindOrderServicePoint</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PMSService.class.php.html#178"><abbr title="PMSService::orderApplyFavorableCode">orderApplyFavorableCode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PMSService.class.php.html#83"><abbr title="PMSService::getFavorableInfo">getFavorableInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#95"><abbr title="ShippingService::getDelayInfo">getDelayInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="McService.class.php.html#468"><abbr title="McService::addOrderQueue">addOrderQueue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RuleService.class.php.html#91"><abbr title="RuleService::validateServiceTime">validateServiceTime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="McService.class.php.html#228"><abbr title="McService::addOrderQueuePaymentCallBack">addOrderQueuePaymentCallBack</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="McService.class.php.html#404"><abbr title="McService::addOrderQueueUpdateStatusOrder">addOrderQueueUpdateStatusOrder</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#256"><abbr title="ShippingService::getDeliverManInfo">getDeliverManInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#140"><abbr title="ShippingService::getDeliverTimeFromShipping">getDeliverTimeFromShipping</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#168"><abbr title="ShippingService::getTaskInfo">getTaskInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#327"><abbr title="ShippingService::getCostFromShipping">getCostFromShipping</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#355"><abbr title="ShippingService::saveOrderPrevious">saveOrderPrevious</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BasicService.class.php.html#72"><abbr title="BasicService::validateShopIsExpress">validateShopIsExpress</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="WSService.class.php.html#12"><abbr title="WSService::callInterface">callInterface</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ShippingService.class.php.html#291"><abbr title="ShippingService::getOrderDefaultCostFromShipping">getOrderDefaultCostFromShipping</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="McService.class.php.html#434"><abbr title="McService::addOrderChangeQueue">addOrderChangeQueue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#253"><abbr title="CacheService::getRestaurantInfoCache">getRestaurantInfoCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#280"><abbr title="CacheService::getRefundBalanceInfoCache">getRefundBalanceInfoCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#200"><abbr title="CacheService::getServiceManInfoCache">getServiceManInfoCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#144"><abbr title="CacheService::getOrderRequestUpdateCache">getOrderRequestUpdateCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BasicService.class.php.html#514"><abbr title="BasicService::orderPaymentTypeToAdminPaymentMode">orderPaymentTypeToAdminPaymentMode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#22"><abbr title="CacheService::getOrderRequestCache">getOrderRequestCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#321"><abbr title="CacheService::setOrderSellerNo">setOrderSellerNo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#418"><abbr title="CacheService::delUserPayPriceKeys">delUserPayPriceKeys</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PMSService.class.php.html#47"><abbr title="PMSService::callInterfaceYar">callInterfaceYar</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PMSService.class.php.html#111"><abbr title="PMSService::getFavorableCodeInfo">getFavorableCodeInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PMSService.class.php.html#12"><abbr title="PMSService::callInterface">callInterface</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="McService.class.php.html#187"><abbr title="McService::batchAddOrderQueuePayment">batchAddOrderQueuePayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheService.class.php.html#445"><abbr title="CacheService::orderCacheKeyConfig">orderCacheKeyConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FavorableService.class.php.html#135"><abbr title="FavorableService::favorableConfig">favorableConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RuleService.class.php.html#351"><abbr title="RuleService::getAfterDelayTime">getAfterDelayTime</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.8</a> using <a href="https://secure.php.net/" target="_top">PHP 5.6.17</a> with <a href="https://xdebug.org/">Xdebug 2.5.5</a> and <a href="https://phpunit.de/">PHPUnit 5.7.27</a> at Tue Aug 7 10:34:27 CST 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([119,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,77,"<a href=\"BasicService.class.php.html#7\">BasicService<\/a>"],[0,56,"<a href=\"CacheService.class.php.html#7\">CacheService<\/a>"],[0,33,"<a href=\"FavorableService.class.php.html#6\">FavorableService<\/a>"],[0,60,"<a href=\"McService.class.php.html#8\">McService<\/a>"],[0,35,"<a href=\"PMSService.class.php.html#10\">PMSService<\/a>"],[0,64,"<a href=\"RuleService.class.php.html#7\">RuleService<\/a>"],[0,5,"<a href=\"SMSService.class.php.html#7\">SMSService<\/a>"],[0,37,"<a href=\"ShippingService.class.php.html#7\">ShippingService<\/a>"],[0,6,"<a href=\"TradeService.class.php.html#7\">TradeService<\/a>"],[0,17,"<a href=\"UcenterService.class.php.html#12\">UcenterService<\/a>"],[0,8,"<a href=\"WSService.class.php.html#10\">WSService<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"BasicService.class.php.html#11\">BasicService::_initialize<\/a>"],[0,7,"<a href=\"BasicService.class.php.html#21\">BasicService::validateRestaurantMinPrice<\/a>"],[0,7,"<a href=\"BasicService.class.php.html#45\">BasicService::validateFoodStockReturnInfo<\/a>"],[0,3,"<a href=\"BasicService.class.php.html#72\">BasicService::validateShopIsExpress<\/a>"],[0,5,"<a href=\"BasicService.class.php.html#102\">BasicService::validateDoShopIsExpress<\/a>"],[0,4,"<a href=\"BasicService.class.php.html#132\">BasicService::getCityInfoFromBasic<\/a>"],[0,4,"<a href=\"BasicService.class.php.html#162\">BasicService::getAreaInfoFromBasic<\/a>"],[0,7,"<a href=\"BasicService.class.php.html#193\">BasicService::getRestaurantInfoFromBasic<\/a>"],[0,11,"<a href=\"BasicService.class.php.html#260\">BasicService::getFoodInfoFromBasic<\/a>"],[0,9,"<a href=\"BasicService.class.php.html#351\">BasicService::redueFoodStockFromBasic<\/a>"],[0,4,"<a href=\"BasicService.class.php.html#401\">BasicService::freeFoodStockFromBasic<\/a>"],[0,4,"<a href=\"BasicService.class.php.html#436\">BasicService::getSelfSellerInfo<\/a>"],[0,9,"<a href=\"BasicService.class.php.html#472\">BasicService::getBasicConfig<\/a>"],[0,2,"<a href=\"BasicService.class.php.html#514\">BasicService::orderPaymentTypeToAdminPaymentMode<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#13\">CacheService::_initialize<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#22\">CacheService::getOrderRequestCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#35\">CacheService::setOrderRequestCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#44\">CacheService::setReduceOrderRequestCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#54\">CacheService::setInsertOrderErrorOrderDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#64\">CacheService::setInsertOrderItemErrorItemDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#74\">CacheService::setInsertOrderNormalErrorItemDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#84\">CacheService::setInsertOrderGroupErrorItemDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#94\">CacheService::setInsertOrderPriceErrorPriceDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#104\">CacheService::setInsertBuyerAddressErrorPriceDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#114\">CacheService::setInsertBuyerInvoiceErrorAddressDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#124\">CacheService::setInsertOrderAttributeErrorAttributeDetailCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#134\">CacheService::setBalanceRefundErrorCache<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#144\">CacheService::getOrderRequestUpdateCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#159\">CacheService::setOrderRequestUpdateCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#169\">CacheService::delOrderRequestUpdateCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#179\">CacheService::getConfigCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#190\">CacheService::setConfigCache<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#200\">CacheService::getServiceManInfoCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#216\">CacheService::setServiceManInfoCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#228\">CacheService::getDeliverManInfoCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#240\">CacheService::setDeliverManInfoCache<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#253\">CacheService::getRestaurantInfoCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#268\">CacheService::setRestaurantInfoCache<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#280\">CacheService::getRefundBalanceInfoCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#296\">CacheService::setRefundBalanceInfoCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#307\">CacheService::setOrderNoCache<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#321\">CacheService::setOrderSellerNo<\/a>"],[0,6,"<a href=\"CacheService.class.php.html#334\">CacheService::setCheckBlackCache<\/a>"],[0,5,"<a href=\"CacheService.class.php.html#350\">CacheService::getCheckBlackCache<\/a>"],[0,1,"<a href=\"CacheService.class.php.html#366\">CacheService::addUserPayPrice<\/a>"],[0,6,"<a href=\"CacheService.class.php.html#391\">CacheService::getUserPayPriceList<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#418\">CacheService::delUserPayPriceKeys<\/a>"],[0,2,"<a href=\"CacheService.class.php.html#445\">CacheService::orderCacheKeyConfig<\/a>"],[0,1,"<a href=\"FavorableService.class.php.html#11\">FavorableService::_initialize<\/a>"],[0,9,"<a href=\"FavorableService.class.php.html#19\">FavorableService::getCouponFavorableReturnInfo<\/a>"],[0,13,"<a href=\"FavorableService.class.php.html#63\">FavorableService::Budget<\/a>"],[0,5,"<a href=\"FavorableService.class.php.html#95\">FavorableService::getOrderFavorableCondition<\/a>"],[0,1,"<a href=\"FavorableService.class.php.html#113\">FavorableService::applyReceivableCondition<\/a>"],[0,1,"<a href=\"FavorableService.class.php.html#120\">FavorableService::applyFavorableCardCondition<\/a>"],[0,1,"<a href=\"FavorableService.class.php.html#128\">FavorableService::applyFavorableCodeCondition<\/a>"],[0,2,"<a href=\"FavorableService.class.php.html#135\">FavorableService::favorableConfig<\/a>"],[0,1,"<a href=\"McService.class.php.html#12\">McService::_initialize<\/a>"],[0,10,"<a href=\"McService.class.php.html#19\">McService::addOrderQueueCreateOrder<\/a>"],[0,1,"<a href=\"McService.class.php.html#128\">McService::addOrderQueueAuditOrder<\/a>"],[0,1,"<a href=\"McService.class.php.html#138\">McService::addOrderQueueUrgentOrder<\/a>"],[0,1,"<a href=\"McService.class.php.html#145\">McService::addOrderQueueToAuditOrder<\/a>"],[0,1,"<a href=\"McService.class.php.html#156\">McService::addPaymentQueuePayment<\/a>"],[0,1,"<a href=\"McService.class.php.html#173\">McService::addPaymentQueueCancelOrder<\/a>"],[0,2,"<a href=\"McService.class.php.html#187\">McService::batchAddOrderQueuePayment<\/a>"],[0,1,"<a href=\"McService.class.php.html#212\">McService::addOrderQueuePayment<\/a>"],[0,3,"<a href=\"McService.class.php.html#228\">McService::addOrderQueuePaymentCallBack<\/a>"],[0,1,"<a href=\"McService.class.php.html#254\">McService::addOrderQueueCancelOrder<\/a>"],[0,1,"<a href=\"McService.class.php.html#262\">McService::addCancelOrderReturn<\/a>"],[0,1,"<a href=\"McService.class.php.html#272\">McService::addOrderQueueRefundUpdateOrder<\/a>"],[0,26,"<a href=\"McService.class.php.html#281\">McService::addOrderQueueUpdateOrder<\/a>"],[0,3,"<a href=\"McService.class.php.html#404\">McService::addOrderQueueUpdateStatusOrder<\/a>"],[0,2,"<a href=\"McService.class.php.html#434\">McService::addOrderChangeQueue<\/a>"],[0,4,"<a href=\"McService.class.php.html#468\">McService::addOrderQueue<\/a>"],[0,2,"<a href=\"PMSService.class.php.html#12\">PMSService::callInterface<\/a>"],[0,2,"<a href=\"PMSService.class.php.html#47\">PMSService::callInterfaceYar<\/a>"],[0,4,"<a href=\"PMSService.class.php.html#83\">PMSService::getFavorableInfo<\/a>"],[0,2,"<a href=\"PMSService.class.php.html#111\">PMSService::getFavorableCodeInfo<\/a>"],[0,7,"<a href=\"PMSService.class.php.html#142\">PMSService::returnOrderData<\/a>"],[0,4,"<a href=\"PMSService.class.php.html#178\">PMSService::orderApplyFavorableCode<\/a>"],[0,5,"<a href=\"PMSService.class.php.html#206\">PMSService::getInfoByMobile<\/a>"],[0,5,"<a href=\"PMSService.class.php.html#226\">PMSService::getPublicConf<\/a>"],[0,4,"<a href=\"PMSService.class.php.html#253\">PMSService::checkCardOrCoupon<\/a>"],[0,1,"<a href=\"RuleService.class.php.html#13\">RuleService::_initialize<\/a>"],[0,6,"<a href=\"RuleService.class.php.html#23\">RuleService::validateSellerServiceTime<\/a>"],[0,9,"<a href=\"RuleService.class.php.html#53\">RuleService::validateSellerSaleTime<\/a>"],[0,3,"<a href=\"RuleService.class.php.html#91\">RuleService::validateServiceTime<\/a>"],[0,6,"<a href=\"RuleService.class.php.html#111\">RuleService::validateDeliveryTimeMore<\/a>"],[0,5,"<a href=\"RuleService.class.php.html#143\">RuleService::getOrderIsPreOrder<\/a>"],[0,11,"<a href=\"RuleService.class.php.html#162\">RuleService::validateDeliveryTime<\/a>"],[0,15,"<a href=\"RuleService.class.php.html#240\">RuleService::validateFoodServiceTime<\/a>"],[0,1,"<a href=\"RuleService.class.php.html#292\">RuleService::validateVipFood<\/a>"],[0,4,"<a href=\"RuleService.class.php.html#301\">RuleService::getRestaurantPreOrderTime<\/a>"],[0,1,"<a href=\"RuleService.class.php.html#326\">RuleService::getOrderMinDeliverTime<\/a>"],[0,2,"<a href=\"RuleService.class.php.html#351\">RuleService::getAfterDelayTime<\/a>"],[0,1,"<a href=\"SMSService.class.php.html#11\">SMSService::_initialize<\/a>"],[0,4,"<a href=\"SMSService.class.php.html#18\">SMSService::sendSms<\/a>"],[0,1,"<a href=\"ShippingService.class.php.html#11\">ShippingService::_initialize<\/a>"],[0,4,"<a href=\"ShippingService.class.php.html#33\">ShippingService::bindOrderServicePoint<\/a>"],[0,4,"<a href=\"ShippingService.class.php.html#95\">ShippingService::getDelayInfo<\/a>"],[0,3,"<a href=\"ShippingService.class.php.html#140\">ShippingService::getDeliverTimeFromShipping<\/a>"],[0,3,"<a href=\"ShippingService.class.php.html#168\">ShippingService::getTaskInfo<\/a>"],[0,5,"<a href=\"ShippingService.class.php.html#218\">ShippingService::getUserList<\/a>"],[0,3,"<a href=\"ShippingService.class.php.html#256\">ShippingService::getDeliverManInfo<\/a>"],[0,2,"<a href=\"ShippingService.class.php.html#291\">ShippingService::getOrderDefaultCostFromShipping<\/a>"],[0,3,"<a href=\"ShippingService.class.php.html#327\">ShippingService::getCostFromShipping<\/a>"],[0,3,"<a href=\"ShippingService.class.php.html#355\">ShippingService::saveOrderPrevious<\/a>"],[0,6,"<a href=\"ShippingService.class.php.html#383\">ShippingService::getShippingConfig<\/a>"],[0,1,"<a href=\"TradeService.class.php.html#11\">TradeService::_initialize<\/a>"],[0,1,"<a href=\"TradeService.class.php.html#18\">TradeService::clientOrderPayment<\/a>"],[0,1,"<a href=\"TradeService.class.php.html#27\">TradeService::clientOrderPayResult<\/a>"],[0,1,"<a href=\"TradeService.class.php.html#37\">TradeService::clientSetRefund<\/a>"],[0,1,"<a href=\"TradeService.class.php.html#47\">TradeService::clientGetRefundPrice<\/a>"],[0,1,"<a href=\"TradeService.class.php.html#57\">TradeService::clientGetRefundPriceNoAudit<\/a>"],[0,7,"<a href=\"UcenterService.class.php.html#14\">UcenterService::callInterface<\/a>"],[0,1,"<a href=\"UcenterService.class.php.html#68\">UcenterService::getUserInfo<\/a>"],[0,9,"<a href=\"UcenterService.class.php.html#82\">UcenterService::getUserPackInfo<\/a>"],[0,2,"<a href=\"WSService.class.php.html#12\">WSService::callInterface<\/a>"],[0,1,"<a href=\"WSService.class.php.html#59\">WSService::doRefunding<\/a>"],[0,5,"<a href=\"WSService.class.php.html#71\">WSService::checkOrderBlackRule<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

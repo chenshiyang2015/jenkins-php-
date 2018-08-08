@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="TblOrderItemBSMysql.class.php">
+    <totals>
+      <lines total="111" comments="28" code="83" executable="41" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="TblOrderItemBSMysql" start="5" executable="41" executed="0" crap="240">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mysql"/>
+      <method name="getFormatOrderItems" signature="getFormatOrderItems($order_id, $order_items)" start="50" end="58" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="formatOrderItems" signature="formatOrderItems()" start="63" end="83" crap="20" executable="14" executed="0" coverage="0"/>
+      <method name="paramsSwitch" signature="paramsSwitch($params)" start="91" end="110" crap="90" executable="19" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="SMSService.class.php">
+    <totals>
+      <lines total="46" comments="5" code="41" executable="25" executed="0" percent="0.00%"/>
+      <methods count="2" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="SMSService" start="7" executable="25" executed="0" crap="30">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="sendSms" signature="sendSms($params)" start="18" end="46" crap="20" executable="23" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

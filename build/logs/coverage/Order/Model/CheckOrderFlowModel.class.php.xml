@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CheckOrderFlowModel.class.php">
+    <totals>
+      <lines total="291" comments="97" code="194" executable="124" executed="0" percent="0.00%"/>
+      <methods count="9" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CheckOrderFlowModel" start="12" executable="124" executed="0" crap="1056">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="checkParamsCreateOrder" signature="checkParamsCreateOrder(&amp;$parmas)" start="45" end="53" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="checkParamsUpdateOrder" signature="checkParamsUpdateOrder(&amp;$params)" start="55" end="63" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="checkBaseInfo" signature="checkBaseInfo(&amp;$params)" start="71" end="82" crap="20" executable="8" executed="0" coverage="0"/>
+      <method name="checkRepeatOrder" signature="checkRepeatOrder($params)" start="113" end="128" crap="6" executable="12" executed="0" coverage="0"/>
+      <method name="completionUserInfo" signature="completionUserInfo(&amp;$params)" start="136" end="162" crap="20" executable="21" executed="0" coverage="0"/>
+      <method name="checkCityAreaInfo" signature="checkCityAreaInfo(&amp;$params)" start="170" end="199" crap="30" executable="20" executed="0" coverage="0"/>
+      <method name="checkAddressInfo" signature="checkAddressInfo(&amp;$params)" start="207" end="213" crap="6" executable="5" executed="0" coverage="0"/>
+      <method name="checkSellerInfo" signature="checkSellerInfo(&amp;$params)" start="221" end="247" crap="42" executable="20" executed="0" coverage="0"/>
+      <method name="checkFoodInfo" signature="checkFoodInfo(&amp;$params)" start="255" end="289" crap="30" executable="26" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

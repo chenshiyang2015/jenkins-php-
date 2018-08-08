@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderAuditController.class.php">
+    <totals>
+      <lines total="350" comments="83" code="267" executable="224" executed="0" percent="0.00%"/>
+      <methods count="8" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderAuditController" start="13" executable="224" executed="0" crap="4422">
+      <package full="Order" name="Order" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="30" end="34" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="getOrderAuditList" signature="getOrderAuditList($params = [])" start="39" end="54" crap="30" executable="12" executed="0" coverage="0"/>
+      <method name="AutoOrderAudit" signature="AutoOrderAudit($order)" start="60" end="100" crap="30" executable="33" executed="0" coverage="0"/>
+      <method name="orderAuditRule" signature="orderAuditRule($params)" start="108" end="125" crap="6" executable="14" executed="0" coverage="0"/>
+      <method name="checkOrderAuditRule" signature="checkOrderAuditRule($params, $local_config = [])" start="134" end="254" crap="702" executable="91" executed="0" coverage="0"/>
+      <method name="isPreOrder" signature="isPreOrder($params)" start="259" end="271" crap="20" executable="9" executed="0" coverage="0"/>
+      <method name="auditConfigKey" signature="auditConfigKey($config = [])" start="279" end="293" crap="156" executable="13" executed="0" coverage="0"/>
+      <method name="getAuditConditionConfig" signature="getAuditConditionConfig($auditCondition)" start="298" end="349" crap="132" executable="48" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

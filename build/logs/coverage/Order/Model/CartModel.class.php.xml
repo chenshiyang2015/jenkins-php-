@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="CartModel.class.php">
+    <totals>
+      <lines total="107" comments="9" code="98" executable="83" executed="0" percent="0.00%"/>
+      <methods count="1" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="CartModel" start="7" executable="83" executed="0" crap="132">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="getCartInfo" signature="getCartInfo($params = [], $getMaster = 0)" start="16" end="106" crap="132" executable="83" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

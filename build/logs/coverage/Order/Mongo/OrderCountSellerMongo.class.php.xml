@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderCountSellerMongo.class.php">
+    <totals>
+      <lines total="126" comments="53" code="73" executable="39" executed="0" percent="0.00%"/>
+      <methods count="5" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderCountSellerMongo" start="6" executable="39" executed="0" crap="240">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="getCount" signature="getCount($params)" start="18" end="74" crap="42" executable="19" executed="0" coverage="0"/>
+      <method name="getSellerCount" signature="getSellerCount($param,$buildWhere)" start="81" end="83" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getSellerList" signature="getSellerList($param,$buildWhere)" start="91" end="96" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="_createSortParam" signature="_createSortParam($params)" start="105" end="117" crap="20" executable="11" executed="0" coverage="0"/>
+      <method name="_createLimitParam" signature="_createLimitParam($params)" start="123" end="126" crap="12" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

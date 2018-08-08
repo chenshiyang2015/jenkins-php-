@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderCostModel.class.php">
+    <totals>
+      <lines total="647" comments="230" code="417" executable="389" executed="0" percent="0.00%"/>
+      <methods count="16" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderCostModel" start="10" executable="389" executed="0" crap="8010">
+      <package full="Cost" name="Cost" sub="" category=""/>
+      <namespace name="Cost\Model"/>
+      <method name="calcOrderPrice" signature="calcOrderPrice($params = [])" start="42" end="123" crap="42" executable="72" executed="0" coverage="0"/>
+      <method name="CostRuleAll" signature="CostRuleAll($params = [])" start="127" end="199" crap="342" executable="56" executed="0" coverage="0"/>
+      <method name="CostRuleOneSelf" signature="CostRuleOneSelf($params = [])" start="205" end="218" crap="2" executable="12" executed="0" coverage="0"/>
+      <method name="subTotal" signature="subTotal($params = [])" start="232" end="241" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="packagingCost" signature="packagingCost($params = [])" start="249" end="256" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="originalPrice" signature="originalPrice($params = [])" start="270" end="277" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="priceTotal" signature="priceTotal($params = [])" start="291" end="298" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="testSubsidy" signature="testSubsidy($params = [])" start="312" end="319" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="restaurantSubsidy" signature="restaurantSubsidy($params = [])" start="333" end="340" crap="6" executable="6" executed="0" coverage="0"/>
+      <method name="receivableTotal" signature="receivableTotal()" start="348" end="357" crap="6" executable="8" executed="0" coverage="0"/>
+      <method name="totalAmount" signature="totalAmount()" start="380" end="384" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="actualServiceCharge" signature="actualServiceCharge()" start="392" end="394" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getFavorableInfo" signature="getFavorableInfo($params = [])" start="402" end="499" crap="552" executable="85" executed="0" coverage="0"/>
+      <method name="calculateFavorablePrice" signature="calculateFavorablePrice($params = [])" start="504" end="564" crap="156" executable="53" executed="0" coverage="0"/>
+      <method name="calcOrderDeliveryCostMax" signature="calcOrderDeliveryCostMax($params = [])" start="570" end="618" crap="132" executable="47" executed="0" coverage="0"/>
+      <method name="getDefaultRuleDeliveryCost" signature="getDefaultRuleDeliveryCost($params = [])" start="627" end="645" crap="6" executable="15" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

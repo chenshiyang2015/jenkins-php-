@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderCountController.class.php">
+    <totals>
+      <lines total="59" comments="6" code="53" executable="32" executed="0" percent="0.00%"/>
+      <methods count="3" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderCountController" start="7" executable="32" executed="0" crap="90">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Controller"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getCount" signature="getCount($params)" start="20" end="40" crap="20" executable="20" executed="0" coverage="0"/>
+      <method name="_checkParamInfo" signature="_checkParamInfo($params)" start="48" end="59" crap="20" executable="8" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

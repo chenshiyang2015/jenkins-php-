@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderPriceChangeDataModel.class.php">
+    <totals>
+      <lines total="74" comments="16" code="58" executable="35" executed="0" percent="0.00%"/>
+      <methods count="4" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderPriceChangeDataModel" start="6" executable="35" executed="0" crap="110">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="batchInsertOrderPriceChange" signature="batchInsertOrderPriceChange($params = [])" start="18" end="27" crap="12" executable="9" executed="0" coverage="0"/>
+      <method name="createChange" signature="createChange($params)" start="39" end="59" crap="20" executable="20" executed="0" coverage="0"/>
+      <method name="getChangeList" signature="getChangeList($params  = [])" start="61" end="65" crap="6" executable="4" executed="0" coverage="0"/>
+      <method name="getOrderPriceChangeNextId" signature="getOrderPriceChangeNextId()" start="70" end="72" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderReductionMongo.class.php">
+    <totals>
+      <lines total="250" comments="69" code="181" executable="120" executed="0" percent="0.00%"/>
+      <methods count="14" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderReductionMongo" start="7" executable="120" executed="0" crap="930">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Mongo"/>
+      <method name="_initialize" signature="_initialize()" start="22" end="24" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="createReduction" signature="createReduction($params)" start="36" end="59" crap="6" executable="23" executed="0" coverage="0"/>
+      <method name="getReductionInfo" signature="getReductionInfo($param, $buildWhere)" start="64" end="66" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getReductionCount" signature="getReductionCount($param, $buildWhere)" start="73" end="75" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="getReductionList" signature="getReductionList($param, $buildWhere)" start="82" end="88" crap="2" executable="4" executed="0" coverage="0"/>
+      <method name="editReductionStatust" signature="editReductionStatust($params)" start="94" end="110" crap="12" executable="14" executed="0" coverage="0"/>
+      <method name="editReductionAudit" signature="editReductionAudit($params)" start="116" end="137" crap="12" executable="18" executed="0" coverage="0"/>
+      <method name="_createSortParam" signature="_createSortParam($params)" start="145" end="157" crap="20" executable="11" executed="0" coverage="0"/>
+      <method name="_createLimitParam" signature="_createLimitParam($params)" start="162" end="165" crap="12" executable="3" executed="0" coverage="0"/>
+      <method name="getTradeRefund" signature="getTradeRefund($params)" start="170" end="173" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="setOrderRefundCallback" signature="setOrderRefundCallback($params)" start="180" end="183" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="getTradeSuccess" signature="getTradeSuccess($params)" start="188" end="191" crap="2" executable="3" executed="0" coverage="0"/>
+      <method name="auditingRefundAuto" signature="auditingRefundAuto($params)" start="196" end="237" crap="56" executable="29" executed="0" coverage="0"/>
+      <method name="auditingRefundAudit" signature="auditingRefundAudit($orderRefundId)" start="242" end="249" crap="2" executable="3" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

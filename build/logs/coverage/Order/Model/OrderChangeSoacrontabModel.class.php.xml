@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="OrderChangeSoacrontabModel.class.php">
+    <totals>
+      <lines total="641" comments="212" code="429" executable="278" executed="0" percent="0.00%"/>
+      <methods count="10" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="OrderChangeSoacrontabModel" start="6" executable="278" executed="0" crap="8010">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Model"/>
+      <method name="process" signature="process(array $params)" start="231" end="291" crap="42" executable="41" executed="0" coverage="0"/>
+      <method name="updateOrderBefore" signature="updateOrderBefore(&amp;$order_params, $last_order_info)" start="293" end="295" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="updateOrderAfter" signature="updateOrderAfter($order_params, $last_order_info)" start="297" end="321" crap="56" executable="20" executed="0" coverage="0"/>
+      <method name="unsetUpdateFields" signature="unsetUpdateFields(&amp;$order_params)" start="327" end="334" crap="12" executable="6" executed="0" coverage="0"/>
+      <method name="calcPaymentInfo" signature="calcPaymentInfo(&amp;$order_info)" start="340" end="426" crap="870" executable="74" executed="0" coverage="0"/>
+      <method name="switchOrderStatus" signature="switchOrderStatus(&amp;$order_info, $last_order)" start="433" end="460" crap="30" executable="21" executed="0" coverage="0"/>
+      <method name="completionOrderStatus" signature="completionOrderStatus(&amp;$order_info, $last_order = [])" start="468" end="553" crap="552" executable="64" executed="0" coverage="0"/>
+      <method name="paramsSwitch" signature="paramsSwitch($params, $field_switch)" start="562" end="601" crap="90" executable="21" executed="0" coverage="0"/>
+      <method name="calcOrderPriceInfo" signature="calcOrderPriceInfo($order_params, &amp;$order_price_params)" start="603" end="622" crap="12" executable="16" executed="0" coverage="0"/>
+      <method name="calcMysqlTblOrderInfo" signature="calcMysqlTblOrderInfo(&amp;$order_params, &amp;$mysql_tbl_order_params)" start="624" end="640" crap="12" executable="13" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

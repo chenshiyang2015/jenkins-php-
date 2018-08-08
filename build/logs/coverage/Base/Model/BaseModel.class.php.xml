@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BaseModel.class.php">
+    <totals>
+      <lines total="19" comments="12" code="7" executable="2" executed="0" percent="0.00%"/>
+      <methods count="1" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BaseModel" start="4" executable="2" executed="0" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Application\Base\Model"/>
+      <method name="_initialize" signature="_initialize()" start="12" end="14" crap="2" executable="2" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

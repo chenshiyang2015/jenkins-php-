@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="BasicService.class.php">
+    <totals>
+      <lines total="524" comments="131" code="393" executable="353" executed="0" percent="0.00%"/>
+      <methods count="14" tested="0" percent="0.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="BasicService" start="7" executable="353" executed="0" crap="6006">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Order\Service"/>
+      <method name="_initialize" signature="_initialize()" start="11" end="13" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="validateRestaurantMinPrice" signature="validateRestaurantMinPrice($params = [])" start="21" end="36" crap="56" executable="14" executed="0" coverage="0"/>
+      <method name="validateFoodStockReturnInfo" signature="validateFoodStockReturnInfo($params = [])" start="45" end="64" crap="56" executable="17" executed="0" coverage="0"/>
+      <method name="validateShopIsExpress" signature="validateShopIsExpress($params)" start="72" end="90" crap="12" executable="18" executed="0" coverage="0"/>
+      <method name="validateDoShopIsExpress" signature="validateDoShopIsExpress($params = [])" start="102" end="123" crap="30" executable="20" executed="0" coverage="0"/>
+      <method name="getCityInfoFromBasic" signature="getCityInfoFromBasic($params = [])" start="132" end="153" crap="20" executable="18" executed="0" coverage="0"/>
+      <method name="getAreaInfoFromBasic" signature="getAreaInfoFromBasic($params = [])" start="162" end="184" crap="20" executable="19" executed="0" coverage="0"/>
+      <method name="getRestaurantInfoFromBasic" signature="getRestaurantInfoFromBasic($params = [])" start="193" end="243" crap="56" executable="48" executed="0" coverage="0"/>
+      <method name="getFoodInfoFromBasic" signature="getFoodInfoFromBasic($params = [])" start="260" end="340" crap="132" executable="77" executed="0" coverage="0"/>
+      <method name="redueFoodStockFromBasic" signature="redueFoodStockFromBasic($params = [])" start="351" end="390" crap="90" executable="35" executed="0" coverage="0"/>
+      <method name="freeFoodStockFromBasic" signature="freeFoodStockFromBasic($params = [])" start="401" end="426" crap="20" executable="21" executed="0" coverage="0"/>
+      <method name="getSelfSellerInfo" signature="getSelfSellerInfo($params = [], $return_detail = 0)" start="436" end="464" crap="20" executable="26" executed="0" coverage="0"/>
+      <method name="getBasicConfig" signature="getBasicConfig($params = [])" start="472" end="506" crap="90" executable="32" executed="0" coverage="0"/>
+      <method name="orderPaymentTypeToAdminPaymentMode" signature="orderPaymentTypeToAdminPaymentMode($params = '')" start="514" end="522" crap="6" executable="6" executed="0" coverage="0"/>
+    </class>
+  </file>
+</phpunit>

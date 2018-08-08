@@ -1,20 +1,8 @@
-## About
-��л������ǵķ�����Ȼ��֪����ʲô
-http://shashikantjagtap.net/php-continuous-integration-template-using-composer-jenkinsci/
+jenkins + php 持续集成
+===========================================
 
-This is an example of integrating a PHP application with the Jenkins PHP template (http://jenkins-php.org/). 
-Read more at http://systemsarchitect.net/continuous-integration-for-php-with-jenkins/
+`jenkins详细配置见jenkins+php持续集成环境搭建.docx`
 
-## Installation
+`phpunit用例不能运行所依赖代码不存在`
 
-```
-php composer.phar install
-```
-
-```
-sudo vendor/bin/phing install
-
-Jenkins ��װ����php��������
-```
-
-
+`安装 composer,composer install 安装所需要的php工具`
